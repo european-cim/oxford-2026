@@ -1,0 +1,55 @@
+---
+subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Causal inference in health, economics, and social sciences </br>Oxford, United Kingdom, April 14-17, 2026"
+---
+
+## EuroCIM 2026 Oxford, United Kindom 
+
+The conference will be from April 15-17, 2026, with pre-conference courses on the 14th.
+
+Abstract submission will open soon
+
+
+Venue:
+
+
+## Keynote speakers
+
+::: {layout-ncol=3}
+
+:::
+
+## Invited speakers
+
+::: {layout-ncol=3}
+
+:::
+
+
+## About EuroCIM
+
+The general theme of the meeting is “Causal Inference in Health, Economics, and Social Sciences”. Causal inference is broadly defined, and the focus is on statistical methodology and challenging applications that highlight necessary methodological extensions.
+
+- EuroCIM aims to provide a forum for people interested in causal inference to meet informally,
+for early career and established researchers to present and discuss the latest developments in the field,
+and to offer opportunities for networking to develop future research opportunities and collaborations.
+- EuroCIM evolved from what used to be the “UK Causal Inference Meetings” (UK-CIM). The EuroCIM steering committee consists of Alessandra Mattei, Rhian Daniel, Erin Gabriel, Fabrizia Mealli, Finbarr Leacy, Jon Michael Gran, Karla Diaz-Ordaz, Kate Tilling, Kjetil Roysland, Mats Stensrud, Niels Richard Hansen, Noemi Kreif, Oliver Dukes, Paul Clarke, Richard Emsley, Sara Geneletti, Sabine Landau, Michele Santacatterina, Stephen Burgess, and Vanessa Didelez.
+
+Please note that registration for the meeting is not restricted to people from Europe, and we welcome participation from anyone who would like to attend!
+
+## Sponsors
+
+Eurocim 2026 received support from: 
+
+::: {layout-ncol=3}
+
+
+![](images/logo-rssb-1_orig.png)
+
+
+:::
+
+## Local organising committee
+
+Robin Evans, Ruth Keogh, Kyra Delray, Pablo Geraldo, Yasin Ibrahim, Linying Yang, and Jakob Zeitler
+
+ 

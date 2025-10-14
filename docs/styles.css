@@ -1,0 +1,13 @@
+.quarto-title-block .quarto-title-banner {
+  height: 500px;
+}
+
+#title-block-header > div.quarto-title-banner.page-columns.page-full > div {
+  padding: 15%;
+}
+
+.subtitle.lead {
+  text-align: center;
+  background-color: rgba(252, 252, 252, 0.85);
+  font-size: 1.75rem;
+}

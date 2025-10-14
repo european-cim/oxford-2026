@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "",
+    "text": "The meeting took place from Wednesday April 9 (9am) - Friday April 11 (1pm), with pre-conference courses on Tuesday 8th.\nVenue: Ghent University\nCampus Ledeganck\nKarel Lodewijk Ledeganckstraat 35\n9000 Ghent"
+  },
+  {
+    "objectID": "index.html#eurocim-2025-was-held-in-ghent-belgium",
+    "href": "index.html#eurocim-2025-was-held-in-ghent-belgium",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "",
+    "text": "The meeting took place from Wednesday April 9 (9am) - Friday April 11 (1pm), with pre-conference courses on Tuesday 8th.\nVenue: Ghent University\nCampus Ledeganck\nKarel Lodewijk Ledeganckstraat 35\n9000 Ghent"
+  },
+  {
+    "objectID": "index.html#keynote-speakers",
+    "href": "index.html#keynote-speakers",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "Keynote speakers",
+    "text": "Keynote speakers\n\n\n\n\n\n\n\n\n\nJonas Peters is a Professor in the Department of Mathematics at ETH Zurich. [photo by Jim Høyer]\n\n\n\n\n\n\n\nVasilis Syrgkanis is an Assistant Professor in the School of Engineering at Stanford University.\n\n\n\n\n\n\n\nSonja Swanson is an Associate Professor in the Faculty of Epidemiology at the University of Pittsburgh."
+  },
+  {
+    "objectID": "index.html#invited-speakers",
+    "href": "index.html#invited-speakers",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "Invited speakers",
+    "text": "Invited speakers\n\n\n\n\n\n\n\n\n\nAntoine Chambaz is a Professor in MAP5 at Université Paris Cité\n\n\n\n\n\n\n\nStéphanie van der Pas is an Associate Professor in the Department of Mathematics at the Vrije Universiteit Amsterdam.\n\n\n\n\n\n\n\nJulia Rohrer is a Lecturer in the Department of Psychology at Leipzig University. [photo by Ina Müller]\n\n\n\n\n\n\n\n\n\nLinbo Wang is an Associate Professor in the Department of Statistical Sciences at the University of Toronto.\n\n\n\n\n\n\n\nErin Gabriel is an Associate Professor in the Department of Public Health at the University of Copenhagen."
+  },
+  {
+    "objectID": "index.html#about-eurocim",
+    "href": "index.html#about-eurocim",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "About EuroCIM",
+    "text": "About EuroCIM\nThe general theme of the meeting is “Causal Inference in Health, Economic and Social Sciences”. Causal inference is broadly defined, and the focus is on statistical methodology and challenging applications that highlight necessary methodological extensions.\n\nEuroCIM aims to provide a forum for people interested in causal inference to meet informally, for early career and established researchers to present and discuss the latest developments in the field, and to offer opportunities for networking to develop future research opportunities and collaborations.\nEuroCIM evolved from what used to be the “UK Causal Inference Meetings” (UK-CIM). The EuroCIM steering committee consists of Alessandra Mattei, Rhian Daniel, Erin Gabriel, Fabrizia Mealli, Finbarr Leacy, Jon Michael Gran, Karla Diaz-Ordaz, Kate Tilling, Kjetil Roysland, Mats Stensrud, Niels Richard Hansen, Noemi Kreif, Oliver Dukes, Paul Clarke, Richard Emsley, Sara Geneletti, Sabine Landau, Michele Santacatterina, Stephen Burgess, and Vanessa Didelez.\n\nPlease note that registration for the meeting is not restricted to people from Europe, and we welcome participation from anyone who would like to attend!"
+  },
+  {
+    "objectID": "index.html#sponsors",
+    "href": "index.html#sponsors",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "Sponsors",
+    "text": "Sponsors\nEurocim 2025 received support from:"
+  },
+  {
+    "objectID": "index.html#local-organising-committee",
+    "href": "index.html#local-organising-committee",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "Local organising committee",
+    "text": "Local organising committee\nOliver Dukes, Kelly Van Lancker, Stijn Vansteelandt and Alisa Voci from the Faculty of Sciences, Annick De Paepe, Beatrijs Moerkerke and Isabelle Saelens from Faculty of Psychology and Educational Sciences, Louise Poppe and Johan Steen from Faculty of Medicine and Health Sciences."
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "",
+    "text": "Courses will be on Tuesday, April 8th at Campus Ledeganck (Karel Lodewijk Ledeganckstraat 35, 9000 Ghent).\nRegistration will be open from 8:30 on April 8th and again during lunch from 13:00 to 13:30.\nSee below for details on the course you have registered for."
+  },
+  {
+    "objectID": "courses.html#full-day-course",
+    "href": "courses.html#full-day-course",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "Full day course",
+    "text": "Full day course\n\nIntroduction to Causal Inference, by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)\nLocation: Auditorium 1, Ledeganck\nStart time: 9:00 with a coffee break in the morning, lunch, and another coffee break in the afternoon.\nThis course (which had its first incarnation at the UK-CIM 2016) is a whistlestop tour of the concepts and methods of causal inference, aimed at an audience of newcomers to the area, but who have a working knowledge of topics such as regression models. The emphasis is on giving enough background on the basic ideas so that the Euro-CIM meeting can be enjoyed without feeling lost. The material covered might therefore change slightly once the final programme for the meeting is known, but is likely to include:\n\nthe different languages of causality, e.g. do-notation, potential outcomes\nhow these languages express causal effects\nthe sorts of assumptions often relied upon to identify causal effects, and the meaning of identification\ngraphical models used in causal inference, including DAGs and SWIGs\nregression models as causal models\nmethods based on the propensity score\ninstrumental variable methods, including Mendelian randomisation\nsustained exposures and time-varying confounders\ntarget trial emulation\nmediation analysis\n\nThe fact that the list above is far too long for a one-day course gives an impression of the nature of the workshop - rather than dwell on all the intricacies of the various methods and approaches, and how one might apply them in practice using computer packages, the focus will instead be on imparting the main ideas before moving swiftly on to the next topic.\n\n\n\n\n\n\n\n\n\nRhian Daniel\n\n\n\n\n\n\n\nErin Gabriel"
+  },
+  {
+    "objectID": "courses.html#half-day-courses",
+    "href": "courses.html#half-day-courses",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "Half-day courses",
+    "text": "Half-day courses\nBoth half-day courses include a coffee break. When registering for both, a lunch will also be included. There is a discount when registering for both half-day courses.\n\nMorning – Target Trial Emulation in Practice, by Ruth Keogh (London School of Hygiene and Tropical Medicine) and Karla Diaz Ordaz (UCL)\nLocation: Auditorium 2, Ledeganck\nStart time: 9:00 with a coffee break in the morning\nThis course will give an introduction to using the target trial emulation framework to address causal questions using observational data. The idea of ‘target trial emulation’ was set out and popularised by Hernan and Robins (2016) in their paper on “Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available” (AJE), though similar approaches had been used earlier. Trial emulation is increasingly used across a range of clinical areas to answer questions that would not be feasible in a randomized trial or to enhance evidence from randomized trials.\nThe trial emulation approach starts with specifying a protocol for a ‘target trial’ – the trial we would like to conduct if it were feasible - and then emulating each element of the target trial using observational data. Trial emulation incorporates principles of study design combined with an analysis that accounts for the lack of randomization to treatment within the observational data. This course will discuss how we can use trial emulation to help us to: formulate sensible and precise causal questions, avoid common biases that can occur through study design and analysis steps, facilitate communication between different experts involved during a study. A range of examples will be discussed covering different types of treatment strategies, data sources, and clinical areas. The focus will not be on details of statistical analysis, but we will touch on different methods that have been used in practice, emphasising that trial emulation is not restricted to any particular statistical analysis method. We hope that at the end of the course participants will have built confidence in designing and implementing target trial emulation studies.\n\n\n\nRuth Keogh\n\n\n\n\nAfternoon – A Gentle Introduction to Targeted Learning, by Antoine Chambaz (Université Paris Cité)\nLocation: Auditorium 2, Ledeganck\nStart time: 13:30 with a coffee break in the afternoon\nCoined by van der Laan and Rubin in 2006, further developed and championed by a global community of researchers, targeted learning is a data analysis methodology that bridges causal analysis, statistics and machine learning. It emphasizes the estimation of well-defined target parameters while leveraging flexible machine learning techniques to ensure robust and interpretable results.\nThe methodology is detailed in two seminal books co-edited by Rose and van der Laan in 2011 and 2018. They serve as foundational texts, offerring both theoretical insights and practical guidance for implementing targeted learning in real-world settings.\nIn this lesson, I will present the main ideas behind targeted learning and demonstrate how to operationalize them.\n\n\n\nAntoine Chambaz"
+  },
+  {
+    "objectID": "program.html",
+    "href": "program.html",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "",
+    "text": "Link to pdf"
+  },
+  {
+    "objectID": "program.html#daily-schedule-overview",
+    "href": "program.html#daily-schedule-overview",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "",
+    "text": "Link to pdf"
+  },
+  {
+    "objectID": "program.html#abstract-booklet-oral-presentations",
+    "href": "program.html#abstract-booklet-oral-presentations",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "Abstract booklet oral presentations",
+    "text": "Abstract booklet oral presentations\nLink to pdf"
+  },
+  {
+    "objectID": "program.html#abstract-booklet-poster-presentations",
+    "href": "program.html#abstract-booklet-poster-presentations",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "Abstract booklet poster presentations",
+    "text": "Abstract booklet poster presentations\nLink to pdf"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "",
+    "text": "Email the organizers\nEmail the webmaster\nBluesky profile"
+  },
+  {
+    "objectID": "practical.html",
+    "href": "practical.html",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "",
+    "text": "Dinner will take place at Volta (https://www.voltagent.be/) on April 10 at 7pm. For people interested in walking together, we will meet in front of the restaurant Amadeus (Goudenleeuwplein 7) at 6.30pm."
+  },
+  {
+    "objectID": "practical.html#dinner",
+    "href": "practical.html#dinner",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "",
+    "text": "Dinner will take place at Volta (https://www.voltagent.be/) on April 10 at 7pm. For people interested in walking together, we will meet in front of the restaurant Amadeus (Goudenleeuwplein 7) at 6.30pm."
+  },
+  {
+    "objectID": "practical.html#how-to-get-to",
+    "href": "practical.html#how-to-get-to",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "How to get to",
+    "text": "How to get to\n\nThe venue from the Gent-Sint-Pieters train station:\nIt is a 10-min walk from the Gent-Sint-Pieters train station. Follow Koningin Astridlaan to Citadel Park. Walk through or along the edge of the Citadel Park to the ICC. When you get there, cross over Emile Clauslaan. On your right, you will find the entrance to the Botanical Garden. The conference takes place in the building in front of you. Please enter the building via the Karel Lodewijk Ledeganckstraat.\n\n\nThe venue from the historical city centre:\nIt’s about a 30-min walk from Korenmarkt (near Saint Nicholas’ Church). Along the way, you’ll pass not only historic churches but also the Wintercircus - a unique building worth a visit, the main Ghent University Building (Ufo), Sint-Pietersplein, a large but rarely used square. You’ll also walk through the Student district (Overpoortstraat) and past two of Ghent most renowned museums, SMAK and MSK.\nPublic transport will take about 25min. Take buses 5A/5B (from stop Sint-Jacobs to stop Ottergemsesteenweg), bus 55 (from stop Sint-Jacobs to stop Ledeganckstraat) or buses 55/70/71/76/77 (from stop Zuid to stop Ledeganckstraat). You can plan your journey by bus or tram at delijn.be.\n\n\nGent-Sint-Pieters train station from Brussels Airport:\nWe recommend traveling by train from Brussels Airport. This should take less than an hour. For the fastest route, take the train towards Knokke, as the direct train to Gent-Sint-Pieters makes frequent stops and takes much longer. Since the Knokke train runs only once per hour, another option is to first take a train to Brussels-South and then transfer to a train heading towards Blankenberge or Oostende. Get off at Gent-Sint-Pieters train station.\nA taxi will take about an hour, but will be much more expensive (&gt;100 euros).\n\n\nGent-Sint-Pieters train station from Brussels-South train station:\nTake a train heading towards Blankenberge or Oostende. Get off at Gent-Sint-Pieters train station."
+  },
+  {
+    "objectID": "practical.html#how-to-get-to-eurocim-without-costing-the-earth-and-in-comfort",
+    "href": "practical.html#how-to-get-to-eurocim-without-costing-the-earth-and-in-comfort",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "How to get to EuroCIM – without costing the earth (and in comfort!)",
+    "text": "How to get to EuroCIM – without costing the earth (and in comfort!)\n2024 was the warmest year on record globally, with increasing extreme weather events and adverse effects of global warming. We can take some action (and improve our travel experience!) by travelling to EuroCIM by train. Here’s how…\nGhent is well-connected by train, and can be reached in less than 8 hours from many parts of Europe. The University travel site gives more details (https://www.ugent.be/en/ghentuniv/mission/sustainability/guidelines/travel), and information about trains. Travel times include:\n\n&lt;2 hours from Paris, Lille, Amsterdam, Rotterdam, other stations within The Netherlands and Belgium.\n2-4 hours from Germany (Bonn, Dortmund, Frankfurt, Heidelberg, central France (Lyon, Strasbourg), Luxembourg, Utrecht, London.\n4-6 hours from UK (Birmingham, Bristol, Cambridge, Manchester, Oxford), France (e.g. Montpellier, Bordeaux), Germany (Stuttgart, Bremen)\n6-8 hours from Germany (Berlin, Hamburg, Munich), France (Nice), Toulouse), UK (Cardiff, Durham, Edinburgh, Newcastle), Switzerland (Basel, Bern, Geneva, Zurich).\n\n\nCompare your train journey to flying here:\nhttps://www.ecopassenger.org/bin/query.exe/en?L=vs_uic\nCarbon footprint in EU is approx. 7 metric tons of Carbon per person (=7000 kg).\n\nFrom the UK:\nRail. Total duration of journey (London to Ghent) approx. 4 hours (including 1 hour check in for Eurostar). Total cost approx. £220. Carbon footprint = 2kg (one-way)\nFlight. 1 hr duration (plus 1 hour recommended check in at Heathrow – also would need to factor in travel to Heathrow). Total cost &gt;£250. To Ghent from airport – train - &lt;1 hour. Plus time to get off plane, through security, find train. Total time approx. 4 hours. Carbon footprint = 121.4kg (one-way).\nSaving (return)= 238.8kg\n\n\n\nOffsetting\nIt is estimated that a mature tree can absorb about 25kg of CO2 per year (https://ecotree.green/en/) – so 10 trees would be needed for a year to offset this flight (and this does not include other issues such as pollution, other emissions, etc)."
+  },
+  {
+    "objectID": "practical.html#accommodation",
+    "href": "practical.html#accommodation",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "Accommodation",
+    "text": "Accommodation\nPlease note that you are responsible for booking your own accommodations for the conference. Below, you will find some hotel suggestions near Gent-Sint-Pieters train station (10-min walk from venue) and in the historical city centre (30-min walk from venue) to help you with your arrangements. Note that we do not have any special arrangements with these hotels for this meeting and that plenty of other alternative hotels are available in Ghent.\nWithin 5-mins walk from Gent-Sint-Pieters train station:\n\nHotel Chamade (budget)\nHotel The Lord (budget)\nAstoria Hotel\nHotel Carlton\n\nIn the city centre\n\nIbis Gent Centrum Opera (budget)\nIbis Gent Sint-Baafs\nNovotel Gent Centrum\nB&B HOTEL Gent Centrum\nThe Ghent Marriott Hotel\n\nPublic transportation to the venue: From the city centre take buses 5A/5B (from stop Sint-Jacobs to stop Ottergemsesteenweg), bus 55 (from stop Sint-Jacobs to stop Ledeganckstraat) or buses 55/70/71/76/77 (from stop Zuid to stop Ledeganckstraat)."
+  },
+  {
+    "objectID": "registration.html",
+    "href": "registration.html",
+    "title": "European Causal Inference Meeting 2025 -- Ghent, Belgium",
+    "section": "",
+    "text": "Registration is closed.\nNote: we will not refund cancellations from April 1st onwards.\nMembers of the Quetelet and Belgian Statistical Society can apply for a refund of 10 euros from the cost of the conference registration. Please send an email to eurocim2025@ugent.be.\nPhD students affiliated with a Flemish research institution can register for free for the short-course “Introduction to causal inference”. Please don’t add it to your registration form (to avoid paying), but send an email to eurocim2025@ugent.be.\n\nCost of conference registration, dinner and courses:\n\nEarly Bird Deadline March 1, 2025\n\nStudent registration, 100 euros (incl VAT)\nOthers, 190 euros (incl VAT)\n\n\n\nLate Registration Deadline April 2, 2025\n\nStudent registration, 125 euros (incl VAT)\nOthers, 225 euros (incl VAT)\nAll registrations include vegetarian/vegan lunches 9/4 -11/4 and a reception on 9/4.\n\n\n\nConference dinner at Volta on April 10 (time TBA)\n\nEveryone, 115 euros\nNote that the number of attendees is limited by the available number of seats at our venue.\nRegistration is available at the basis of first come, first served.\n\n\n\nCourses (April 8):\n\n1 full-day course or 2 half-day courses\nStudents, 85 euros\nOthers, 125 euros\n1 half-day course\nStudents, 50 euros\nOthers, 75 euros\nCourse registration for full-day or 2 half-day courses includes vegetarian/vegan lunch"
+  }
+]

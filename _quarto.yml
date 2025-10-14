@@ -1,0 +1,54 @@
+project:
+  type: website
+  resources: 
+    - data/*
+  output-dir: docs
+
+website: 
+  open-graph:
+    image: eurocim-icon.gif
+  image: eurocim-icon.gif
+  favicon: "eurocim-icon.gif"
+  title: "European Causal Inference Meeting 2026 -- Oxford, UK"
+  navbar:
+    pinned: true
+    title: EUROCIM 2026
+    logo: "eurocim-icon.gif"
+    background: "#07342a"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: registration.qmd
+        text: Registration
+      - href: program.qmd
+        text: Program
+      - href: courses.qmd
+        text: Courses
+      - href: practical.qmd
+        text: Practical Information
+      - href: contact.qmd
+        text: Contact
+      - href: https://eurocim.org/
+        text: EuroCIM Home
+  page-footer:
+    background: "#07342a"
+    left: 
+      - text: "Contact webmaster"
+        href: "mailto:european.cim@gmail.com"
+      - text: "EuroCIM Home"
+        href: "https://eurocim.org/"
+    right: 
+      - text: "Photo (header): Oxford University"
+        
+format:
+    html:
+      page-layout: full
+      title-block-banner: images/oxford-header.jpg
+      title-block-style: plain
+      theme: sandstone
+      css: styles.css
+      toc: false
+      background: "#07342a"
+      logo: "eurocim-icon.gif"
+
+      

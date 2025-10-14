@@ -1,0 +1,54 @@
+---
+subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Pre-conference Courses"
+toc: true
+toc-depth: 2
+---
+
+Courses will be on April 14th 
+
+More details coming soon
+
+# Parallel sessions in the morning
+
+## Introduction to Causal Inference, by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)
+
+__Location:__ 
+
+__Start time:__ 9:00 with a coffee break
+
+This course (which had its first incarnation at the UK-CIM 2016) is a whistlestop tour of the concepts and methods of causal inference, aimed at an audience of newcomers to the area, but who have a working knowledge of topics such as regression models. The emphasis is on giving enough background on the basic ideas so that the Euro-CIM meeting can be enjoyed without feeling lost. The material covered might therefore change slightly once the final programme for the meeting is known, but is likely to include:
+
+- the different languages of causality, e.g. do-notation, potential outcomes
+- how these languages express causal effects
+- the sorts of assumptions often relied upon to identify causal effects, and the meaning of identification
+- graphical models used in causal inference, including DAGs and SWIGs
+- regression models as causal models
+- methods based on the propensity score
+- instrumental variable methods, including Mendelian randomisation
+- sustained exposures and time-varying confounders
+- target trial emulation
+- mediation analysis
+
+The fact that the list above is far too long for a one-day course gives an impression of the nature of the workshop - rather than dwell on all the intricacies of the various methods and approaches, and how one might apply them in practice using computer packages, the focus will instead be on imparting the main ideas before moving swiftly on to the next topic.
+
+::: {layout-ncol=3}
+
+![Rhian Daniel](images/rhian.jpg)
+
+![Erin Gabriel](images/erin.png)
+
+:::
+
+
+## Single world interventional graphs (SWIGs), by Professor Thomas Richardson
+
+# Parallel sessions in the afternoon
+
+
+## Advanced causal inference
+
+More information coming soon
+
+## Proximal inference, by Professor Eric Tchegen Tchegen
+
+More information coming soon
