@@ -11,3 +11,17 @@
   background-color: rgba(252, 252, 252, 0.85);
   font-size: 1.75rem;
 }
+
+
+.battle-teaser {
+  border-color: #07342a;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 0rem;
+  padding: .5rem;
+  margin: auto;
+}
+
+.battle-teaser > h3 {
+  text-align: center;
+}

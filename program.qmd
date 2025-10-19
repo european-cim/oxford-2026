@@ -1,5 +1,5 @@
 ---
-subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Program"
+subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Abstract submission"
 ---
 
 Check back later
