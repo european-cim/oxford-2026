@@ -23,7 +23,7 @@ Oxford OX2 6GG</br>
 
 ![__Thomas Richardson__ is a Professor in the Department of Statistics at the University of Washington, Seattle, USA. ](images/richardson.jpeg)
 
-![__Negar Kiyavash__ is an Full Professor and Chair of Business Analytics at EPFL, Lausanne, Swizerland.](images/negar.jpg)
+![__Negar Kiyavash__ is an Full Professor and Chair of Business Analytics at EPFL, Lausanne, Switzerland.](images/negar.jpg)
 
 ![__Philip Dawid__ is an Emeritus Professor of Statistics at the University of Cambridge, UK.](images/pd-3689.jpg)
 
