@@ -12,9 +12,9 @@ More details coming soon
 
 ## Introduction to Causal Inference, by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)
 
-__Location:__ 
-
-__Start time:__ 9:00 with a coffee break
+__Location:__ TBD</br>
+__Start time:__ 9:00 with a coffee break</br>
+__End time:__ 12:00</br>
 
 This course (which had its first incarnation at the UK-CIM 2016) is a whistlestop tour of the concepts and methods of causal inference, aimed at an audience of newcomers to the area, but who have a working knowledge of topics such as regression models. The emphasis is on giving enough background on the basic ideas so that the Euro-CIM meeting can be enjoyed without feeling lost. The material covered might therefore change slightly once the final programme for the meeting is known, but is likely to include:
 
@@ -24,12 +24,8 @@ This course (which had its first incarnation at the UK-CIM 2016) is a whistlesto
 - graphical models used in causal inference, including DAGs and SWIGs
 - regression models as causal models
 - methods based on the propensity score
-- instrumental variable methods, including Mendelian randomisation
-- sustained exposures and time-varying confounders
-- target trial emulation
-- mediation analysis
 
-The fact that the list above is far too long for a one-day course gives an impression of the nature of the workshop - rather than dwell on all the intricacies of the various methods and approaches, and how one might apply them in practice using computer packages, the focus will instead be on imparting the main ideas before moving swiftly on to the next topic.
+The fact that the list above is far too long for a half-day course gives an impression of the nature of the workshop - rather than dwell on all the intricacies of the various methods and approaches, and how one might apply them in practice using computer packages, the focus will instead be on imparting the main ideas before moving swiftly on to the next topic.
 
 ::: {layout-ncol=3}
 
@@ -42,13 +38,39 @@ The fact that the list above is far too long for a one-day course gives an impre
 
 ## Single world interventional graphs (SWIGs), by Professor Thomas Richardson
 
+__Location:__ TBD</br>
+__Start time:__ 9:00 with a coffee break</br>
+__End time:__ 12:00</br>
+
+![Thomas Richardson](images/richardson.jpeg)
+
+Description coming soon
+
+
 # Parallel sessions in the afternoon
 
 
-## Advanced causal inference
+## Special Topics in Causal Inference, organized by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)
 
-More information coming soon
+__Location:__ TBD</br>
+__Start time:__ 13:00 with a coffee break</br>
+__End time:__ 16:00</br>
 
-## Proximal inference, by Professor Eric Tchegen Tchegen
+This is a continuation of the Introduction course, where we will dive deeper into specialized tools and methods. The list below gives some examples, but may be changed or expanded to highlight some of the themes and topics that will be spoken about at the conference. 
 
-More information coming soon
+- instrumental variable methods, including Mendelian randomisation
+- sustained exposures and time-varying confounders
+- target trial emulation
+- mediation analysis
+
+
+## Proximal inference, by Professor Eric Tchetgen Tchetgen
+
+__Location:__ TBD</br>
+__Start time:__ 13:00 with a coffee break</br>
+__End time:__ 16:00</br>
+
+![Eric Tchetgen Tchetgen](images/tchetgen_eric_crop.jpg)
+
+Description coming soon
+

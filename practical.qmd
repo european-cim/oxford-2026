@@ -6,14 +6,76 @@ toc-depth: 3
 
 # Conference Dinner
 
+The Conference dinner will be done by Lamb Catering at the Museum of Natural History. More information coming soon. 
+
+![Natural History Museum](images/museum.jpg)
+
 # How to get to the venue
+
+The address is
+
+Mathematical Institute</br>
+Andrew Wiles Building</br>
+Woodstock Rd</br>
+Oxford OX2 6GG</br>
+
+[Get directions on Google maps](https://maps.app.goo.gl/6b3fFBQsXXXTUtgN9)
+
+The Oxford University Mathematics Institute provides detailed information about access to the venue here: <https://www.maths.ox.ac.uk/about-us/travel-maps>. 
 
 # Accommodation
 
 Please note that you are responsible for booking your own accommodations for the conference. Below, you will find some hotel suggestions.
 
+## College Rooms
+
+We have reserved a number of rooms at Oxford University Colleges at reasonable rates (from £80 to £150/night). They will be available to book during registration while supplies last. 
+
+
+| College      | Type      | Location  |  Available rooms |
+|--------------|-----------|-----------|----------|
+| Brasenose    | Ensuite   | Frewin    |  40      |
+| St Hilda's   | Ensuite   | Main Site |  10      |
+| St Hilda's   | Ensuite   | Main Site |  10      |
+| St Peter's   | Standard  | Main Site |  20      |
+| St Peter's   | Ensuite   | Main Site |  30      |
+| St Peter's   | Ensuite   | Main Site |  3       |
+| Worcester    | Ensuite   | Main Site |  44      |
+
+
+
+## Oxford Hotels
+
+### Bracket 1: Affordable (relatively)
+
+- The Jericho Hotel (25 Walton Crescent, Oxford, OX1 2JG)
+- Westgate Hotel (1 Botley Road, Oxford, OX2 0AA)
+- Newton House Oxford (82/84 Abingdon Road, Oxford, OX1 4PL)
+- The Old Black Horse Inn (102 St. Clements, Oxford, OX4 1AR)
+
+### Bracket 2: Moderate
+
+- Mercure Oxford Eastgate Hotel (The High Street, Oxford, OX1 4BE)
+- The Buttery Hotel (11-12 Broad Street, Oxford, OX1 3AP)
+- Museum Residence Oxford (107 St. Aldate’s, Oxford, OX1 1BU)
+- Rawley House University of Oxford (1 Wellington Square, Oxford, OX1 2JA)
+- Crown Hotel (10 Crown Street, Oxford, OX4 1QG)
+
+### Bracket 3: Expensive
+
+- Head of the River (Folly Bridge, St. Aldates, Oxford, OX1 4LB)
+- The Randolph Hotel Oxford (Beaumont St, Oxford, OX1 2LN)
+- The George Street Hotel (15-19 George Street, Oxford, OX1 2AB)
+- Malmaison Oxford (3 Oxford Castle, New Road, Oxford, OX1 1AY)
+
+### Bracket 4: Very Expensive
+
+- Old Bank Hotel (91-94 High Street, Oxford, OX1 4BJ)
+- Courtyard (15 Paradise Street, Oxford, OX1 1LD)
+- The Store Oxford (1-5 Broad Street, Oxford, OX1 3AG)
+
 # Travel to the UK
 
 You may need a visa or electronic travel authorization to enter the UK. Check here: <https://www.gov.uk/check-uk-visa>
 
-If you need a welcome letter for a visa application, please fill our this form: _coming soon_
+If you need a welcome letter for a visa application, please fill out this form: _coming soon_

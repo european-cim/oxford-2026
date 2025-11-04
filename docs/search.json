@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "European Causal Inference Meeting 2026 -- Oxford, UK",
     "section": "",
-    "text": "The conference will be from April 15-17, 2026, with pre-conference courses on the 14th.\nAbstract submission will open soon\n\n\nMathematical Institute\nAndrew Wiles Building\nWoodstock Rd\nOxford OX2 6GG\nGet directions on Google maps"
+    "text": "The conference will be from April 15-17, 2026, with pre-conference courses on the 14th.\nAbstract submission will open soon\n\n\nMathematical Institute Andrew Wiles Building Woodstock Rd Oxford OX2 6GG\nGet directions on Google maps"
   },
   {
     "objectID": "index.html#eurocim-2026-oxford-united-kindom",
     "href": "index.html#eurocim-2026-oxford-united-kindom",
     "title": "European Causal Inference Meeting 2026 -- Oxford, UK",
     "section": "",
-    "text": "The conference will be from April 15-17, 2026, with pre-conference courses on the 14th.\nAbstract submission will open soon\n\n\nMathematical Institute\nAndrew Wiles Building\nWoodstock Rd\nOxford OX2 6GG\nGet directions on Google maps"
+    "text": "The conference will be from April 15-17, 2026, with pre-conference courses on the 14th.\nAbstract submission will open soon\n\n\nMathematical Institute Andrew Wiles Building Woodstock Rd Oxford OX2 6GG\nGet directions on Google maps"
   },
   {
     "objectID": "index.html#keynote-speakers",
@@ -25,7 +25,7 @@
     "href": "index.html#invited-speakers",
     "title": "European Causal Inference Meeting 2026 -- Oxford, UK",
     "section": "Invited speakers",
-    "text": "Invited speakers\nThe invited speakers are organized into thematic sessions. Each speaker will give their perspective on a similar theme.\n\nMissing data\n\n\n\n\n\n\n\n\n\nElizabeth Williamson is a Professor of Biostats and Health Data Science at London School of Hygiene and Tropical Medicine, UK\n\n\n\n\n\n\n\nEdward Kennedy is an Associate Professor in the Department of Statistics and Data Science at Carnegie Mellon University, USA\n\n\n\n\n\n\n\nTime to event\n\n\n\n\n\n\n\n\n\nHelene Rytgaard is an Associate Professor in the Section of Biostatistics at the University of Copenhagend, Denmark\n\n\n\n\n\n\n\nPål Ryalen is a Researcher at Oslo University Hospital, Norway\n\n\n\n\n\n\n\nInterference\n\n\n\n\n\n\n\n\n\nFredrik Sävje is an Associate Professor of Econometrics at Uppsala University, Sweden\n\n\n\n\n\n\n\nCorwin M Zigler is a Professor of Biostatistics at Brown University, USA"
+    "text": "Invited speakers\nThe invited speakers are organized into tandem thematic sessions. Each speaker will give their perspective on a similar theme.\n\nTandem Session\n\n\n\n\n\n\n\n\n\nElizabeth Williamson is a Professor of Biostats and Health Data Science at London School of Hygiene and Tropical Medicine, UK\n\n\n\n\n\n\n\nJohan Manuel de Aguas Pérez is an Postdoctoral Fellow at the Norwegian Centre for Knowledge-driven Machine Learning\n\n\n\n\n\n\n\nTandem Session\n\n\n\n\n\n\n\n\n\nHelene Rytgaard is an Associate Professor in the Section of Biostatistics at the University of Copenhagen, Denmark\n\n\n\n\n\n\n\nPål Ryalen is a Researcher at Oslo University Hospital, Norway\n\n\n\n\n\n\n\nTandem Session\n\n\n\n\n\n\n\n\n\nFredrik Sävje is an Associate Professor of Econometrics at Uppsala University, Sweden\n\n\n\n\n\n\n\nCorwin M Zigler is a Professor of Biostatistics at Brown University, USA"
   },
   {
     "objectID": "index.html#about-eurocim",
@@ -60,35 +60,63 @@
     "href": "courses.html#introduction-to-causal-inference-by-rhian-daniel-cardiff-university-and-erin-gabriel-university-of-copenhagen",
     "title": "Parallel sessions in the morning",
     "section": "Introduction to Causal Inference, by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)",
-    "text": "Introduction to Causal Inference, by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)\nLocation:\nStart time: 9:00 with a coffee break\nThis course (which had its first incarnation at the UK-CIM 2016) is a whistlestop tour of the concepts and methods of causal inference, aimed at an audience of newcomers to the area, but who have a working knowledge of topics such as regression models. The emphasis is on giving enough background on the basic ideas so that the Euro-CIM meeting can be enjoyed without feeling lost. The material covered might therefore change slightly once the final programme for the meeting is known, but is likely to include:\n\nthe different languages of causality, e.g. do-notation, potential outcomes\nhow these languages express causal effects\nthe sorts of assumptions often relied upon to identify causal effects, and the meaning of identification\ngraphical models used in causal inference, including DAGs and SWIGs\nregression models as causal models\nmethods based on the propensity score\ninstrumental variable methods, including Mendelian randomisation\nsustained exposures and time-varying confounders\ntarget trial emulation\nmediation analysis\n\nThe fact that the list above is far too long for a one-day course gives an impression of the nature of the workshop - rather than dwell on all the intricacies of the various methods and approaches, and how one might apply them in practice using computer packages, the focus will instead be on imparting the main ideas before moving swiftly on to the next topic.\n\n\n\n\n\n\n\n\n\nRhian Daniel\n\n\n\n\n\n\n\nErin Gabriel"
+    "text": "Introduction to Causal Inference, by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)\nLocation: TBD Start time: 9:00 with a coffee break End time: 12:00\nThis course (which had its first incarnation at the UK-CIM 2016) is a whistlestop tour of the concepts and methods of causal inference, aimed at an audience of newcomers to the area, but who have a working knowledge of topics such as regression models. The emphasis is on giving enough background on the basic ideas so that the Euro-CIM meeting can be enjoyed without feeling lost. The material covered might therefore change slightly once the final programme for the meeting is known, but is likely to include:\n\nthe different languages of causality, e.g. do-notation, potential outcomes\nhow these languages express causal effects\nthe sorts of assumptions often relied upon to identify causal effects, and the meaning of identification\ngraphical models used in causal inference, including DAGs and SWIGs\nregression models as causal models\nmethods based on the propensity score\n\nThe fact that the list above is far too long for a half-day course gives an impression of the nature of the workshop - rather than dwell on all the intricacies of the various methods and approaches, and how one might apply them in practice using computer packages, the focus will instead be on imparting the main ideas before moving swiftly on to the next topic.\n\n\n\n\n\n\n\n\n\nRhian Daniel\n\n\n\n\n\n\n\nErin Gabriel"
   },
   {
     "objectID": "courses.html#single-world-interventional-graphs-swigs-by-professor-thomas-richardson",
     "href": "courses.html#single-world-interventional-graphs-swigs-by-professor-thomas-richardson",
     "title": "Parallel sessions in the morning",
     "section": "Single world interventional graphs (SWIGs), by Professor Thomas Richardson",
-    "text": "Single world interventional graphs (SWIGs), by Professor Thomas Richardson"
+    "text": "Single world interventional graphs (SWIGs), by Professor Thomas Richardson\nLocation: TBD Start time: 9:00 with a coffee break End time: 12:00\n\n\n\nThomas Richardson\n\n\nDescription coming soon"
   },
   {
-    "objectID": "courses.html#advanced-causal-inference",
-    "href": "courses.html#advanced-causal-inference",
+    "objectID": "courses.html#special-topics-in-causal-inference-organized-by-rhian-daniel-cardiff-university-and-erin-gabriel-university-of-copenhagen",
+    "href": "courses.html#special-topics-in-causal-inference-organized-by-rhian-daniel-cardiff-university-and-erin-gabriel-university-of-copenhagen",
     "title": "Parallel sessions in the morning",
-    "section": "Advanced causal inference",
-    "text": "Advanced causal inference\nMore information coming soon"
+    "section": "Special Topics in Causal Inference, organized by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)",
+    "text": "Special Topics in Causal Inference, organized by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)\nLocation: TBD Start time: 13:00 with a coffee break End time: 16:00\nThis is a continuation of the Introduction course, where we will dive deeper into specialized tools and methods. The list below gives some examples, but may be changed or expanded to highlight some of the themes and topics that will be spoken about at the conference.\n\ninstrumental variable methods, including Mendelian randomisation\nsustained exposures and time-varying confounders\ntarget trial emulation\nmediation analysis"
   },
   {
-    "objectID": "courses.html#proximal-inference-by-professor-eric-tchegen-tchegen",
-    "href": "courses.html#proximal-inference-by-professor-eric-tchegen-tchegen",
+    "objectID": "courses.html#proximal-inference-by-professor-eric-tchetgen-tchetgen",
+    "href": "courses.html#proximal-inference-by-professor-eric-tchetgen-tchetgen",
     "title": "Parallel sessions in the morning",
-    "section": "Proximal inference, by Professor Eric Tchegen Tchegen",
-    "text": "Proximal inference, by Professor Eric Tchegen Tchegen\nMore information coming soon"
+    "section": "Proximal inference, by Professor Eric Tchetgen Tchetgen",
+    "text": "Proximal inference, by Professor Eric Tchetgen Tchetgen\nLocation: TBD Start time: 13:00 with a coffee break End time: 16:00\n\n\n\nEric Tchetgen Tchetgen\n\n\nDescription coming soon"
   },
   {
     "objectID": "program.html",
     "href": "program.html",
-    "title": "European Causal Inference Meeting 2026 -- Oxford, UK",
+    "title": "Important dates",
     "section": "",
-    "text": "Check back later"
+    "text": "Abstract submission opens: 2025 November 10 Submission deadline: 2026 January 9 Decisions sent: 2026 February 16"
+  },
+  {
+    "objectID": "program.html#personal-information",
+    "href": "program.html#personal-information",
+    "title": "Important dates",
+    "section": "Personal information",
+    "text": "Personal information\nYou will be asked to provide an email address that will be used to communicate the selection outcome, the presenting author’s surname and first names, the presenting author’s affiliation, and the affilations of any coauthors."
+  },
+  {
+    "objectID": "program.html#abstract",
+    "href": "program.html#abstract",
+    "title": "Important dates",
+    "section": "Abstract",
+    "text": "Abstract\nThere will be oral presentations, and poster presentations. In the form you can choose whether you would like to be considered for oral presentation only, poster presentation only, or either. In the latter case, if your abstract is not selected for an oral presentation, it will be considered for a poster.\nThe title of the submission must be no more than 250 characters. The abstract must be no more than 1250 characters."
+  },
+  {
+    "objectID": "program.html#theme",
+    "href": "program.html#theme",
+    "title": "Important dates",
+    "section": "Theme",
+    "text": "Theme\nThere is a list of themes from which you can choose 1 or 2 that most closely align with your submission."
+  },
+  {
+    "objectID": "program.html#review-process",
+    "href": "program.html#review-process",
+    "title": "Important dates",
+    "section": "Review process",
+    "text": "Review process\nThe review process will be blinded to the authors’ names, affiliations, and theme. After the deadline, responses will be sent to the email address provided."
   },
   {
     "objectID": "contact.html",
@@ -102,7 +130,21 @@
     "href": "practical.html",
     "title": "Conference Dinner",
     "section": "",
-    "text": "Conference Dinner\n\n\nHow to get to the venue\n\n\nAccommodation\nPlease note that you are responsible for booking your own accommodations for the conference. Below, you will find some hotel suggestions.\n\n\nTravel to the UK\nYou may need a visa or electronic travel authorization to enter the UK. Check here: https://www.gov.uk/check-uk-visa\nIf you need a welcome letter for a visa application, please fill our this form: coming soon"
+    "text": "The Conference dinner will be done by Lamb Catering at the Museum of Natural History. More information coming soon.\n\n\n\nNatural History Museum"
+  },
+  {
+    "objectID": "practical.html#college-rooms",
+    "href": "practical.html#college-rooms",
+    "title": "Conference Dinner",
+    "section": "College Rooms",
+    "text": "College Rooms\nWe have reserved a number of rooms at Oxford University Colleges at reasonable rates (from £80 to £150/night). They will be available to book during registration while supplies last.\n\n\n\nCollege\nType\nLocation\nAvailable rooms\n\n\n\n\nBrasenose\nEnsuite\nFrewin\n40\n\n\nSt Hilda’s\nEnsuite\nMain Site\n10\n\n\nSt Hilda’s\nEnsuite\nMain Site\n10\n\n\nSt Peter’s\nStandard\nMain Site\n20\n\n\nSt Peter’s\nEnsuite\nMain Site\n30\n\n\nSt Peter’s\nEnsuite\nMain Site\n3\n\n\nWorcester\nEnsuite\nMain Site\n44"
+  },
+  {
+    "objectID": "practical.html#oxford-hotels",
+    "href": "practical.html#oxford-hotels",
+    "title": "Conference Dinner",
+    "section": "Oxford Hotels",
+    "text": "Oxford Hotels\n\nBracket 1: Affordable (relatively)\n\nThe Jericho Hotel (25 Walton Crescent, Oxford, OX1 2JG)\nWestgate Hotel (1 Botley Road, Oxford, OX2 0AA)\nNewton House Oxford (82/84 Abingdon Road, Oxford, OX1 4PL)\nThe Old Black Horse Inn (102 St. Clements, Oxford, OX4 1AR)\n\n\n\nBracket 2: Moderate\n\nMercure Oxford Eastgate Hotel (The High Street, Oxford, OX1 4BE)\nThe Buttery Hotel (11-12 Broad Street, Oxford, OX1 3AP)\nMuseum Residence Oxford (107 St. Aldate’s, Oxford, OX1 1BU)\nRawley House University of Oxford (1 Wellington Square, Oxford, OX1 2JA)\nCrown Hotel (10 Crown Street, Oxford, OX4 1QG)\n\n\n\nBracket 3: Expensive\n\nHead of the River (Folly Bridge, St. Aldates, Oxford, OX1 4LB)\nThe Randolph Hotel Oxford (Beaumont St, Oxford, OX1 2LN)\nThe George Street Hotel (15-19 George Street, Oxford, OX1 2AB)\nMalmaison Oxford (3 Oxford Castle, New Road, Oxford, OX1 1AY)\n\n\n\nBracket 4: Very Expensive\n\nOld Bank Hotel (91-94 High Street, Oxford, OX1 4BJ)\nCourtyard (15 Paradise Street, Oxford, OX1 1LD)\nThe Store Oxford (1-5 Broad Street, Oxford, OX1 3AG)"
   },
   {
     "objectID": "registration.html",
@@ -116,27 +158,27 @@
     "href": "registration.html#registration-deadline-march-1-2026",
     "title": "Fees, all prices in GBP:",
     "section": "Registration Deadline March 1, 2026",
-    "text": "Registration Deadline March 1, 2026\n\nNon student 180\nStudent 90"
+    "text": "Registration Deadline March 1, 2026\n\nNon student 190\nStudent 95"
   },
   {
     "objectID": "registration.html#late-registration-deadline-april-2-2026",
     "href": "registration.html#late-registration-deadline-april-2-2026",
     "title": "Fees, all prices in GBP:",
     "section": "Late Registration Deadline April 2, 2026",
-    "text": "Late Registration Deadline April 2, 2026\n\nNon student 240\nStudent 120"
+    "text": "Late Registration Deadline April 2, 2026\n\nNon student 250\nStudent 125"
   },
   {
     "objectID": "registration.html#half-day-courses",
     "href": "registration.html#half-day-courses",
     "title": "Fees, all prices in GBP:",
     "section": "2 half-day courses",
-    "text": "2 half-day courses\n\nNon student 110\nStudent 70\n\nCourse registration for 2 half-day courses includes vegetarian/vegan lunch"
+    "text": "2 half-day courses\n\nNon student 120\nStudent 75\n\nCourse registration for 2 half-day courses includes vegetarian/vegan lunch"
   },
   {
     "objectID": "registration.html#half-day-course",
     "href": "registration.html#half-day-course",
     "title": "Fees, all prices in GBP:",
     "section": "1 half-day course",
-    "text": "1 half-day course\n\nNon student 70\nStudent 45"
+    "text": "1 half-day course\n\nNon student 80\nStudent 50"
   }
 ]

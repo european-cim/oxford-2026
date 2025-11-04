@@ -1,5 +1,38 @@
 ---
 subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Abstract submission"
+toc: true
+toc-depth: 2
 ---
 
-Check back later
+# Important dates
+
+__Abstract submission opens__: 2025 November 10</br>
+__Submission deadline__: 2026 January 9</br>
+__Decisions sent__: 2026 February 16</br>
+
+
+# How to prepare an abstract submission
+
+Please submit only one abstract per presenter. If multiple submissions by a single presenter are identified, only the last one submitted will be considered. 
+
+## Personal information
+
+You will be asked to provide an email address that will be used to communicate the selection outcome, the presenting author's surname and first names, the presenting author's affiliation, and the affilations of any coauthors. 
+
+## Abstract
+
+There will be oral presentations, and poster presentations. In the form you can choose whether you would like to be considered for oral presentation only, poster presentation only, or either. In the latter case, if your abstract is not selected for an oral presentation, it will be considered for a poster. 
+
+The title of the submission must be no more than 250 characters. The abstract must be no more than 1250 characters. 
+
+## Theme
+
+There is a list of themes from which you can choose 1 or 2 that most closely align with your submission. 
+
+## Review process
+
+The review process will be blinded to the authors' names, affiliations, and theme. After the deadline, responses will be sent to the email address provided.
+
+# Submission form
+
+[Submit your abstract](https://docs.google.com/forms/d/e/1FAIpQLScuXxmWj7cManAtNxZaUZyDdFeOmPilXeqrAI2PgXUclEk3yQ/viewform?usp=dialog){.btn .btn-outline-primary .btn role="button"} 

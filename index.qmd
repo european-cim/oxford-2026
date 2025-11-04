@@ -10,13 +10,10 @@ Abstract submission will open soon
 
 ### Venue
 
-Mathematical Institute
-
-Andrew Wiles Building
-
-Woodstock Rd
-
-Oxford OX2 6GG
+Mathematical Institute</br>
+Andrew Wiles Building</br>
+Woodstock Rd</br>
+Oxford OX2 6GG</br>
 
 [Get directions on Google maps](https://maps.app.goo.gl/6b3fFBQsXXXTUtgN9)
 
@@ -34,26 +31,26 @@ Oxford OX2 6GG
 
 ## Invited speakers
 
-The invited speakers are organized into thematic sessions. Each speaker will give their perspective on a similar theme. 
+The invited speakers are organized into tandem thematic sessions. Each speaker will give their perspective on a similar theme. 
 
 ::: {.battle-teaser}
-### Missing data
+### Tandem Session
 
 ::: {layout-ncol=2}
 
 ![__Elizabeth Williamson__ is a Professor of Biostats and Health Data Science at London School of Hygiene and Tropical Medicine, UK](images/fizz.jpg) 
 
-![__Edward Kennedy__ is an Associate Professor in the Department of Statistics and Data Science at Carnegie Mellon University, USA](images/edkenn.jpg) 
+![__Johan Manuel de Aguas Pérez__ is an Postdoctoral Fellow at the Norwegian Centre for Knowledge-driven Machine Learning](images/johan.jpeg) 
 
 :::
 :::
 
 ::: {.battle-teaser}
-### Time to event
+### Tandem Session
 
 ::: {layout-ncol=2}
 
-![__Helene Rytgaard__ is an Associate Professor in the Section of Biostatistics at the University of Copenhagend, Denmark](images/helene.jpg) 
+![__Helene Rytgaard__ is an Associate Professor in the Section of Biostatistics at the University of Copenhagen, Denmark](images/helene.jpg) 
 
 ![__Pål Ryalen__ is a Researcher at Oslo University Hospital, Norway](images/paal.jpg) 
 
@@ -62,7 +59,7 @@ The invited speakers are organized into thematic sessions. Each speaker will giv
 
 
 ::: {.battle-teaser}
-### Interference
+### Tandem Session
 
 ::: {layout-ncol=2}
 
@@ -90,13 +87,10 @@ Please note that registration for the meeting is not restricted to people from E
 
 Eurocim 2026 received support from: 
 
-::: {layout-ncol=3}
+[![](images/GSK.png)](https://gsk.com)
 
+[![](images/SMARTbiomed_logo_center_pos.png)](https://smartbiomed.dk)
 
-![](images/logo-rssb-1_orig.png)
-
-
-:::
 
 ## Local organising committee
 
