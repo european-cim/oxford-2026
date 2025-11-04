@@ -73,6 +73,18 @@ ul.task-list li input[type="checkbox"] {
 background-size: cover;
       }
 </style>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
+<link href="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.css" rel="stylesheet">
+<script src="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.min.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -163,8 +175,8 @@ background-size: cover;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#conference-dinner" id="toc-conference-dinner" class="nav-link active" data-scroll-target="#conference-dinner">Conference Dinner</a></li>
-  <li><a href="#how-to-get-to-the-venue" id="toc-how-to-get-to-the-venue" class="nav-link" data-scroll-target="#how-to-get-to-the-venue">How to get to the venue</a></li>
+  <li><a href="#how-to-get-to-the-venue" id="toc-how-to-get-to-the-venue" class="nav-link active" data-scroll-target="#how-to-get-to-the-venue">How to get to the venue</a></li>
+  <li><a href="#conference-dinner" id="toc-conference-dinner" class="nav-link" data-scroll-target="#conference-dinner">Conference Dinner</a></li>
   <li><a href="#accommodation" id="toc-accommodation" class="nav-link" data-scroll-target="#accommodation">Accommodation</a>
   <ul class="collapse">
   <li><a href="#college-rooms" id="toc-college-rooms" class="nav-link" data-scroll-target="#college-rooms">College Rooms</a></li>
@@ -187,22 +199,23 @@ background-size: cover;
 
 
 
-<section id="conference-dinner" class="level1">
-<h1>Conference Dinner</h1>
-<p>The Conference dinner will be done by Lamb Catering at the Museum of Natural History. More information coming soon.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/museum.jpg" class="img-fluid figure-img"></p>
-<figcaption>Natural History Museum</figcaption>
-</figure>
-</div>
-</section>
 <section id="how-to-get-to-the-venue" class="level1">
 <h1>How to get to the venue</h1>
 <p>The address is</p>
 <p>Mathematical Institute<br> Andrew Wiles Building<br> Woodstock Rd<br> Oxford OX2 6GG<br></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-015a005d133e9291a454" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-015a005d133e9291a454">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[51.76077448023744,-1.26274603165126,{"iconUrl":{"data":"data:image/gif;base64,R0lGODlhQABAAPcAAAAAAAEBAQICAgUFBQgICAkJCQoKCgwMDA0NDQ4ODhAQEBERERMTExQUFBUVFRYWFhcXFxsbGx0dHR8fHyAgICIiIiMjIyQkJCYmJigoKCkpKSoqKisrKywsLC0tLS8vLzAwMDExMTIyMjQ0NDU1NTY2Njc3Nzg4ODo6Ojs7Ozw8PD09PT4+Pj8/P0FBQUJCQkNDQ0dHR0hISElJSUpKSktLS0xMTE1NTU9PT1BQUFJSUlNTU1ZWVldXV1lZWVxcXF1dXV9fX2NjY2RkZGZmZmdnZ2hoaGpqamtra2xsbG1tbW5ubm9vb3BwcHJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CAgIGBgYKCgoODg4SEhIeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOTk5SUlJWVlZaWlpeXl5iYmJmZmZ2dnZ6enp+fn6GhoaKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbOzs7S0tLW1tba2tre3t7i4uLm5ubq6uru7u7y8vL29vb6+vr+/v8HBwcLCwsTExMXFxcbGxsfHx8jIyMnJycrKyszMzM3Nzc7Ozs/Pz9DQ0NHR0dPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAAIf8LSUNDUkdCRzEwMTL/AAACkGxjbXMEMAAAbW50clJHQiBYWVogB+IACgASAAoAGwAPYWNzcEFQUEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1sY21zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALZGVzYwAAAQgAAAA4Y3BydAAAAUAAAABOd3RwdAAAAZAAAAAUY2hhZAAAAaQAAAAsclhZWgAAAdAAAAAUYlhZWgAAAeQAAAAUZ1hZWgAAAfgAAAAUclRSQwAAAgwAAAAgZ1RSQwAAAiwAAAAgYlRSQwAAAkwAAAAgY2hy/20AAAJsAAAAJG1sdWMAAAAAAAAAAQAAAAxlblVTAAAAHAAAABwAcwBSAEcAQgAgAGIAdQBpAGwAdAAtAGkAbgAAbWx1YwAAAAAAAAABAAAADGVuVVMAAAAyAAAAHABOAG8AIABjAG8AcAB5AHIAaQBnAGgAdAAsACAAdQBzAGUAIABmAHIAZQBlAGwAeQAAAABYWVogAAAAAAAA9tYAAQAAAADTLXNmMzIAAAAAAAEMSgAABeP///MqAAAHmwAA/Yf///ui///9owAAA9gAAMCUWFlaIAAAAAAAAG+UAAA47gAAA5BYWVogAAAAAAAAJJ0AAA+DAAC2vlhZWiAAAJIAAAAAYqUAALeQAAAY3nBhcmEAAAAAAAMAAAACZmYAAPKnAAANWQAAE9AAAApbcGFyYQAAAAAAAwAAAAJmZgAA8qcAAA1ZAAAT0AAACltwYXJhAAAAAAADAAAAAmZmAADypwAADVkAABPQAAAKW2Nocm0AAAAAAAMAAAAAo9cAAFR7AABMzQAAmZoAACZmAAAPXAAsAAAAAEAAQAAACP4AoQkcSLCgwYMIEypcyLChw4cQI0qcSLGixYsYM2rcyLGjx48gQ4ocSbLkwmcoUz4zybLlQGbFkMmcmcwlQ2fQRF3RUsVKlStP4kBbCTHlR5yflOBBVMjQIUGVhiZc6QzlUKJXO+IMlUSWQaJgGR7TVUwg1oxbk8AyeMzNJWg4ofHZA03WGV+k1ITRxMzOFSlW6gSTqnGrkk27aNWqNcuXMSeJ4K4sMwYaqiZnuMRJU2lOFEu1Lkkhw4wwRqROnixZ3YTIGmVVGkmGtkYNtFVO7hATOOrIqYGtlkSNexoaKCaKPm3i1AkTKmRUGM1Wg+Y2k1zQStcBU9UZzjNtTP5fTDvLoLHo06uvarIWJxvbK1euWSPeYtpV2Zs1K31eelVo1N3WhFc4uXGGVO6lUV9Fab1iXhWGZCfQGuoNCE0z0CQSxWAYKpMFHnAVBk0oS5SijDDEEDOMMQB2sdsykFABx21OeIWhLUvoMRAgSnh1ln3QdGKEFVREEYUUS9gWihJbrLGFGVSIAY0pQ7SSHzSVKAHGGl4oEcmCA3nn3Y8IrcTLJpuM4gossbSCC1yo7HHHW7M4yAwpxAmkyx90HNKLQHkSFCiZC/3SxxhNjIHHWtAYwws0tJCiiiikrDKKKJeO4sku0CyTyimeWEnmSq18IgoouxFaEIbINAEAAP4MUNDAq0E4U0QH0KDw6q68vnoBNFUAEAAAEPwi3kq3LACAAAB0IaFCOO2SAQBcvILTM7CwAQAFFuB6CiacaBIKIQC0QUomnGQiCqSgdMBCAVo8K1BpUSCgwgmj0ALmQCs1w8EAqvA70C8mAKCCQbkA8BZBRIGQBBQQYBhWMgp8IYQLZi1U2hQAZAKNMv8944wy0BCTAAkX6lcaKwA48rF+OGHowRC7APDHs6XlAUAwPrAgL0I41QIAEp0etAw0K0QQYoiuAADJhYJCA0IP0LRQAmErfUADNDdgjKFCpcEBQCxLF4TTIm8sjVPTT38NqNQ8QFMIAJ6kDA0nAEhng/7XC2GYwwhlGxQXVms7DXWYUvsgEAY52H3DBgLhwDdDExBdWkLOuM204ZrjBILi0KQBQC0CCc2GQDlMXqZADmTx803QsH3425/DlcwBSgjEBALL4JT67AcRBcEVry9UeNtR144MNEsYsMwzCeRe0++afyXQA1gUD23snCev+NG4AIDHHwDcUjT1ChElgeUQHQ+854ozgyEOIZAww4Wloa8QhjKYEHjwUZNd5xJ3pU686i37gYb+ElIaNABAX4GKWgC7h7jaXY4ZcnADySS0QKBBQxcCaMLHEIIhYRztbQL0nvY4qDoGQiMOAJDEx87yDJKRogAuY0bmoNEKADwiO/5jglrtnjevyz3jaJJb4aqgAQQARAUuzJCfQEIRAAywiCCzAAAlCkIUEfyAITqAwUOIYgMATAEYBDmGGADAATQC4xa5uAUw8BaIYtgijmj8xTA+sANl1KIXZ3FGL2qhjBq0wBjGakhcggUAERhhCSkYlhK+9oJl9epVzBLBMTqwq2EpgGzegUYqCCCsXYFAYgyxCi+6gAMNVCAGUCAb1DzBB0EE4paECAQgAiEIPmwCGproAyEGEQg/TCJPzHiEHwIxCEL0oRP7+kr1BtKM+DREVR55hvz6pUNByU8/4ARnN53xzf1M05wqi6BN1snOdrrznfCMpzznSc962vOe+AbMpz7dGRAAOw==","index":0}},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"EuroCIM Oxford Venue",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addAwesomeMarkers","args":[[51.7572,51.75087,51.75158,51.75683,51.75267,51.7543,51.75199,51.7571,51.74996,51.75077,51.75329,51.7539,51.75115,51.7526,51.75131,51.754,51.75183,51.752,51.753418,51.748266,51.752761,51.7543],[-1.26014,-1.26059,-1.26202,-1.2398,-1.25534,-1.2542,-1.25502,-1.26206,-1.23002,-1.25818,-1.25751,-1.2585,-1.2579,-1.2555,-1.26347,-1.259,-1.26609,-1.2595,-1.259072,-1.245768,-1.260722,-1.26347],{"icon":"home","markerColor":"blue","iconColor":"white","spin":false,"squareMarker":false,"iconRotate":0,"text":["<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#F54927;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#FFAF80;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#FFAF80;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#FFAF80;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>","<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 640 512\" style=\"height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#FFAF80;overflow:visible;position:relative;\"><path d=\"M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z\"/><\/svg>"],"prefix":"glyphicon"},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<a href=\"https://jerichohotel.co.uk/\">The Jericho Hotel<\/a>","<a href=\"https://www.westgatehoteloxford.co.uk/\">Westgate Hotel<\/a>","<a href=\"https://www.newtonhouseoxford.co.uk/\">Newton House Oxford<\/a>","<a href=\"https://www.oldblackhorse.com/\">The Old Black Horse Inn<\/a>","<a href=\"https://all.accor.com/hotel/6668/index.en.shtml\">Mercure Oxford Eastgate Hotel<\/a>","<a href=\"https://www.thebutteryhotel.co.uk/\">The Buttery Hotel<\/a>","<a href=\"https://museumhotel.uk/\">Museum Residence Oxford (Museum Hotel)<\/a>","<a href=\"https://www.lifelong-learning.ox.ac.uk/about/accommodation\">Rawley House (University of Oxford)<\/a>","<a href=\"https://www.crownhoteloxford.com/\">Crown Hotel<\/a>","<a href=\"https://www.headoftheriveroxford.co.uk/\">Head of the River<\/a>","<a href=\"https://www.hilton.com/en/hotels/lonrdgu-graduate-oxford-uk/\">The Randolph Hotel Oxford<\/a>","<a href=\"https://www.gshoxford.co.uk/\">The George Street Hotel<\/a>","<a href=\"https://www.malmaison.com/locations/oxford/\">Malmaison Oxford<\/a>","<a href=\"https://www.oldbankhotel.co.uk/\">Old Bank Hotel<\/a>","<a href=\"https://www.marriott.com/en-gb/hotels/oxfcy-courtyard-oxford-city-centre/overview/\">Courtyard by Marriott Oxford City Centre<\/a>","<a href=\"https://thestoreoxford.com/\">The Store Oxford<\/a>","<a href=\"https://www.premierinn.com/gb/en/hotels/england/oxfordshire/oxford/oxford-botley.html\">Premier Inn Oxford (Botley) Hotel<\/a>","<a href=\"https://www.premierinn.com/gb/en/hotels/england/oxfordshire/oxford/oxford-city-centre-westgate.html\">Premier Inn Oxford City Centre (Westgate) Hotel<\/a>","<a href=\"https://www.bnc.ox.ac.uk/about-brasenose/frewin-development-blog\">Brasenose College (Frewin Site)<\/a>","<a href=\"https://www.st-hildas.ox.ac.uk/\">St Hilda's College (Anniversary &amp; CBB bedrooms)<\/a>","<a href=\"https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation\">St Peter's College (Damazer House &amp; Perrodo Building)<\/a>","<a href=\"https://www.worc.ox.ac.uk/\">Worcester College<\/a>"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[51.748266,51.76077448023744],"lng":[-1.26609,-1.23002]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 <p><a href="https://maps.app.goo.gl/6b3fFBQsXXXTUtgN9">Get directions on Google maps</a></p>
 <p>The Oxford University Mathematics Institute provides detailed information about access to the venue here: <a href="https://www.maths.ox.ac.uk/about-us/travel-maps" class="uri">https://www.maths.ox.ac.uk/about-us/travel-maps</a>.</p>
+</section>
+<section id="conference-dinner" class="level1">
+<h1>Conference Dinner</h1>
+<p>The Conference dinner will be catered for by Lamb Catering at the Museum of Natural History. More information coming soon.</p>
+<p><img src="images/museum.jpg" class="img-fluid"></p>
 </section>
 <section id="accommodation" class="level1">
 <h1>Accommodation</h1>
@@ -221,43 +234,43 @@ background-size: cover;
 </thead>
 <tbody>
 <tr class="odd">
-<td>Brasenose</td>
+<td><a href="https://www.bnc.ox.ac.uk/conferences/accommodation">Brasenose</a></td>
 <td>Ensuite</td>
 <td>Frewin</td>
 <td>40</td>
 </tr>
 <tr class="even">
-<td>St Hilda’s</td>
+<td><a href="https://www.st-hildas.ox.ac.uk/conferences-and-occasions">St Hilda’s</a></td>
 <td>Ensuite</td>
 <td>Main Site</td>
 <td>10</td>
 </tr>
 <tr class="odd">
-<td>St Hilda’s</td>
+<td><a href="https://www.st-hildas.ox.ac.uk/conferences-and-occasions">St Hilda’s</a></td>
 <td>Ensuite</td>
 <td>Main Site</td>
 <td>10</td>
 </tr>
 <tr class="even">
-<td>St Peter’s</td>
+<td><a href="https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation">St Peter’s</a></td>
 <td>Standard</td>
 <td>Main Site</td>
 <td>20</td>
 </tr>
 <tr class="odd">
-<td>St Peter’s</td>
+<td><a href="https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation">St Peter’s</a></td>
 <td>Ensuite</td>
 <td>Main Site</td>
 <td>30</td>
 </tr>
 <tr class="even">
-<td>St Peter’s</td>
+<td><a href="https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation">St Peter’s</a></td>
 <td>Ensuite</td>
 <td>Main Site</td>
 <td>3</td>
 </tr>
 <tr class="odd">
-<td>Worcester</td>
+<td><a href="https://www.worc.ox.ac.uk/venue-hire/bed-breakfast">Worcester</a></td>
 <td>Ensuite</td>
 <td>Main Site</td>
 <td>44</td>
@@ -270,37 +283,53 @@ background-size: cover;
 <section id="bracket-1-affordable-relatively" class="level3">
 <h3 class="anchored" data-anchor-id="bracket-1-affordable-relatively">Bracket 1: Affordable (relatively)</h3>
 <ul>
-<li>The Jericho Hotel (25 Walton Crescent, Oxford, OX1 2JG)</li>
-<li>Westgate Hotel (1 Botley Road, Oxford, OX2 0AA)</li>
-<li>Newton House Oxford (82/84 Abingdon Road, Oxford, OX1 4PL)</li>
-<li>The Old Black Horse Inn (102 St.&nbsp;Clements, Oxford, OX4 1AR)</li>
+<li><a href="https://jerichohotel.co.uk/">The Jericho Hotel</a> (25 Walton Crescent, Oxford, OX1 2JG)<br>
+</li>
+<li><a href="https://www.westgatehoteloxford.co.uk/">Westgate Hotel</a> (1 Botley Road, Oxford, OX2 0AA)<br>
+</li>
+<li><a href="https://www.newtonhouseoxford.co.uk/">Newton House Oxford</a> (82/84 Abingdon Road, Oxford, OX1 4PL)<br>
+</li>
+<li><a href="https://www.oldblackhorse.com/">The Old Black Horse Inn</a> (102 St.&nbsp;Clements, Oxford, OX4 1AR)<br>
+</li>
+<li><a href="https://www.premierinn.com/gb/en/hotels/england/oxfordshire/oxford/oxford-botley.html">Premier Inn Oxford (Botley) Hotel</a> (Seacourt Tower, Botley Road, Oxford, OX2 0JJ)</li>
 </ul>
 </section>
 <section id="bracket-2-moderate" class="level3">
 <h3 class="anchored" data-anchor-id="bracket-2-moderate">Bracket 2: Moderate</h3>
 <ul>
-<li>Mercure Oxford Eastgate Hotel (The High Street, Oxford, OX1 4BE)</li>
-<li>The Buttery Hotel (11-12 Broad Street, Oxford, OX1 3AP)</li>
-<li>Museum Residence Oxford (107 St.&nbsp;Aldate’s, Oxford, OX1 1BU)</li>
-<li>Rawley House University of Oxford (1 Wellington Square, Oxford, OX1 2JA)</li>
-<li>Crown Hotel (10 Crown Street, Oxford, OX4 1QG)</li>
+<li><a href="https://all.accor.com/hotel/6668/index.en.shtml">Mercure Oxford Eastgate Hotel</a> (The High Street, Oxford, OX1 4BE)<br>
+</li>
+<li><a href="https://www.thebutteryhotel.co.uk/">The Buttery Hotel</a> (11-12 Broad Street, Oxford, OX1 3AP)<br>
+</li>
+<li><a href="https://museumhotel.uk/">Museum Residence Oxford</a> (107 St.&nbsp;Aldate’s, Oxford, OX1 1BU)<br>
+</li>
+<li><a href="https://www.lifelong-learning.ox.ac.uk/about/accommodation">Rawley House, University of Oxford</a> (1 Wellington Square, Oxford, OX1 2JA)<br>
+</li>
+<li><a href="https://www.crownhoteloxford.com/">Crown Hotel</a> (10 Crown Street, Oxford, OX4 1QG)<br>
+</li>
+<li><a href="https://www.premierinn.com/gb/en/hotels/england/oxfordshire/oxford/oxford-city-centre-westgate.html">Premier Inn Oxford City Centre (Westgate) Hotel</a> (Westgate, Oxford, OX1 1TR)</li>
 </ul>
 </section>
 <section id="bracket-3-expensive" class="level3">
 <h3 class="anchored" data-anchor-id="bracket-3-expensive">Bracket 3: Expensive</h3>
 <ul>
-<li>Head of the River (Folly Bridge, St.&nbsp;Aldates, Oxford, OX1 4LB)</li>
-<li>The Randolph Hotel Oxford (Beaumont St, Oxford, OX1 2LN)</li>
-<li>The George Street Hotel (15-19 George Street, Oxford, OX1 2AB)</li>
-<li>Malmaison Oxford (3 Oxford Castle, New Road, Oxford, OX1 1AY)</li>
+<li><a href="https://www.headoftheriveroxford.co.uk/">Head of the River</a> (Folly Bridge, St.&nbsp;Aldates, Oxford, OX1 4LB)<br>
+</li>
+<li><a href="https://www.hilton.com/en/hotels/lonrdgu-graduate-oxford-uk/">The Randolph Hotel Oxford</a> (Beaumont St, Oxford, OX1 2LN)<br>
+</li>
+<li><a href="https://www.gshoxford.co.uk/">The George Street Hotel</a> (15-19 George Street, Oxford, OX1 2AB)<br>
+</li>
+<li><a href="https://www.malmaison.com/locations/oxford/">Malmaison Oxford</a> (3 Oxford Castle, New Road, Oxford, OX1 1AY)</li>
 </ul>
 </section>
 <section id="bracket-4-very-expensive" class="level3">
 <h3 class="anchored" data-anchor-id="bracket-4-very-expensive">Bracket 4: Very Expensive</h3>
 <ul>
-<li>Old Bank Hotel (91-94 High Street, Oxford, OX1 4BJ)</li>
-<li>Courtyard (15 Paradise Street, Oxford, OX1 1LD)</li>
-<li>The Store Oxford (1-5 Broad Street, Oxford, OX1 3AG)</li>
+<li><a href="https://www.oldbankhotel.co.uk/">Old Bank Hotel</a> (91-94 High Street, Oxford, OX1 4BJ)<br>
+</li>
+<li><a href="https://www.marriott.com/en-gb/hotels/oxfcy-courtyard-oxford-city-centre/overview/">Courtyard by Marriott Oxford City Centre</a> (15 Paradise Street, Oxford, OX1 1LD)<br>
+</li>
+<li><a href="https://thestoreoxford.com/">The Store Oxford</a> (1-5 Broad Street, Oxford, OX1 3AG)</li>
 </ul>
 </section>
 </section>

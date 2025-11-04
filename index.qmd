@@ -2,13 +2,23 @@
 subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Causal inference in health, economics, and social sciences </br>Oxford, United Kingdom, April 14-17, 2026"
 ---
 
-## EuroCIM 2026 Oxford, United Kindom 
+# EuroCIM 2026 Oxford, United Kindom 
 
-The conference will be from April 15-17, 2026, with pre-conference courses on the 14th.
+The conference will be from 15-17 April 2026, with pre-conference courses on the 14th.
 
-Abstract submission will open soon
+## Key dates
 
-### Venue
+| Event | Date |
+|------------------------|--------------------|
+| Abstract submission opens | 10 November 2025 |
+| Abstract submission closes | 9 January 2026 |
+| Early-bird registration deadline | 1 March 2026 |
+| Registration deadline | 2 April 2026 |
+| Pre-conference courses | 14 April 2026 |
+| EuroCIM Oxford | 15-17 April 2026 |
+
+
+## Venue
 
 Mathematical Institute</br>
 Andrew Wiles Building</br>
@@ -23,7 +33,7 @@ Oxford OX2 6GG</br>
 
 ![__Thomas Richardson__ is a Professor in the Department of Statistics at the University of Washington, Seattle, USA. ](images/richardson.jpeg)
 
-![__Negar Kiyavash__ is an Full Professor and Chair of Business Analytics at EPFL, Lausanne, Switzerland.](images/negar.jpg)
+![__Negar Kiyavash__ is a Full Professor and Chair of Business Analytics at EPFL, Lausanne, Switzerland.](images/negar.jpg)
 
 ![__Philip Dawid__ is an Emeritus Professor of Statistics at the University of Cambridge, UK.](images/pd-3689.jpg)
 
@@ -40,7 +50,7 @@ The invited speakers are organized into tandem thematic sessions. Each speaker w
 
 ![__Elizabeth Williamson__ is a Professor of Biostats and Health Data Science at London School of Hygiene and Tropical Medicine, UK](images/fizz.jpg) 
 
-![__Johan Manuel de Aguas Pérez__ is an Postdoctoral Fellow at the Norwegian Centre for Knowledge-driven Machine Learning](images/johan.jpeg) 
+![__Johan Manuel de Aguas Pérez__ is a Postdoctoral Fellow at the Norwegian Centre for Knowledge-driven Machine Learning](images/johan.jpeg) 
 
 :::
 :::
@@ -87,9 +97,9 @@ Please note that registration for the meeting is not restricted to people from E
 
 Eurocim 2026 received support from: 
 
-[![](images/GSK.png)](https://gsk.com)
-
 [![](images/SMARTbiomed_logo_center_pos.png)](https://smartbiomed.dk)
+
+[![](images/GSK.png)](https://gsk.com)
 
 
 ## Local organising committee

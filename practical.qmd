@@ -2,13 +2,10 @@
 subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Practical Information"
 toc: true
 toc-depth: 3
+editor_options: 
+  chunk_output_type: console
 ---
 
-# Conference Dinner
-
-The Conference dinner will be done by Lamb Catering at the Museum of Natural History. More information coming soon. 
-
-![Natural History Museum](images/museum.jpg)
 
 # How to get to the venue
 
@@ -19,9 +16,47 @@ Andrew Wiles Building</br>
 Woodstock Rd</br>
 Oxford OX2 6GG</br>
 
+```{r}
+#| echo: false
+
+library(leaflet)
+library(htmltools)
+library(fontawesome)
+
+colls <- read.csv("data/accomd.csv")
+colls$color <- sapply(1:nrow(colls), \(i) if(i < 19) "blue" else "pink")
+colls$pop <- sapply(1:nrow(colls), \(i) paste(a(href = colls$URL[i], colls$Name[i])))
+
+icons <- awesomeIconList(blue = makeAwesomeIcon(
+  text = fa("bed", fill = '#F54927')
+), 
+pink = makeAwesomeIcon(
+  text = fa("bed", fill = '#FFAF80')
+))
+
+
+
+leaflet() %>%
+  addTiles() %>%  
+  addMarkers(lat=51.76077448023744, lng=-1.26274603165126, popup="EuroCIM Oxford Venue", 
+  icon = makeIcon("eurocim-icon.gif")) |> 
+  addAwesomeMarkers(lat= colls$Latitude, lng = colls$Longitude, 
+  popup= colls$pop, 
+  icon = icons[colls$color])
+```
+
+
 [Get directions on Google maps](https://maps.app.goo.gl/6b3fFBQsXXXTUtgN9)
 
 The Oxford University Mathematics Institute provides detailed information about access to the venue here: <https://www.maths.ox.ac.uk/about-us/travel-maps>. 
+
+
+# Conference Dinner
+
+The Conference dinner will be catered for by Lamb Catering at the Museum of Natural History. More information coming soon. 
+
+![](images/museum.jpg)
+
 
 # Accommodation
 
@@ -34,45 +69,45 @@ We have reserved a number of rooms at Oxford University Colleges at reasonable r
 
 | College      | Type      | Location  |  Available rooms |
 |--------------|-----------|-----------|----------|
-| Brasenose    | Ensuite   | Frewin    |  40      |
-| St Hilda's   | Ensuite   | Main Site |  10      |
-| St Hilda's   | Ensuite   | Main Site |  10      |
-| St Peter's   | Standard  | Main Site |  20      |
-| St Peter's   | Ensuite   | Main Site |  30      |
-| St Peter's   | Ensuite   | Main Site |  3       |
-| Worcester    | Ensuite   | Main Site |  44      |
+| [Brasenose](https://www.bnc.ox.ac.uk/conferences/accommodation)    | Ensuite   | Frewin    |  40      |
+| [St Hilda's](https://www.st-hildas.ox.ac.uk/conferences-and-occasions)   | Ensuite   | Main Site |  10      |
+| [St Hilda's](https://www.st-hildas.ox.ac.uk/conferences-and-occasions)   | Ensuite   | Main Site |  10      |
+| [St Peter's](https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation)   | Standard  | Main Site |  20      |
+| [St Peter's](https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation)   | Ensuite   | Main Site |  30      |
+| [St Peter's](https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation)   | Ensuite   | Main Site |  3       |
+| [Worcester](https://www.worc.ox.ac.uk/venue-hire/bed-breakfast)    | Ensuite   | Main Site |  44      |
 
 
 
 ## Oxford Hotels
 
 ### Bracket 1: Affordable (relatively)
+- [The Jericho Hotel](https://jerichohotel.co.uk/) (25 Walton Crescent, Oxford, OX1 2JG)  
+- [Westgate Hotel](https://www.westgatehoteloxford.co.uk/) (1 Botley Road, Oxford, OX2 0AA)  
+- [Newton House Oxford](https://www.newtonhouseoxford.co.uk/) (82/84 Abingdon Road, Oxford, OX1 4PL)  
+- [The Old Black Horse Inn](https://www.oldblackhorse.com/) (102 St. Clements, Oxford, OX4 1AR)  
+- [Premier Inn Oxford (Botley) Hotel](https://www.premierinn.com/gb/en/hotels/england/oxfordshire/oxford/oxford-botley.html) (Seacourt Tower, Botley Road, Oxford, OX2 0JJ)  
 
-- The Jericho Hotel (25 Walton Crescent, Oxford, OX1 2JG)
-- Westgate Hotel (1 Botley Road, Oxford, OX2 0AA)
-- Newton House Oxford (82/84 Abingdon Road, Oxford, OX1 4PL)
-- The Old Black Horse Inn (102 St. Clements, Oxford, OX4 1AR)
 
 ### Bracket 2: Moderate
+- [Mercure Oxford Eastgate Hotel](https://all.accor.com/hotel/6668/index.en.shtml) (The High Street, Oxford, OX1 4BE)  
+- [The Buttery Hotel](https://www.thebutteryhotel.co.uk/) (11-12 Broad Street, Oxford, OX1 3AP)  
+- [Museum Residence Oxford](https://museumhotel.uk/) (107 St. Aldate’s, Oxford, OX1 1BU)  
+- [Rawley House, University of Oxford](https://www.lifelong-learning.ox.ac.uk/about/accommodation) (1 Wellington Square, Oxford, OX1 2JA)  
+- [Crown Hotel](https://www.crownhoteloxford.com/) (10 Crown Street, Oxford, OX4 1QG)  
+- [Premier Inn Oxford City Centre (Westgate) Hotel](https://www.premierinn.com/gb/en/hotels/england/oxfordshire/oxford/oxford-city-centre-westgate.html) (Westgate, Oxford, OX1 1TR)  
 
-- Mercure Oxford Eastgate Hotel (The High Street, Oxford, OX1 4BE)
-- The Buttery Hotel (11-12 Broad Street, Oxford, OX1 3AP)
-- Museum Residence Oxford (107 St. Aldate’s, Oxford, OX1 1BU)
-- Rawley House University of Oxford (1 Wellington Square, Oxford, OX1 2JA)
-- Crown Hotel (10 Crown Street, Oxford, OX4 1QG)
 
 ### Bracket 3: Expensive
-
-- Head of the River (Folly Bridge, St. Aldates, Oxford, OX1 4LB)
-- The Randolph Hotel Oxford (Beaumont St, Oxford, OX1 2LN)
-- The George Street Hotel (15-19 George Street, Oxford, OX1 2AB)
-- Malmaison Oxford (3 Oxford Castle, New Road, Oxford, OX1 1AY)
+- [Head of the River](https://www.headoftheriveroxford.co.uk/) (Folly Bridge, St. Aldates, Oxford, OX1 4LB)  
+- [The Randolph Hotel Oxford](https://www.hilton.com/en/hotels/lonrdgu-graduate-oxford-uk/) (Beaumont St, Oxford, OX1 2LN)  
+- [The George Street Hotel](https://www.gshoxford.co.uk/) (15-19 George Street, Oxford, OX1 2AB)  
+- [Malmaison Oxford](https://www.malmaison.com/locations/oxford/) (3 Oxford Castle, New Road, Oxford, OX1 1AY)  
 
 ### Bracket 4: Very Expensive
-
-- Old Bank Hotel (91-94 High Street, Oxford, OX1 4BJ)
-- Courtyard (15 Paradise Street, Oxford, OX1 1LD)
-- The Store Oxford (1-5 Broad Street, Oxford, OX1 3AG)
+- [Old Bank Hotel](https://www.oldbankhotel.co.uk/) (91-94 High Street, Oxford, OX1 4BJ)  
+- [Courtyard by Marriott Oxford City Centre](https://www.marriott.com/en-gb/hotels/oxfcy-courtyard-oxford-city-centre/overview/) (15 Paradise Street, Oxford, OX1 1LD)  
+- [The Store Oxford](https://thestoreoxford.com/) (1-5 Broad Street, Oxford, OX1 3AG)  
 
 # Travel to the UK
 

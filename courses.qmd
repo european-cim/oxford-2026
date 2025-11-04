@@ -8,7 +8,43 @@ Courses will be on April 14th
 
 More details coming soon
 
-# Parallel sessions in the morning
+# Invited courses
+
+
+
+## Single world interventional graphs (SWIGs), by Professor Thomas Richardson
+
+__Location:__ TBD</br>
+__Start time:__ 9:00 with a coffee break</br>
+__End time:__ 12:00</br>
+
+![Thomas Richardson](images/richardson.jpeg)
+
+Description coming soon
+
+
+## Proximal inference, by Professor Eric Tchetgen Tchetgen
+
+__Location:__ TBD</br>
+__Start time:__ 13:00 with a coffee break</br>
+__End time:__ 16:00</br>
+
+![Eric Tchetgen Tchetgen](images/tchetgen_eric_crop.jpg)
+
+Description coming soon
+
+
+# Recurring courses -- Pre-conference introduction
+
+
+::: {layout-ncol=3}
+
+![Rhian Daniel](images/rhian.jpg)
+
+![Erin Gabriel](images/erin.png)
+
+:::
+
 
 ## Introduction to Causal Inference, by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)
 
@@ -27,28 +63,6 @@ This course (which had its first incarnation at the UK-CIM 2016) is a whistlesto
 
 The fact that the list above is far too long for a half-day course gives an impression of the nature of the workshop - rather than dwell on all the intricacies of the various methods and approaches, and how one might apply them in practice using computer packages, the focus will instead be on imparting the main ideas before moving swiftly on to the next topic.
 
-::: {layout-ncol=3}
-
-![Rhian Daniel](images/rhian.jpg)
-
-![Erin Gabriel](images/erin.png)
-
-:::
-
-
-## Single world interventional graphs (SWIGs), by Professor Thomas Richardson
-
-__Location:__ TBD</br>
-__Start time:__ 9:00 with a coffee break</br>
-__End time:__ 12:00</br>
-
-![Thomas Richardson](images/richardson.jpeg)
-
-Description coming soon
-
-
-# Parallel sessions in the afternoon
-
 
 ## Special Topics in Causal Inference, organized by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)
 
@@ -64,13 +78,4 @@ This is a continuation of the Introduction course, where we will dive deeper int
 - mediation analysis
 
 
-## Proximal inference, by Professor Eric Tchetgen Tchetgen
-
-__Location:__ TBD</br>
-__Start time:__ 13:00 with a coffee break</br>
-__End time:__ 16:00</br>
-
-![Eric Tchetgen Tchetgen](images/tchetgen_eric_crop.jpg)
-
-Description coming soon
 
