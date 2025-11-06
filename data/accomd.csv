@@ -1,23 +1,23 @@
-Name,URL,Latitude,Longitude,Dates,Price,Breakfast,Rooms
-The Jericho Hotel,https://jerichohotel.co.uk/,51.7572,-1.26014,,,,
-Westgate Hotel,https://www.westgatehoteloxford.co.uk/,51.75087,-1.26059,,,,
-Newton House Oxford,https://www.newtonhouseoxford.co.uk/,51.75158,-1.26202,,,,
-The Old Black Horse Inn,https://www.oldblackhorse.com/,51.75683,-1.2398,,,,
-Mercure Oxford Eastgate Hotel,https://all.accor.com/hotel/6668/index.en.shtml,51.75267,-1.25534,,,,
-The Buttery Hotel,https://www.thebutteryhotel.co.uk/,51.7543,-1.2542,,,,
-Museum Residence Oxford (Museum Hotel),https://museumhotel.uk/,51.75199,-1.25502,,,,
-Rawley House (University of Oxford),https://www.lifelong-learning.ox.ac.uk/about/accommodation,51.7571,-1.26206,,,,
-Crown Hotel,https://www.crownhoteloxford.com/,51.74996,-1.23002,,,,
-Head of the River,https://www.headoftheriveroxford.co.uk/,51.75077,-1.25818,,,,
-The Randolph Hotel Oxford,https://www.hilton.com/en/hotels/lonrdgu-graduate-oxford-uk/,51.75329,-1.25751,,,,
-The George Street Hotel,https://www.gshoxford.co.uk/,51.7539,-1.2585,,,,
-Malmaison Oxford,https://www.malmaison.com/locations/oxford/,51.75115,-1.2579,,,,
-Old Bank Hotel,https://www.oldbankhotel.co.uk/,51.7526,-1.2555,,,,
-Courtyard by Marriott Oxford City Centre,https://www.marriott.com/en-gb/hotels/oxfcy-courtyard-oxford-city-centre/overview/,51.75131,-1.26347,,,,
-The Store Oxford,https://thestoreoxford.com/,51.754,-1.259,,,,
-Premier Inn Oxford (Botley) Hotel,https://www.premierinn.com/gb/en/hotels/england/oxfordshire/oxford/oxford-botley.html,51.75183,-1.26609,,,,
-Premier Inn Oxford City Centre (Westgate) Hotel,https://www.premierinn.com/gb/en/hotels/england/oxfordshire/oxford/oxford-city-centre-westgate.html,51.752,-1.2595,,,,
-Brasenose College (Frewin Site),https://www.bnc.ox.ac.uk/about-brasenose/frewin-development-blog,51.753418,-1.259072,13-17 Apr 2026,£114.00 + £10 for breakfast,£10 for breakfast (optional),40
-St Hilda's College (Anniversary & CBB bedrooms),https://www.st-hildas.ox.ac.uk/,51.748266,-1.245768,13-17 Apr 2026,£100.00 (Inc. breakfast),Included,20
-St Peter's College (Damazer House & Perrodo Building),https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation,51.752761,-1.260722,13-17 Apr 2026,£104.00 (Inc. breakfast); additional rate £67.30,Included,33; +20 (two blocks)
-Worcester College,https://www.worc.ox.ac.uk/,51.75430,-1.26347,13-17 Apr 2026,£124.00 (Inc. breakfast),Included,44
+"","Name","URL","Latitude","Longitude","Dates","Price","Breakfast","Rooms","Hotel.Name","Lat","Long"
+"1","The Jericho Hotel","https://jerichohotel.co.uk/",51.7572,-1.26014,"","","","","The Jericho Hotel",51.757295862856466, -1.2661840788415741
+"2","Westgate Hotel","https://www.westgatehoteloxford.co.uk/",51.75087,-1.26059,"","","","","Westgate Hotel",51.75266913180307, -1.271057863638027
+"3","Newton House Oxford","https://www.newtonhouseoxford.co.uk/",51.75158,-1.26202,"","","","","Newton House Oxford",51.74242197620147, -1.2554416368838484
+"4","The Old Black Horse Inn","https://www.oldblackhorse.com/",51.75683,-1.2398,"","","","","The Old Black Horse Inn",51.75021988104954, -1.2427889433752648
+"5","Mercure Oxford Eastgate Hotel","https://all.accor.com/hotel/6668/index.en.shtml",51.75267,-1.25534,"","","","","Mercure Oxford Eastgate Hotel",51.75236381716845, -1.249213540008131
+"6","The Buttery Hotel","https://www.thebutteryhotel.co.uk/",51.7543,-1.2542,"","","","","The Buttery Hotel",51.75431796593591, -1.2576145187471088
+"7","Museum Residence Oxford (Museum Hotel)","https://museumhotel.uk/",51.75199,-1.25502,"","","","","Museum Residence Oxford",51.75139670656356, -1.2574564833925876
+"8","Rawley House (University of Oxford)","https://www.lifelong-learning.ox.ac.uk/about/accommodation",51.7571,-1.26206,"","","","","Rawley House (University of Oxford)",51.75729329052306, -1.2621681077233724
+"9","Crown Hotel","https://www.crownhoteloxford.com/",51.74996,-1.23002,"","","","","Crown Hotel",51.7471265770505, -1.2371386718565007
+"10","Head of the River","https://www.headoftheriveroxford.co.uk/",51.75077,-1.25818,"","","","","Head of the River",51.746879137379274, -1.2558889327336857
+"11","The Randolph Hotel Oxford","https://www.hilton.com/en/hotels/lonrdgu-graduate-oxford-uk/",51.75329,-1.25751,"","","","","The Randolph Hotel Oxford",51.75524019580271, -1.2596386335656526
+"12","The George Street Hotel","https://www.gshoxford.co.uk/",51.7539,-1.2585,"","","","","The George Street Hotel",51.75380591057363, -1.259913009571201
+"13","Malmaison Oxford","https://www.malmaison.com/locations/oxford/",51.75115,-1.2579,"","","","","Malmaison Oxford",51.75181205672612, -1.2625583514226482
+"14","Old Bank Hotel","https://www.oldbankhotel.co.uk/",51.7526,-1.2555,"","","","","Old Bank Hotel",51.75260005498058, -1.253204480310587
+"15","Courtyard by Marriott Oxford City Centre","https://www.marriott.com/en-gb/hotels/oxfcy-courtyard-oxford-city-centre/overview/",51.75131,-1.26347,"","","","","Courtyard by Marriott Oxford City Centre",51.7516067656613, -1.2640629761546518
+"16","The Store Oxford","https://thestoreoxford.com/",51754,-1259,"","","","","The Store Oxford",51.754249548027325, -1.2580220336344088
+"17","Premier Inn Oxford (Botley) Hotel","https://www.premierinn.com/gb/en/hotels/england/oxfordshire/oxford/oxford-botley.html",51.75183,-1.26609,"","","","","Premier Inn Oxford (Botley) Hotel","51.752620983651646", "-1.2970731729461389"
+"18","Premier Inn Oxford City Centre (Westgate) Hotel","https://www.premierinn.com/gb/en/hotels/england/oxfordshire/oxford/oxford-city-centre-westgate.html",51752,-1.2595,"","","","","Premier Inn Oxford City Centre (Westgate) Hotel",51.75063829255648, -1.261410036088694
+"19","Brasenose College (Frewin Site)","https://www.bnc.ox.ac.uk/prospective-students/undergraduate-admissions/179-accommodation-rooms",51.753418,-1.259072,"13-17 Apr 2026","£114.00 + £10 for breakfast","£10 for breakfast (optional)","40","Brasenose College (Frewin Site)",51.752752429479244, -1.2602106103194275
+"20","St Hilda's College (Anniversary & CBB bedrooms)","https://www.st-hildas.ox.ac.uk/conferences-and-occasions/",51.748266,-1.245768,"13-17 Apr 2026","£100.00 (Inc. breakfast)","Included","20","St Hilda's College",51.74884248120035, -1.245130354516318
+"21","St Peter's College (Damazer House & Perrodo Building)","https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation",51.752761,-1.260722,"13-17 Apr 2026","£104.00 (Inc. breakfast); additional rate £67.30","Included","33; +20 (two blocks)","St Peter's College",51.75286955477192, -1.2606905380880795
+"22","Worcester College","https://www.worc.ox.ac.uk/venue-hire/bed-breakfast/",51.7543,-1.26347,"13-17 Apr 2026","£124.00 (Inc. breakfast)","Included","44","Worcester College",51.75502686578436, -1.2634322521749046

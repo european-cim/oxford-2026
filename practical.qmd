@@ -16,6 +16,13 @@ Andrew Wiles Building</br>
 Woodstock Rd</br>
 Oxford OX2 6GG</br>
 
+
+[Get directions on Google maps](https://maps.app.goo.gl/6b3fFBQsXXXTUtgN9)
+
+The Oxford University Mathematics Institute provides detailed information about access to the venue here: <https://www.maths.ox.ac.uk/about-us/travel-maps>. 
+
+The map below shows the venue and nearby accommodations (note locations are approximate, refer to hotel websites for directions). Hotels are red and colleges are yellow. 
+
 ```{r}
 #| echo: false
 
@@ -28,27 +35,24 @@ colls$color <- sapply(1:nrow(colls), \(i) if(i < 19) "blue" else "pink")
 colls$pop <- sapply(1:nrow(colls), \(i) paste(a(href = colls$URL[i], colls$Name[i])))
 
 icons <- awesomeIconList(blue = makeAwesomeIcon(
-  text = fa("bed", fill = '#F54927')
+  text = fa("bed", fill = '#F54927'), markerColor = "white"
 ), 
 pink = makeAwesomeIcon(
-  text = fa("bed", fill = '#FFAF80')
+  text = fa("bed", fill = '#FFAF80'), markerColor = "white"
 ))
 
 
 
-leaflet() %>%
-  addTiles() %>%  
-  addMarkers(lat=51.76077448023744, lng=-1.26274603165126, popup="EuroCIM Oxford Venue", 
-  icon = makeIcon("eurocim-icon.gif")) |> 
-  addAwesomeMarkers(lat= colls$Latitude, lng = colls$Longitude, 
+leaflet()  |> 
+  addTiles() |> 
+  addAwesomeMarkers(lat= colls$Lat, lng = colls$Long, 
   popup= colls$pop, 
-  icon = icons[colls$color])
+  icon = icons[colls$color]) |> 
+  addMarkers(lat=51.76077448023744, lng=-1.26274603165126, popup="EuroCIM Oxford Venue", 
+  icon = makeIcon("eurocim-icon2.gif", iconWidth = 50, iconHeight = 50, iconAnchorY = 1), 
+  options = markerOptions(zIndexOffset = 1000))
 ```
 
-
-[Get directions on Google maps](https://maps.app.goo.gl/6b3fFBQsXXXTUtgN9)
-
-The Oxford University Mathematics Institute provides detailed information about access to the venue here: <https://www.maths.ox.ac.uk/about-us/travel-maps>. 
 
 
 # Conference Dinner

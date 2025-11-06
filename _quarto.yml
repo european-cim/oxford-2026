@@ -45,7 +45,9 @@ format:
       page-layout: full
       title-block-banner: images/oxford-header.jpg
       title-block-style: plain
-      theme: sandstone
+      theme: 
+        - sandstone
+        - custom.scss
       css: styles.css
       toc: false
       background: "#07342a"

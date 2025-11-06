@@ -48,9 +48,9 @@ The invited speakers are organized into tandem thematic sessions. Each speaker w
 
 ::: {layout-ncol=2}
 
-![__Elizabeth Williamson__ is a Professor of Biostats and Health Data Science at London School of Hygiene and Tropical Medicine, UK](images/fizz.jpg) 
+![__Elizabeth Williamson__ is a Professor of Biostats and Health Data Science at London School of Hygiene and Tropical Medicine, UK.](images/fizz.jpg) 
 
-![__Johan Manuel de Aguas Pérez__ is a Postdoctoral Fellow at the Norwegian Centre for Knowledge-driven Machine Learning](images/johan.jpeg) 
+![__Johan Manuel de Aguas Pérez__ is a Postdoctoral Fellow at the Norwegian Centre for Knowledge-driven Machine Learning.](images/johan.jpeg) 
 
 :::
 :::
@@ -60,9 +60,9 @@ The invited speakers are organized into tandem thematic sessions. Each speaker w
 
 ::: {layout-ncol=2}
 
-![__Helene Rytgaard__ is an Associate Professor in the Section of Biostatistics at the University of Copenhagen, Denmark](images/helene.jpg) 
+![__Helene Rytgaard__ is an Associate Professor in the Section of Biostatistics at the University of Copenhagen, Denmark.](images/helene.jpg) 
 
-![__Pål Ryalen__ is a Researcher at Oslo University Hospital, Norway](images/paal.jpg) 
+![__Pål Ryalen__ is a Researcher at Oslo University Hospital, Norway.](images/paal.jpg) 
 
 :::
 :::
@@ -73,9 +73,9 @@ The invited speakers are organized into tandem thematic sessions. Each speaker w
 
 ::: {layout-ncol=2}
 
-![__Fredrik Sävje__ is an Associate Professor of Econometrics at Uppsala University, Sweden](images/fredrik.jpg) 
+![__Fredrik Sävje__ is an Associate Professor of Econometrics at Uppsala University, Sweden.](images/fredrik.jpg) 
 
-![__Corwin M Zigler__ is a Professor of Biostatistics at Brown University, USA](images/corwin.jpg) 
+![__Corwin M Zigler__ is a Professor of Biostatistics at Brown University, USA.](images/corwin.jpg) 
 
 :::
 :::
