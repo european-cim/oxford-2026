@@ -117,4 +117,4 @@ We have reserved a number of rooms at Oxford University Colleges at reasonable r
 
 You may need a visa or electronic travel authorization to enter the UK. Check here: <https://www.gov.uk/check-uk-visa>
 
-If you need a welcome letter for a visa application, please fill out this form: _coming soon_
+If you need a welcome letter for a visa application, please fill out this form: [Request a letter](https://docs.google.com/forms/d/e/1FAIpQLSfMN49qn8kjBhZTk-q-NybvZS7DZwKOP5rePPcW3FI6ii3eJA/viewform?usp=publish-editor){.btn .btn-outline-primary .btn role="button"} 
