@@ -21,7 +21,7 @@ website:
       - href: registration.qmd
         text: Registration
       - href: program.qmd
-        text: Abstract submission
+        text: Program
       - href: courses.qmd
         text: Courses
       - href: practical.qmd
