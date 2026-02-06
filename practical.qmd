@@ -68,19 +68,17 @@ Please note that you are responsible for booking your own accommodations for the
 
 ## College Rooms
 
-We have reserved a number of rooms at Oxford University Colleges at reasonable rates (from £80 to £150/night). They will be available to book during registration while supplies last. 
+We have reserved a number of rooms at Oxford University Colleges at relatively reasonable rates (from £80 to £150/night). They will be available to book during registration while supplies last. 
 
 
-| College      | Type      | Location  |  Available rooms |
-|--------------|-----------|-----------|----------|
-| [Brasenose](https://www.bnc.ox.ac.uk/conferences/accommodation)    | Ensuite   | Frewin    |  40      |
-| [St Hilda's](https://www.st-hildas.ox.ac.uk/conferences-and-occasions)   | Ensuite   | Main Site |  10      |
-| [St Hilda's](https://www.st-hildas.ox.ac.uk/conferences-and-occasions)   | Ensuite   | Main Site |  10      |
-| [St Peter's](https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation)   | Standard  | Main Site |  20      |
-| [St Peter's](https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation)   | Ensuite   | Main Site |  30      |
-| [St Peter's](https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation)   | Ensuite   | Main Site |  3       |
-| [Worcester](https://www.worc.ox.ac.uk/venue-hire/bed-breakfast)    | Ensuite   | Main Site |  44      |
-
+| College      | Location  | Available rooms | Accommodation  | Cost    | Late deadline cost |
+|--------------|-----------|-----------------|---------------------------------------------|---------|--------------------|
+| [Brasenose](https://www.bnc.ox.ac.uk/conferences/accommodation) |  Frewin    | 40 | Brasenose College ensuite                       | £126.00 | £139.00            |
+| [St Hilda's](https://www.st-hildas.ox.ac.uk/conferences-and-occasions) | Main Site | 10 | St Hilda’s College (Anniversary) ensuite    | £102.00 | £112.50            |
+| [St Hilda's](https://www.st-hildas.ox.ac.uk/conferences-and-occasions) |  Main Site | 10 | St Hilda’s College (CBB) ensuite            | £83.00  | £91.50             |
+| [St Peter's](https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation) | Main Site | 20              | St Peter’s College standard room            | £71.50  | £79.00             |
+| [St Peter's](https://www.spc.ox.ac.uk/about/conferences-and-accommodation/guest-accommodation) |  Main Site | 33              | St Peter’s College ensuite room             | £110.50 | £122.00            |
+| [Worcester](https://www.worc.ox.ac.uk/venue-hire/bed-breakfast) |  Main Site | 44              | Worcester College ensuite                  | £126.00 | £139.00            |
 
 
 ## Oxford Hotels

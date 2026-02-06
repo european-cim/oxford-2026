@@ -2,7 +2,7 @@
 subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Causal inference in health, economics, and social sciences </br>Oxford, United Kingdom, April 14-17, 2026"
 ---
 
-# EuroCIM 2026 Oxford, United Kindom 
+# EuroCIM 2026 Oxford, United Kingdom 
 
 The conference will be from 15-17 April 2026, with pre-conference courses on the 14th.
 
