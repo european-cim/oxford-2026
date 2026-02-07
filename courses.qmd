@@ -6,13 +6,12 @@ toc-depth: 2
 
 Courses will be on April 14th 
 
-More details coming soon
 
 # Invited courses
 
 
 
-## Single world interventional graphs (SWIGs), by Professor Thomas Richardson
+## An Introduction to Single-World Intervention Graphs with Applications to Identification and Mediation, by Professor Thomas Richardson
 
 __Location:__ TBD</br>
 __Start time:__ 9:00 with a coffee break</br>
@@ -20,7 +19,15 @@ __End time:__ 12:00</br>
 
 ![Thomas Richardson](images/richardson.jpeg)
 
-Description coming soon
+Causal models based on potential outcomes, also known as counterfactuals, were introduced by Neyman (1923) and extended to observational settings by Rubin (1974). Causal Directed Acyclic Graphs (DAGs) are another framework, originally introduced by Wright (1921), but subsequently significantly generalized and extended by Spirtes et al. (1993), Pearl (1995), and Dawid (2002), among others.
+
+We will first present a simple approach to unifying these two approaches via Single-World Intervention Graphs (SWIGs). The SWIG encodes the counterfactual independences associated with a specific hypothetical intervention on a set of treatment variables. The nodes on the SWIG are the corresponding counterfactual random variables. This represents a counterfactual model originally introduced by Robins (1986) using event trees, known as Finest Fully Randomized Causally Interpretable Structured Tree Graphs (FFRCISTG).
+
+We will use this synthesis, to describe the potential outcome (po) calculus, introduced by Malinsky et al. (2019). These rules are similar to, but simpler than, the do-calculus of Pearl (1995) and clarify the underlying concepts involved. We will outline a complete algorithm for deriving identifying expressions for counterfactual causal queries.
+
+By expanding the graph, SWIGs may also be used to describe a novel interventionist approach to mediation analysis whereby treatment is decomposed into multiple separable components. This provides a means of discussing direct effects without reference to "cross-world" independence assumptions, nested counterfactuals or interventions on the mediator. The theory preserves the dictum "no causation without manipulation" and makes questions of mediation empirically testable in future randomized controlled trials.
+
+This is joint work with James M. Robins (Harvard) and Ilya Shpitser (Johns Hopkins).
 
 
 ## Proximal inference, by Professor Eric Tchetgen Tchetgen

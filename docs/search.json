@@ -60,14 +60,14 @@
     "href": "courses.html",
     "title": "Invited courses",
     "section": "",
-    "text": "Courses will be on April 14th\nMore details coming soon"
+    "text": "Courses will be on April 14th"
   },
   {
-    "objectID": "courses.html#single-world-interventional-graphs-swigs-by-professor-thomas-richardson",
-    "href": "courses.html#single-world-interventional-graphs-swigs-by-professor-thomas-richardson",
+    "objectID": "courses.html#an-introduction-to-single-world-intervention-graphs-with-applications-to-identification-and-mediation-by-professor-thomas-richardson",
+    "href": "courses.html#an-introduction-to-single-world-intervention-graphs-with-applications-to-identification-and-mediation-by-professor-thomas-richardson",
     "title": "Invited courses",
-    "section": "Single world interventional graphs (SWIGs), by Professor Thomas Richardson",
-    "text": "Single world interventional graphs (SWIGs), by Professor Thomas Richardson\nLocation: TBD Start time: 9:00 with a coffee break End time: 12:00\n\n\n\nThomas Richardson\n\n\nDescription coming soon"
+    "section": "An Introduction to Single-World Intervention Graphs with Applications to Identification and Mediation, by Professor Thomas Richardson",
+    "text": "An Introduction to Single-World Intervention Graphs with Applications to Identification and Mediation, by Professor Thomas Richardson\nLocation: TBD Start time: 9:00 with a coffee break End time: 12:00\n\n\n\nThomas Richardson\n\n\nCausal models based on potential outcomes, also known as counterfactuals, were introduced by Neyman (1923) and extended to observational settings by Rubin (1974). Causal Directed Acyclic Graphs (DAGs) are another framework, originally introduced by Wright (1921), but subsequently significantly generalized and extended by Spirtes et al. (1993), Pearl (1995), and Dawid (2002), among others.\nWe will first present a simple approach to unifying these two approaches via Single-World Intervention Graphs (SWIGs). The SWIG encodes the counterfactual independences associated with a specific hypothetical intervention on a set of treatment variables. The nodes on the SWIG are the corresponding counterfactual random variables. This represents a counterfactual model originally introduced by Robins (1986) using event trees, known as Finest Fully Randomized Causally Interpretable Structured Tree Graphs (FFRCISTG).\nWe will use this synthesis, to describe the potential outcome (po) calculus, introduced by Malinsky et al. (2019). These rules are similar to, but simpler than, the do-calculus of Pearl (1995) and clarify the underlying concepts involved. We will outline a complete algorithm for deriving identifying expressions for counterfactual causal queries.\nBy expanding the graph, SWIGs may also be used to describe a novel interventionist approach to mediation analysis whereby treatment is decomposed into multiple separable components. This provides a means of discussing direct effects without reference to “cross-world” independence assumptions, nested counterfactuals or interventions on the mediator. The theory preserves the dictum “no causation without manipulation” and makes questions of mediation empirically testable in future randomized controlled trials.\nThis is joint work with James M. Robins (Harvard) and Ilya Shpitser (Johns Hopkins)."
   },
   {
     "objectID": "courses.html#proximal-inference-by-professor-eric-tchetgen-tchetgen",
