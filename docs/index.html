@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -38,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e722fdb59a594af5838e2389fceabccc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-918251d4c5010c72b2a08baf46ce9e1c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,9 +107,12 @@ ul.task-list li input[type="checkbox"] {
 background-size: cover;
       }
 </style>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="modal.css">
 <meta property="og:title" content="European Causal Inference Meeting 2026 – Oxford, UK">
 <meta property="og:description" content="EUROPEAN CAUSAL INFERENCE MEETING Causal inference in health, economics, and social sciences Oxford, United Kingdom, April 14-17, 2026">
 <meta property="og:image" content="eurocim-icon.gif">
@@ -168,6 +205,7 @@ background-size: cover;
 
 <section id="eurocim-2026-oxford-united-kingdom" class="level1">
 <h1>EuroCIM 2026 Oxford, United Kingdom</h1>
+<p><a href="https://web.cvent.com/event/5b6a0389-33e1-48a4-a0a6-a311fb8d8bc1/regProcessStep1" class="btn btn-outline-primary" role="button">Register now</a></p>
 <p>The conference will be from 15-17 April 2026, with pre-conference courses on the 14th.</p>
 <section id="key-dates" class="level2">
 <h2 class="anchored" data-anchor-id="key-dates">Key dates</h2>
@@ -189,7 +227,7 @@ background-size: cover;
 </tr>
 <tr class="odd">
 <td>Early-bird registration deadline</td>
-<td>1 March 2026</td>
+<td>10 March 2026</td>
 </tr>
 <tr class="even">
 <td>Registration deadline</td>
@@ -248,8 +286,8 @@ background-size: cover;
 <section id="invited-speakers" class="level2">
 <h2 class="anchored" data-anchor-id="invited-speakers">Invited speakers</h2>
 <p>The invited speakers are organized into tandem thematic sessions. Each speaker will give their perspective on a similar theme.</p>
-<section id="tandem-session" class="level3 battle-teaser">
-<h3 class="anchored" data-anchor-id="tandem-session">Tandem Session</h3>
+<section id="tandem1" class="level3 battle-teaser">
+<h3 class="anchored" data-anchor-id="tandem1"><a href="#tandem1" data-micromodal-trigger="fizzjohan" tabindex="0">Click to see description</a></h3>
 <div>
 
 </div>
@@ -274,8 +312,8 @@ background-size: cover;
 </div>
 </div>
 </section>
-<section id="tandem-session-1" class="level3 battle-teaser">
-<h3 class="anchored" data-anchor-id="tandem-session-1">Tandem Session</h3>
+<section id="tandem2" class="level3 battle-teaser">
+<h3 class="anchored" data-anchor-id="tandem2"><a href="#tandem2" data-micromodal-trigger="helenepal" tabindex="0">Click to see description</a></h3>
 <div>
 
 </div>
@@ -300,8 +338,8 @@ background-size: cover;
 </div>
 </div>
 </section>
-<section id="tandem-session-2" class="level3 battle-teaser">
-<h3 class="anchored" data-anchor-id="tandem-session-2">Tandem Session</h3>
+<section id="tandem-session" class="level3 battle-teaser">
+<h3 class="anchored" data-anchor-id="tandem-session">Tandem Session</h3>
 <div>
 
 </div>
@@ -345,12 +383,88 @@ background-size: cover;
 <section id="local-organising-committee" class="level2">
 <h2 class="anchored" data-anchor-id="local-organising-committee">Local organising committee</h2>
 <p>Robin Evans, Ruth Keogh, Kyra Delray, Pablo Geraldo, Yasin Ibrahim, Linying Yang, and Jakob Zeitler</p>
+<div class="cell" data-include="false">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="118" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 117;"><span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>micro <span class="op">=</span> <span class="pp">require</span>(<span class="st">"micromodal@0.4.10"</span>)<span class="op">;</span></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>micro<span class="op">.</span><span class="fu">init</span>({</span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a>  <span class="dt">awaitOpenAnimation</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a>  <span class="dt">awaitCloseAnimation</span><span class="op">:</span> <span class="kw">true</span></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display hidden">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display hidden">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<!-- and here's the popup itself! -->
+<div id="fizzjohan" class="modal micromodal-slide" aria-hidden="true">
+<div class="modal__overlay" tabindex="-1" data-micromodal-close="true">
+<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="mymodal-title1">
+<button class="modal__close" aria-label="Close" data-micromodal-close="">
+</button>
+<header>
+<section id="mymodal-title1" class="level2">
+<h2 class="anchored" data-anchor-id="mymodal-title1">Methodological challenges in using electronic health record data to estimate conditional average treatment effects</h2>
+</section></header>
+<div id="modal-1-content">
+<p>We will have the following format:</p>
+<ul>
+<li>Overview of key challenges in estimating conditional average treatment effects (CATE) in EHR data (Elizabeth, ~25 mins)</li>
+<li>Methodological issues, including recoverability of CATE and assumptions about mechanism shift (Johan, ~40 mins)</li>
+<li>Application to the estimation of comparative effectiveness of SGLT2i vs DPP4i among patients with diabetes in the Clinical Practice Research Datalink (Elizabeth, ~15 mins)</li>
+<li>Questions/discussion (Both speakers)</li>
+</ul>
+</div>
+</div></div></div></section>
+</section></main></div>
 
 
-</section>
-</section>
+<div id="helenepal" class="modal micromodal-slide" aria-hidden="true">
+<div class="modal__overlay" tabindex="-1" data-micromodal-close="true">
+<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="mymodal-title2">
+<button class="modal__close" aria-label="Close" data-micromodal-close="">
+</button>
+<header>
+<section id="mymodal-title2" class="level2">
+<h2 data-anchor-id="mymodal-title2">Ideas for defining and implementing interventions in continuous-time event history settings</h2>
+</section></header>
+<div id="modal-2-content">
+<p>We will have two talks of equal length, with time for questions after each talk.</p>
+<ul>
+<li>Pål’s will start speaking about: “Interventions, Potential Outcomes, and Identification of Causal Effects in Marked Point Processes”.</li>
+<li>Helene’s will speak about: “Calibrated stochastic scaling interventions on time-to-event processes”.</li>
+</ul>
+</div>
 
-</main> <!-- /main -->
+</div>
+</div>
+</div>
+
+
+
+
+
+ <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxubWljcm8gPSByZXF1aXJlKFwibWljcm9tb2RhbEAwLjQuMTBcIik7XG5cbm1pY3JvLmluaXQoe1xuICBhd2FpdE9wZW5BbmltYXRpb246IHRydWUsXG4gIGF3YWl0Q2xvc2VBbmltYXRpb246IHRydWVcbn0pO1xuIn1dfQ==
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -768,7 +882,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
+ <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">

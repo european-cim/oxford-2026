@@ -2,14 +2,14 @@
 subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Registration"
 ---
 
-Registration will be open soon. 
+[Register now](https://web.cvent.com/event/5b6a0389-33e1-48a4-a0a6-a311fb8d8bc1/regProcessStep1){.btn .btn-outline-primary .btn role="button"} 
 
 Registration will include an additional £5 service fee.
 
 # Fees, all prices in GBP:
 
 
-## Registration Deadline 1 March 2026 
+## Registration Deadline 10 March 2026 
 
 - Non student	£190
 - Student £95 
@@ -42,5 +42,16 @@ Course registration for 2 half-day courses includes vegetarian/vegan lunch
 
 - Non student £80
 - Student £50
+
+
+## Registration confirmation emails
+
+Cvent is managing the registration system, and some people have issues with emails from their system being blocked. 
+
+If you have registered and not received a confirmation email, the next step is to have your IT team Allowlist/Whitelist their sending IPs and domains to prevent these issues from recurring. Please see Cvent’s Help Articles below that list the required IPs and domains, along with step-by-step Allowlisting guidance for IT teams:
+
+<https://developers.cvent.com/docs/platform/allowlist/email>
+
+<https://support.cvent.com/s/communityarticle/What-is-whitelisting>
 
 

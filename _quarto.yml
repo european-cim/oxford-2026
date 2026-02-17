@@ -48,7 +48,9 @@ format:
       theme: 
         - sandstone
         - custom.scss
-      css: styles.css
+      css: 
+        - styles.css
+        - modal.css
       toc: false
       background: "#07342a"
       logo: "eurocim-icon.gif"

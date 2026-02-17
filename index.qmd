@@ -4,6 +4,8 @@ subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Causal inference in health, ec
 
 # EuroCIM 2026 Oxford, United Kingdom 
 
+[Register now](https://web.cvent.com/event/5b6a0389-33e1-48a4-a0a6-a311fb8d8bc1/regProcessStep1){.btn .btn-outline-primary .btn role="button"} 
+
 The conference will be from 15-17 April 2026, with pre-conference courses on the 14th.
 
 ## Key dates
@@ -12,7 +14,7 @@ The conference will be from 15-17 April 2026, with pre-conference courses on the
 |------------------------|--------------------|
 | Abstract submission opens | 10 November 2025 |
 | Abstract submission closes | 16 January 2026 ~~9 January 2026~~ |
-| Early-bird registration deadline | 1 March 2026 |
+| Early-bird registration deadline | 10 March 2026 |
 | Registration deadline | 2 April 2026 |
 | Pre-conference courses | 14 April 2026 |
 | EuroCIM Oxford | 15-17 April 2026 |
@@ -44,7 +46,7 @@ Oxford OX2 6GG</br>
 The invited speakers are organized into tandem thematic sessions. Each speaker will give their perspective on a similar theme. 
 
 ::: {.battle-teaser}
-### Tandem Session
+### <a href="#tandem1" data-micromodal-trigger="fizzjohan" tabindex="0">Click to see description</a> {#tandem1}
 
 ::: {layout-ncol=2}
 
@@ -56,7 +58,7 @@ The invited speakers are organized into tandem thematic sessions. Each speaker w
 :::
 
 ::: {.battle-teaser}
-### Tandem Session
+### <a href="#tandem2" data-micromodal-trigger="helenepal" tabindex="0">Click to see description</a> {#tandem2}
 
 ::: {layout-ncol=2}
 
@@ -79,6 +81,7 @@ The invited speakers are organized into tandem thematic sessions. Each speaker w
 
 :::
 :::
+
 
 
 
@@ -107,3 +110,66 @@ Eurocim 2026 received support from:
 Robin Evans, Ruth Keogh, Kyra Delray, Pablo Geraldo, Yasin Ibrahim, Linying Yang, and Jakob Zeitler
 
  
+
+```{ojs}
+//| include: false
+//| echo: false
+
+micro = require("micromodal@0.4.10");
+
+micro.init({
+  awaitOpenAnimation: true,
+  awaitCloseAnimation: true
+});
+```
+
+<!-- and here's the popup itself! -->
+
+:::::: {#fizzjohan .modal .micromodal-slide aria-hidden="true"}
+::::: {.modal__overlay tabindex="-1" data-micromodal-close="true"}
+:::: {.modal__container role="dialog" aria-modal="true" aria-labelledby="mymodal-title1"}
+
+<button class="modal__close" aria-label="Close" data-micromodal-close></button>
+
+<header>
+## Methodological challenges in using electronic health record data to estimate conditional average treatment effects {#mymodal-title1}
+</header>
+
+::: {#modal-1-content}
+We will have the following format:
+
+- Overview of key challenges in estimating conditional average treatment effects (CATE) in EHR data (Elizabeth, ~25 mins)
+- Methodological issues, including recoverability of CATE and assumptions about mechanism shift (Johan, ~40 mins)
+- Application to the estimation of comparative effectiveness of SGLT2i vs DPP4i among patients with diabetes in the Clinical Practice Research Datalink (Elizabeth, ~15 mins)
+- Questions/discussion (Both speakers)
+
+:::
+
+::::
+:::::
+:::::: 
+
+
+
+:::::: {#helenepal .modal .micromodal-slide aria-hidden="true"}
+::::: {.modal__overlay tabindex="-1" data-micromodal-close="true"}
+:::: {.modal__container role="dialog" aria-modal="true" aria-labelledby="mymodal-title2"}
+
+<button class="modal__close" aria-label="Close" data-micromodal-close></button>
+
+<header>
+## Ideas for defining and implementing interventions in continuous-time event history settings {#mymodal-title2}
+</header>
+
+::: {#modal-2-content}
+We will have two talks of equal length, with time for questions after each talk.
+
+- Pål's will start speaking about: "Interventions, Potential Outcomes, and Identification of Causal Effects in Marked Point Processes".
+- Helene's will speak about: "Calibrated stochastic scaling interventions on time-to-event processes".
+
+:::
+
+::::
+:::::
+:::::: 
+

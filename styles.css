@@ -12,6 +12,9 @@
   font-size: 1.75rem;
 }
 
+.page-columns .column-page {
+  z-index: 0;
+}
 
 .battle-teaser {
   border-color: #07342a;
