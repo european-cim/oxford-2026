@@ -164,8 +164,8 @@ We will have the following format:
 ::: {#modal-2-content}
 We will have two talks of equal length, with time for questions after each talk.
 
-- Pål's will start speaking about: "Interventions, Potential Outcomes, and Identification of Causal Effects in Marked Point Processes".
-- Helene's will speak about: "Calibrated stochastic scaling interventions on time-to-event processes".
+- Pål will start the session by speaking about: "Interventions, Potential Outcomes, and Identification of Causal Effects in Marked Point Processes".
+- Helene will follow and speak about: "Calibrated stochastic scaling interventions on time-to-event processes".
 
 :::
 
