@@ -13,6 +13,14 @@ subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Causal inference in health, ec
 
 The conference will be from 15-17 April 2026, with pre-conference courses on the 14th.
 
+
+::: {.callout-tip}
+## Important information
+
+All decisions have now been sent out to those who contributed abstracts. If you contributed an abstract, but have not seen your decision, please check your spam folder. 
+:::
+
+
 ## Key dates
 
 | Event | Date |
