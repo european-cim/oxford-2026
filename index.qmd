@@ -71,7 +71,7 @@ The invited speakers are organized into tandem thematic sessions. Each speaker w
 
 
 ::: {.battle-teaser}
-### Tandem Session
+### <a href="#tandem3" data-micromodal-trigger="coryfred" tabindex="0">Click to see description</a> {#tandem3}
 
 ::: {layout-ncol=2}
 
@@ -173,3 +173,25 @@ We will have two talks of equal length, with time for questions after each talk.
 :::::
 :::::: 
 
+
+:::::: {#coryfred .modal .micromodal-slide aria-hidden="true"}
+::::: {.modal__overlay tabindex="-1" data-micromodal-close="true"}
+:::: {.modal__container role="dialog" aria-modal="true" aria-labelledby="mymodal-title3"}
+
+<button class="modal__close" aria-label="Close" data-micromodal-close></button>
+
+<header>
+## Interference and complex treatments {#mymodal-title3}
+</header>
+
+::: {#modal-3-content}
+We will have two talks of equal length, with time for questions at the end.
+
+- Fredrik will start the session by speaking about: "Coupling Designs for Randomized Experiments with Complex Treatments".
+- Cory will follow and speak about: "Complex Treatments in Environmental Science: Interference and Spatial Confounding".
+
+:::
+
+::::
+:::::
+:::::: 
