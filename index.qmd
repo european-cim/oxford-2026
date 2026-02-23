@@ -95,7 +95,11 @@ The invited speakers are organized into tandem thematic sessions. Each speaker w
 :::
 :::
 
+## Pre-conference Courses
 
+Courses will be on April 14th. 
+
+[Click here for more information about the courses](courses.qmd)
 
 
 ## About EuroCIM
