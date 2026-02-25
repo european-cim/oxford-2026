@@ -32,7 +32,7 @@ By expanding the graph, SWIGs may also be used to describe a novel interventioni
 This is joint work with James M. Robins (Harvard) and Ilya Shpitser (Johns Hopkins).
 
 
-## Proximal inference, by Professor Eric Tchetgen Tchetgen
+## A Modicum of Proximal Causal Learning, by Professor Eric Tchetgen Tchetgen
 
 __Location:__ TBD</br>
 __Start time:__ 13:00 with a coffee break</br>
@@ -40,7 +40,7 @@ __End time:__ 16:00</br>
 
 ![Eric Tchetgen Tchetgen](images/tchetgen_eric_crop.jpg)
 
-Description coming soon
+Learning about causal effects from observational data often relies on strong assumptions that one has perfectly measured important confounding, mediating or moderating factors. This short course will introduce proximal causal learning, which aims to soften this stringent and unrealistic requirement, by treating the observed data as proxies of known but imperfectly measured confounding, mediating and moderating factors. Participants will learn about proximal methods to empirically account for unmeasured confounders, hidden mediators and error prone effect moderators. The course will focus on concepts and ideas with sprinkles of data applications in the health and social sciences throughout, rather than technicalities.
 
 
 # Recurring courses -- Pre-conference introduction

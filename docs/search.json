@@ -91,11 +91,11 @@
     "text": "An Introduction to Single-World Intervention Graphs with Applications to Identification and Mediation, by Professor Thomas Richardson\nLocation: TBD Start time: 9:00 with a coffee break End time: 12:00\n\n\n\nThomas Richardson\n\n\nCausal models based on potential outcomes, also known as counterfactuals, were introduced by Neyman (1923) and extended to observational settings by Rubin (1974). Causal Directed Acyclic Graphs (DAGs) are another framework, originally introduced by Wright (1921), but subsequently significantly generalized and extended by Spirtes et al. (1993), Pearl (1995), and Dawid (2002), among others.\nWe will first present a simple approach to unifying these two approaches via Single-World Intervention Graphs (SWIGs). The SWIG encodes the counterfactual independences associated with a specific hypothetical intervention on a set of treatment variables. The nodes on the SWIG are the corresponding counterfactual random variables. This represents a counterfactual model originally introduced by Robins (1986) using event trees, known as Finest Fully Randomized Causally Interpretable Structured Tree Graphs (FFRCISTG).\nWe will use this synthesis, to describe the potential outcome (po) calculus, introduced by Malinsky et al. (2019). These rules are similar to, but simpler than, the do-calculus of Pearl (1995) and clarify the underlying concepts involved. We will outline a complete algorithm for deriving identifying expressions for counterfactual causal queries.\nBy expanding the graph, SWIGs may also be used to describe a novel interventionist approach to mediation analysis whereby treatment is decomposed into multiple separable components. This provides a means of discussing direct effects without reference to “cross-world” independence assumptions, nested counterfactuals or interventions on the mediator. The theory preserves the dictum “no causation without manipulation” and makes questions of mediation empirically testable in future randomized controlled trials.\nThis is joint work with James M. Robins (Harvard) and Ilya Shpitser (Johns Hopkins)."
   },
   {
-    "objectID": "courses.html#proximal-inference-by-professor-eric-tchetgen-tchetgen",
-    "href": "courses.html#proximal-inference-by-professor-eric-tchetgen-tchetgen",
+    "objectID": "courses.html#a-modicum-of-proximal-causal-learning-by-professor-eric-tchetgen-tchetgen",
+    "href": "courses.html#a-modicum-of-proximal-causal-learning-by-professor-eric-tchetgen-tchetgen",
     "title": "Invited courses",
-    "section": "Proximal inference, by Professor Eric Tchetgen Tchetgen",
-    "text": "Proximal inference, by Professor Eric Tchetgen Tchetgen\nLocation: TBD Start time: 13:00 with a coffee break End time: 16:00\n\n\n\nEric Tchetgen Tchetgen\n\n\nDescription coming soon"
+    "section": "A Modicum of Proximal Causal Learning, by Professor Eric Tchetgen Tchetgen",
+    "text": "A Modicum of Proximal Causal Learning, by Professor Eric Tchetgen Tchetgen\nLocation: TBD Start time: 13:00 with a coffee break End time: 16:00\n\n\n\nEric Tchetgen Tchetgen\n\n\nLearning about causal effects from observational data often relies on strong assumptions that one has perfectly measured important confounding, mediating or moderating factors. This short course will introduce proximal causal learning, which aims to soften this stringent and unrealistic requirement, by treating the observed data as proxies of known but imperfectly measured confounding, mediating and moderating factors. Participants will learn about proximal methods to empirically account for unmeasured confounders, hidden mediators and error prone effect moderators. The course will focus on concepts and ideas with sprinkles of data applications in the health and social sciences throughout, rather than technicalities."
   },
   {
     "objectID": "courses.html#introduction-to-causal-inference-by-rhian-daniel-cardiff-university-and-erin-gabriel-university-of-copenhagen",
@@ -116,7 +116,14 @@
     "href": "program.html",
     "title": "European Causal Inference Meeting 2026 -- Oxford, UK",
     "section": "",
-    "text": "Program coming soon.\n\n\n\n\n\n\nImportant information\n\n\n\nAll decisions have now been sent out to those who contributed abstracts. If you contributed an abstract, but have not seen your decision, please check your spam folder."
+    "text": "Program coming soon."
+  },
+  {
+    "objectID": "program.html#information-about-posters",
+    "href": "program.html#information-about-posters",
+    "title": "European Causal Inference Meeting 2026 -- Oxford, UK",
+    "section": "Information about posters",
+    "text": "Information about posters\nPosters will need to be printed in A0 portrait size so as to fit in the frame and on the boards. We recommend that they are printed on paper rather than fabric, as these tend to slump in the frames. For the free-standing poster boards we will provide pins on each board."
   },
   {
     "objectID": "contact.html",
