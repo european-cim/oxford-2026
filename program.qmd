@@ -4,9 +4,6 @@ toc: true
 toc-depth: 2
 ---
 
-
-Program coming soon. 
-
 ::: {.callout-tip}
 ## Important information
 
@@ -14,6 +11,178 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 :::
 
 
-##  Information about posters
+# Time schedule
+
+::: {.panel-tabset}
+
+## Wednesday (15th April)
+
+<div class="table-card">
+<table class="dataframe eurocim-table">
+<tbody>
+<tr>
+<td>09:00-10:00</td>
+<td colspan="2">__Keynote:__ Thomas Richardson</td>
+</tr>
+<tr>
+<td>10:00-10.20</td>
+<td colspan="2">Coffee Break</td>
+</tr>
+<tr>
+<td>10:20-11:20</td>
+<td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td>__DID__ <br/> Yuhang Zhang<br/> Juejue Wang<br/> Michel Haddad</td>
+<td>__Causal discovery__<br/> Enrico Roma<br/> Alex Markham<br/> Christine Bang</td>
+</tr>
+<tr>
+<td>11:20-12:20</td>
+<td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td>__Complex Applications__<br/> Suehyun Kim <br/> Nia Kang<br/>  Michael Wallace</td>
+<td>__Graphical__<br/> Rohit Bhattacharya<br/> Tess Baker<br/> Catharina Stoltenberg</td>
+</tr>
+<tr>
+<td>12:20-13:50</td>
+<td colspan="2">Lunch and poster session</td>
+</tr>
+<tr>
+<td>13:50-15:10</td>
+<td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td>__IV__<br/> Mei Dong<br/> Jin Hong Du <br/> Anastasiia Holovchak <br/> Luke Keele</td>
+<td>__Complex outcomes and estimands__<br/> Ruixuan Zhao<br/> Mats Julius Stensrud  <br/> Salvador Balkus <br/> Fuentes Vicente Laura</td>
+</tr>
+<tr>
+<td>15:10-15:30</td>
+<td colspan="2">Coffee Break</td>
+</tr>
+<tr>
+<td>15:30-17:00</td>
+<td colspan="2">__Tandem Session:__<br/> Helene Rytgaard &amp; Pål Ryalen</td>
+</tr>
+<tr>
+<td>17:00:00</td>
+<td colspan="2">END</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+## Thursday (16th April)
+
+<div class="table-card">
+<table class="dataframe eurocim-table">
+<tbody>
+<tr>
+<td>09:00-10:00</td>
+<td colspan="2">__Keynote:__ Negar Kiyavash</td>
+</tr>
+<tr>
+<td>10:00-11:00</td>
+<td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td>__Mediation__ <br/> Marie-Felicia Beclin <br/> Lukas Laffers<br/>Felix Elwert</td>
+<td>__Sensitivity and bounds__<br/>Martina Scauda<br/>Sina Akbari<br/>Gellert Perenyi</td>
+</tr>
+<tr>
+<td>11:00-11:20</td>
+<td colspan="2">Coffee Break</td>
+</tr>
+<tr>
+<td>11:20-12:40</td>
+<td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td>__Practical data challenges__<br/>Theresa M. A. Schmitz<br/>Leah Pirondini<br/>Silvan Vollmer<br/>Ruth Keogh
+ </td>
+<td>__Heterogenous 1__<br/>Anders Munch<br/>Michael Cork<br/>Simon Christoffer Ziersen<br/>Johanna Kutz</td>
+</tr>
+<tr>
+<td>12:40-14:10</td>
+<td colspan="2">Lunch and poster session</td>
+</tr>
+<tr>
+<td>14:10-15:10</td>
+<td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td>__Complex treatment/exposures__<br/>Nicholas Williams<br/>Laura Forastiere<br/>Federico Bertoia</td>
+<td>__Emulated trials__<br/>Emily Wu<br/>Shunzhuang Huang<br/>Edoardo Efrem Gervasoni</td>
+</tr>
+<tr>
+<td>15:10-15:30</td>
+<td colspan="2">Coffee Break</td>
+</tr>
+<tr>
+<td>15:30-17:00</td>
+<td colspan="2">__Tandem Session:__<br/>Elizabeth Williamson &amp; Johan Manuel de Aguas Pérez</td>
+</tr>
+<tr>
+<td>17:00</td>
+<td colspan="2">END</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+## Friday (17th April)
+
+
+<div class="table-card">
+<table class="dataframe eurocim-table">
+<tbody>
+<tr>
+<td>09:00-10:30</td>
+<td colspan="2">__Tandem Session:__<br/>Fredrik Sävje &amp; Corwin M Zigler</td>
+</tr>
+<tr>
+<td>10:30-10:50</td>
+<td colspan="2">Coffee Break</td>
+</tr>
+<tr>
+<td>10:50-11:50</td>
+<td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td>__Heterogenous extensions__<br/>Pawel Morzywolek<br/>Philipp Bach<br/>Angelos Alexopoulos </td>
+<td>__Transport__<br/>Veronica Ballerini<br/>Tat-Thang Vo<br/>Rhian Daniel</td>
+</tr>
+<tr>
+<td>11:50-12:30</td>
+<td colspan="2">Lunch</td>
+</tr>
+<tr>
+<td>12:30-13:30</td>
+<td colspan="2">__Keynote:__ Philip Dawid</td>
+</tr>
+<tr>
+<td>13:30-14:30</td>
+<td colspan="2">__Panel: Philosophical Perspectives on Causal Inference, and How to Translate Those into Practice__<br/>__Panelists:__ Nancy Cartwright, Philip Dawid, Sander Beckers</td>
+</tr>
+<tr>
+<td>14:30</td>
+<td colspan="2">END</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+:::
+
+
+
+#  Information about posters
  
 Posters will need to be printed in A0 portrait size so as to fit in the frame and on the boards. We recommend that they are printed on paper rather than fabric, as these tend to slump in the frames. For the free-standing poster boards we will provide pins on each board.

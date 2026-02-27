@@ -95,6 +95,25 @@ The invited speakers are organized into tandem thematic sessions. Each speaker w
 :::
 :::
 
+
+
+## Panel Discussion
+
+__Philosophical Perspectives on Causal Inference, and How to Translate Those into Practice__
+
+::: {layout-ncol=3}
+
+![__Nancy Cartwright__ FBA FAcSS is Professor of Philosophy at Durham University and a Distinguished Professor at the University of California, San Diego (UCSD).](images/nancy.jpg)
+
+![__Philip Dawid__ is an Emeritus Professor of Statistics at the University of Cambridge, UK.](images/pd-3689.jpg)
+
+![__Sander Beckers__ is a postdoctoral researcher in the Causality in Healthcare AI hub, under the supervision of Ricardo Silva at the Department of Statistical Science, University College London.](images/sander.png)
+
+
+:::
+
+
+
 ## Pre-conference Courses
 
 Courses will be on April 14th. 
