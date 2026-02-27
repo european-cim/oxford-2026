@@ -34,8 +34,8 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__DID__ <br/> Yuhang Zhang<br/> Juejue Wang<br/> Michel Haddad</td>
-<td>__Causal discovery__<br/> Enrico Roma<br/> Alex Markham<br/> Christine Bang</td>
+<td>__Difference in Differences__ <br/> Yuhang Zhang<br/> Juejue Wang<br/> Michel Haddad</td>
+<td>__Causal Discovery__<br/> Enrico Roma<br/> Alex Markham<br/> Christine Bang</td>
 </tr>
 <tr>
 <td>11:20-12:20</td>
@@ -48,7 +48,7 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td>12:20-13:50</td>
-<td colspan="2">Lunch and poster session</td>
+<td colspan="2">Lunch and Poster Session</td>
 </tr>
 <tr>
 <td>13:50-15:10</td>
@@ -56,8 +56,8 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__IV__<br/> Mei Dong<br/> Jin Hong Du <br/> Anastasiia Holovchak <br/> Luke Keele</td>
-<td>__Complex outcomes and estimands__<br/> Ruixuan Zhao<br/> Mats Julius Stensrud  <br/> Salvador Balkus <br/> Laura Fuentes-Vicente </td>
+<td>__Instrumental Variables__<br/> Mei Dong<br/> Jin Hong Du <br/> Anastasiia Holovchak <br/> Luke Keele</td>
+<td>__Complex Outcomes and Estimands__<br/> Ruixuan Zhao<br/> Mats Julius Stensrud  <br/> Salvador Balkus <br/> Laura Fuentes-Vicente </td>
 </tr>
 <tr>
 <td>15:10-15:30</td>
@@ -91,7 +91,7 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 <tr>
 <td></td>
 <td>__Mediation__ <br/> Marie-Felicia Beclin <br/> Lukas Laffers<br/>Felix Elwert</td>
-<td>__Sensitivity and bounds__<br/>Martina Scauda<br/>Sina Akbari<br/>Gellért Perényi</td>
+<td>__Sensitivity and Bounds__<br/>Martina Scauda<br/>Sina Akbari<br/>Gellért Perényi</td>
 </tr>
 <tr>
 <td>11:00-11:20</td>
@@ -103,13 +103,13 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__Practical data challenges__<br/>Theresa M. A. Schmitz<br/>Leah Pirondini<br/>Silvan Vollmer<br/>Ruth Keogh
+<td>__Practical Data Challenges__<br/>Theresa M. A. Schmitz<br/>Leah Pirondini<br/>Silvan Vollmer<br/>Ruth Keogh
  </td>
-<td>__Heterogenous 1__<br/>Anders Munch<br/>Michael Cork<br/>Simon Christoffer Ziersen<br/>Johanna Kutz</td>
+<td>__Heterogenous Effects__<br/>Anders Munch<br/>Michael Cork<br/>Simon Christoffer Ziersen<br/>Johanna Kutz</td>
 </tr>
 <tr>
 <td>12:40-14:10</td>
-<td colspan="2">Lunch and poster session</td>
+<td colspan="2">Lunch and Poster Session</td>
 </tr>
 <tr>
 <td>14:10-15:10</td>
@@ -117,8 +117,8 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__Complex treatment/exposures__<br/>Nicholas Williams<br/>Laura Forastiere<br/>Federico Bertoia</td>
-<td>__Emulated trials__<br/>Emily Wu<br/>Shunzhuang Huang<br/>Edoardo Efrem Gervasoni</td>
+<td>__Complex Treatment/Exposures__<br/>Nicholas Williams<br/>Laura Forastiere<br/>Federico Bertoia</td>
+<td>__Emulated Trials__<br/>Emily Wu<br/>Shunzhuang Huang<br/>Edoardo Efrem Gervasoni</td>
 </tr>
 <tr>
 <td>15:10-15:30</td>
@@ -156,8 +156,8 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__Heterogenous extensions__<br/>Paweł Morzywołek<br/>Philipp Bach<br/>Angelos Alexopoulos </td>
-<td>__Transport__<br/>Veronica Ballerini<br/>Tat-Thang Vo<br/>Rhian Daniel</td>
+<td>__Heterogenous Effects Extensions__<br/>Paweł Morzywołek<br/>Philipp Bach<br/>Angelos Alexopoulos </td>
+<td>__Transportability__<br/>Veronica Ballerini<br/>Tat-Thang Vo<br/>Rhian Daniel</td>
 </tr>
 <tr>
 <td>11:50-12:30</td>
@@ -169,7 +169,7 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td>13:30-14:30</td>
-<td colspan="2">__Panel: Philosophical Perspectives on Causal Inference, and How to Translate Those into Practice__<br/>__Panelists:__ Nancy Cartwright, Philip Dawid, Sander Beckers</td>
+<td colspan="2">__Panel:__ Philosophical Perspectives on Causal Inference, and How to Translate Those into Practice<br/>__Panelists:__ Nancy Cartwright, Philip Dawid, Sander Beckers</td>
 </tr>
 <tr>
 <td>14:30</td>
