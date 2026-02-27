@@ -68,7 +68,7 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 <td colspan="2">__Tandem Session:__<br/> Helene Rytgaard &amp; Pål Ryalen</td>
 </tr>
 <tr>
-<td>17:00:00</td>
+<td>17:00</td>
 <td colspan="2">END</td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 <tr>
 <td></td>
 <td>__Mediation__ <br/> Marie-Felicia Beclin <br/> Lukas Laffers<br/>Felix Elwert</td>
-<td>__Sensitivity and bounds__<br/>Martina Scauda<br/>Sina Akbari<br/>Gellert Perenyi</td>
+<td>__Sensitivity and bounds__<br/>Martina Scauda<br/>Sina Akbari<br/>Gellért Perényi</td>
 </tr>
 <tr>
 <td>11:00-11:20</td>
@@ -156,7 +156,7 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__Heterogenous extensions__<br/>Pawel Morzywolek<br/>Philipp Bach<br/>Angelos Alexopoulos </td>
+<td>__Heterogenous extensions__<br/>Paweł Morzywołek<br/>Philipp Bach<br/>Angelos Alexopoulos </td>
 <td>__Transport__<br/>Veronica Ballerini<br/>Tat-Thang Vo<br/>Rhian Daniel</td>
 </tr>
 <tr>
