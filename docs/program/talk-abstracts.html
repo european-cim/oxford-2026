@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>talk-abstracts – European Causal Inference Meeting 2026 -- Oxford, UK</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../eurocim-icon.gif" rel="icon" type="image/gif">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-918251d4c5010c72b2a08baf46ce9e1c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(../images/oxford-header.jpg);
+background-size: cover;
+      }
+</style>
+
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../modal.css">
+<meta property="og:title" content="European Causal Inference Meeting 2026 – Oxford, UK">
+<meta property="og:description" content="EUROPEAN CAUSAL INFERENCE MEETING Talk Abstracts">
+<meta property="og:image" content="eurocim-icon.gif">
+<meta property="og:site_name" content="European Causal Inference Meeting 2026 -- Oxford, UK">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../eurocim-icon.gif" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">EUROCIM 2026</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../registration.html"> 
+<span class="menu-text">Registration</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../program/index.html"> 
+<span class="menu-text">Program</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../courses.html"> 
+<span class="menu-text">Courses</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../practical.html"> 
+<span class="menu-text">Practical Information</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://eurocim.org/"> 
+<span class="menu-text">EuroCIM Home</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      
+            <p class="subtitle lead">EUROPEAN CAUSAL INFERENCE MEETING<br> Talk Abstracts</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#wednesday-april-15th" id="toc-wednesday-april-15th" class="nav-link active" data-scroll-target="#wednesday-april-15th">Wednesday April 15th</a>
+  <ul class="collapse">
+  <li><a href="#keynote-900-1000" id="toc-keynote-900-1000" class="nav-link" data-scroll-target="#keynote-900-1000">Keynote 9:00-10:00</a></li>
+  <li><a href="#parallel-session-1020-1120" id="toc-parallel-session-1020-1120" class="nav-link" data-scroll-target="#parallel-session-1020-1120">Parallel Session 10:20-11:20</a></li>
+  <li><a href="#parallel-sessions-1120-1220" id="toc-parallel-sessions-1120-1220" class="nav-link" data-scroll-target="#parallel-sessions-1120-1220">Parallel Sessions 11:20-12:20</a></li>
+  <li><a href="#parallel-sessions-1350-1510" id="toc-parallel-sessions-1350-1510" class="nav-link" data-scroll-target="#parallel-sessions-1350-1510">Parallel Sessions 13:50-15:10</a></li>
+  <li><a href="#tandem-session-1530-1700" id="toc-tandem-session-1530-1700" class="nav-link" data-scroll-target="#tandem-session-1530-1700">Tandem Session 15:30-17:00</a></li>
+  </ul></li>
+  <li><a href="#thursday-april-16th" id="toc-thursday-april-16th" class="nav-link" data-scroll-target="#thursday-april-16th">Thursday April 16th</a>
+  <ul class="collapse">
+  <li><a href="#keynote-900-1000-1" id="toc-keynote-900-1000-1" class="nav-link" data-scroll-target="#keynote-900-1000-1">Keynote 9:00-10:00</a></li>
+  <li><a href="#parallel-sessions-1000-1100" id="toc-parallel-sessions-1000-1100" class="nav-link" data-scroll-target="#parallel-sessions-1000-1100">Parallel Sessions 10:00-11:00</a></li>
+  <li><a href="#parallel-sessions-1120-1240" id="toc-parallel-sessions-1120-1240" class="nav-link" data-scroll-target="#parallel-sessions-1120-1240">Parallel Sessions 11:20-12:40</a></li>
+  <li><a href="#parallel-sessions-1410-1510" id="toc-parallel-sessions-1410-1510" class="nav-link" data-scroll-target="#parallel-sessions-1410-1510">Parallel Sessions 14:10-15:10</a></li>
+  <li><a href="#tandem-session-1530-1700-1" id="toc-tandem-session-1530-1700-1" class="nav-link" data-scroll-target="#tandem-session-1530-1700-1">Tandem Session 15:30-17:00</a></li>
+  </ul></li>
+  <li><a href="#friday-april-17th" id="toc-friday-april-17th" class="nav-link" data-scroll-target="#friday-april-17th">Friday April 17th</a>
+  <ul class="collapse">
+  <li><a href="#tandem-session-900-1030" id="toc-tandem-session-900-1030" class="nav-link" data-scroll-target="#tandem-session-900-1030">Tandem Session 9:00-10:30</a></li>
+  <li><a href="#parallel-sessions-1050-1150" id="toc-parallel-sessions-1050-1150" class="nav-link" data-scroll-target="#parallel-sessions-1050-1150">Parallel Sessions 10:50-11:50</a></li>
+  <li><a href="#keynote-1230-1330" id="toc-keynote-1230-1330" class="nav-link" data-scroll-target="#keynote-1230-1330">Keynote 12:30-13:30</a></li>
+  <li><a href="#panel-discussion-1330-1430" id="toc-panel-discussion-1330-1430" class="nav-link" data-scroll-target="#panel-discussion-1330-1430">Panel Discussion 13:30-14:30</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+<section id="wednesday-april-15th" class="level1">
+<h1>Wednesday April 15th</h1>
+<section id="keynote-900-1000" class="level2">
+<h2 class="anchored" data-anchor-id="keynote-900-1000">Keynote 9:00-10:00</h2>
+<section id="thomas-richardson" class="level3">
+<h3 class="anchored" data-anchor-id="thomas-richardson">Thomas Richardson</h3>
+</section>
+</section>
+<section id="parallel-session-1020-1120" class="level2">
+<h2 class="anchored" data-anchor-id="parallel-session-1020-1120">Parallel Session 10:20-11:20</h2>
+<section id="difference-in-differences" class="level3">
+<h3 class="anchored" data-anchor-id="difference-in-differences">Difference in Differences</h3>
+<section id="yuhang-zhang-the-chinese-university-of-hong-kong" class="level4">
+<h4 class="anchored" data-anchor-id="yuhang-zhang-the-chinese-university-of-hong-kong">Yuhang Zhang, The Chinese University of Hong Kong</h4>
+<p><strong>Title:</strong> Difference-in-Differences Meets Synthetic Control: Doubly Robust Identification and Estimation</p>
+<p><strong>Abstract:</strong> Difference-in-Differences (DiD) and Synthetic Control (SC) are widely used methods for causal inference in panel data, each with distinct strengths and limitations. We propose a novel method for short-panel causal inference that integrates the advantages of both approaches. Our method delivers a doubly robust identification strategy for the average treatment effect on the treated (ATT) under either of two non-nested assumptions: parallel trends or a group-level SC condition. Building on this identification result, we develop a unified semiparametric framework for estimating the ATT. Notably, the identification-robust moment function satisfies Neyman orthogonality under the parallel trends assumption but not under the SC assumption, leading to different asymptotic variances across the two identification strategies. To ensure valid inference, we propose a multiplier bootstrap method that consistently approximates the asymptotic distribution under either assumption. Furthermore, we extend our methodology to accommodate repeated cross-sectional data and staggered treatment designs. As an empirical application, we evaluate the impact of the 2003 minimum wage increase in Alaska on family income.</p>
+<p>Coauthors: Haitian Xie Peking University; Yixiao Sun University of California, San Diego</p>
+</section>
+<section id="juejue-wang-department-of-statistics-university-of-washington-usa" class="level4">
+<h4 class="anchored" data-anchor-id="juejue-wang-department-of-statistics-university-of-washington-usa">Juejue Wang, Department of Statistics, University of Washington, USA</h4>
+<p><strong>Title:</strong> Omitted Variable Bias in Difference-in-Differences Designs</p>
+<p><strong>Abstract:</strong> We study the omitted-variable bias (OVB) problem in canonical difference-in-differences (DiD) designs when unobserved confounding induces departures from the parallel trends assumption. Our results provide a novel characterization of the OVB formula for the average treatment effect on the treated (ATT), which may be of independent interest. We show how the ATT bias is governed by the strength of confounding in the treatment-selection mechanism and provide alternative ways of quantifying this strength, such as (i) changes in the average odds of treatment among the treated, (ii) confounding imbalance between treated and control units, or (iii) variation explained in treatment odds among the untreated. We additionally consider DiD designs using linear regressions with two-way fixed effects and show how the OVB simplifies in such settings. Building on these results, we offer sensitivity statistics for routine reporting describing the minimum strength of confounding required to overturn the conclusions of a DiD study, as well as formal bounds on the strength of confounders based on comparisons to observed covariates. We demonstrate the utility of our approach in two empirical examples.</p>
+<p>Coauthors: Carlos Cinelli (Department of Statistics, University of Washington, USA), Pedro H. C. Sant’Anna (Department of Economics, Emory University, USA), Victor Chernozhukov (Department of Economics + Center for Statistics, MIT, USA)</p>
+</section>
+<section id="michel-haddad-queen-mary-university-of-london-dept.-of-business-analytics-and-applied-economics-uk" class="level4">
+<h4 class="anchored" data-anchor-id="michel-haddad-queen-mary-university-of-london-dept.-of-business-analytics-and-applied-economics-uk">Michel Haddad, Queen Mary University of London, Dept. of Business Analytics and Applied Economics, UK</h4>
+<p><strong>Title:</strong> Difference-in-Differences with Time-varying Continuous Treatments Using Double/Debiased Machine Learning</p>
+<p><strong>Abstract:</strong> We propose a difference-in-differences (DiD) framework designed for time-varying continuous treatments across multiple periods. Specifically, we estimate the average treatment effect on the treated (ATET) by comparing distinct non-zero treatment intensities. Identification rests on a conditional parallel trends assumption that accounts for observed covariates and past treatment histories. Our approach allows for lagged treatment effects and, in repeated cross-sectional settings, accommodates compositional changes in covariates. We develop kernel-based ATET estimators for both repeated cross-sections and panel data, leveraging the double/debiased machine learning framework to handle potentially high-dimensional covariates and histories. We establish the asymptotic properties of our estimators under mild regularity conditions and demonstrate via simulations that their undersmoothed versions perform well in finite samples. As an empirical illustration, we apply our estimator to assess the effect of the second-dose COVID-19 vaccination rate in Brazil and find that higher vaccination rates reduce COVID-19-related mortality after a lag of several weeks.</p>
+<p>Coauthors: Martin Huber, University of Fribourg, Dept. of Economics, Switzerland José Eduardo Medina-Reyes, Queen Mary University of London, Dept. of Business Analytics and Applied Economics, UK Lucas Z. Zhang, University of California, Los Angeles, Dept. of Economics, USA</p>
+</section>
+</section>
+<section id="causal-discovery" class="level3">
+<h3 class="anchored" data-anchor-id="causal-discovery">Causal Discovery</h3>
+<section id="enrico-roma-research-group-epiderme-faculty-of-medicine-university-paris-est-creteil-france-department-of-statistical-science-paolo-fortunati-university-of-bologna-italy" class="level4">
+<h4 class="anchored" data-anchor-id="enrico-roma-research-group-epiderme-faculty-of-medicine-university-paris-est-creteil-france-department-of-statistical-science-paolo-fortunati-university-of-bologna-italy">Enrico Roma, Research group EPIDERME, Faculty of Medicine, University Paris Est Creteil, France; Department of Statistical Science “Paolo Fortunati”, University of Bologna, Italy</h4>
+<p><strong>Title:</strong> Design-Aware Constraint-Based Causal Discovery for Complex Survey Data</p>
+<p><strong>Abstract:</strong> Recovering causal structure under complex survey designs is essential for policy evaluation. We consider non-adaptive multi-stage sampling designs with stratification, clustering, and unequal inclusion probabilities, where survey weights and partial design information are available. Standard causal discovery algorithms are developed under i.i.d. assumptions, which are violated in this context, thus potentially invalidating performance guarantees. Such designs may also change conditional independence relations, leading to incorrect causal conclusions.</p>
+<p>We propose a design-aware framework for causal discovery from complex survey data. We assume a finite population that is generated by an underlying directed acyclic graph, but that only a subset of the variables in the graph are observed. We introduce an augmented causal graph that represents sampling weights as variables generated by the partially observed sampling mechanism, thus motivating the use of partial ancestral graphs. We also develop a variant of the Fast Causal Inference algorithm for discrete variables based on a Rao-Scott (1984) design-consistent conditional independence test. Simulation results and an application to SHARE data are presented.</p>
+<p>Coauthors: Rossella Miglio, Department of Statistical Science “Paolo Fortunati”, University of Bologna, Italy; Thomas S. Richardson, Department of Statistics, University of Washington, Washington.</p>
+</section>
+<section id="alex-markham-department-of-mathematical-sciences-university-of-copenhagen-denmark" class="level4">
+<h4 class="anchored" data-anchor-id="alex-markham-department-of-mathematical-sciences-university-of-copenhagen-denmark">Alex Markham, Department of Mathematical Sciences, University of Copenhagen, Denmark</h4>
+<p><strong>Title:</strong> Coarsening Causal DAG Models</p>
+<p><strong>Abstract:</strong> Directed acyclic graphical (DAG) models are a powerful tool for representing causal relationships among jointly distributed random variables, especially concerning data from across different experimental settings. However, it is not always practical or desirable to estimate a causal model at the granularity of given features in a particular dataset. There is a growing body of research on causal abstraction to address such problems. We contribute to this line of research by (i) providing novel graphical identifiability results for practically-relevant interventional settings, (ii) proposing an efficient, provably consistent algorithm for directly learning abstract causal graphs from interventional data with unknown intervention targets, and (iii) uncovering theoretical insights about the lattice structure of the underlying search space, with connections to the field of causal discovery more generally. As proof of concept, we apply our algorithm on synthetic and real datasets with known ground truths, including measurements from a controlled physical system with interacting light intensity and polarization.</p>
+<p>Coauthors: Francisco Madaleno (Department of Technology, Management and Economics, Danish Technical University) and Pratik Misra (Department of Mathematics and Statistics, Binghamton University, State University of New York)</p>
+</section>
+<section id="christine-bang-department-of-mathematical-sciences-university-of-copenhagen-denmark" class="level4">
+<h4 class="anchored" data-anchor-id="christine-bang-department-of-mathematical-sciences-university-of-copenhagen-denmark">Christine Bang, Department of Mathematical Sciences, University of Copenhagen, Denmark</h4>
+<p><strong>Title:</strong> Marginalising graphs after causal discovery</p>
+<p><strong>Abstract:</strong> Causal DAGs are useful tools for causal inference but are not always possible to construct from expert knowledge. Causal discovery methods offer an alternative for DAG construction but come with new challenges, which we address in this work. Many causal discovery methods assume absence of unobserved confounding; we then want to include many variables to correctly estimate the causal structure. However, when including more variables, the estimated structure becomes more challenging to comprehend. While many variables might be needed for estimating a graph, not all are of interest in the following causal analysis. Marginalisation of DAGs is well-known in different forms, but causal discovery usually does not output a DAG, but rather a so-called MPDAG representing an equivalence class of DAGs. We present an efficient procedure for marginalising MPDAGs. We show that the procedure retains key features of the underlying graph such as (non-)causal relations and (in-)dependencies among the variables of interest, allowing us to use the marginalised graph for causal inference. We apply our method to the estimated graph from a study investigating the interplay between weight development and mental health during childhood.</p>
+<p>Coauthors: Tobias Ellegaard Larsen (Section of Biostatistics, University of Copenhagen, Denmark), Anne Helby Petersen (Section of Biostatistics, University of Copenhagen, Denmark), Alex Markham (Department of Mathematical Sciences, University of Copenhagen, Denmark)</p>
+</section>
+</section>
+</section>
+<section id="parallel-sessions-1120-1220" class="level2">
+<h2 class="anchored" data-anchor-id="parallel-sessions-1120-1220">Parallel Sessions 11:20-12:20</h2>
+<section id="complex-applications" class="level3">
+<h3 class="anchored" data-anchor-id="complex-applications">Complex Applications</h3>
+<section id="suehyun-kim-department-of-statistics-seoul-national-university-south-korea" class="level4">
+<h4 class="anchored" data-anchor-id="suehyun-kim-department-of-statistics-seoul-national-university-south-korea">Suehyun Kim, Department of Statistics, Seoul National University, South Korea</h4>
+<p><strong>Title:</strong> A Design-Based Matching Framework for Staggered Adoption with Time-Varying Confounding</p>
+<p><strong>Abstract:</strong> Matching has been a popular approach for confounder adjustment because of its transparency and interpretability. However, its application to time series data has been limited, and prior work in matching fails to capture the heterogeneity arising from treatment timing. In this work, we propose a design-based matching framework for causal inference with time series data under staggered adoption. We introduce a sequentially randomized design accounting for time-varying covariates, and provide identification results and corresponding estimators for Callaway and Sant’Anna (2020)’s group-time average treatment effect. We establish asymptotic theory and develop a bootstrap procedure for simultaneous inference and tests for homogeneity of effects across different time points. Then, we propose the Reverse-Time Nested Matching algorithm, which implements the design in observational data. The algorithm is easy to implement and fully exploits the entire time series, improving upon prior approaches in terms of effective sample size and estimation of heterogeneous effects. Applying the method to real data, we find that while Netflix subscriptions do not significantly affect total IPTV viewing time, they negatively affect video-on-demand usage.</p>
+<p>Coauthors: Dahai Jung, Department of Statistics, Sungkyunkwan University, South Korea; Kwonsang Lee Department of Statistics, Seoul National University, South Korea</p>
+</section>
+<section id="nia-kang-department-of-family-medicine-mcgill-university-canada" class="level4">
+<h4 class="anchored" data-anchor-id="nia-kang-department-of-family-medicine-mcgill-university-canada">Nia Kang, Department of Family Medicine, McGill University, Canada</h4>
+<p><strong>Title:</strong> A Single World Intervention Simulation approach for informing equitable health policy</p>
+<p><strong>Abstract:</strong> Achieving health equity is a central goal of health policy, yet the mechanisms by which the distribution of interventions are informed remain complex. We propose a causal simulation framework to investigate downstream effects under alternative health intervention rollout policies. Using Single World Intervention Graphs (SWIGs), we specify an outcome-generating model based on sociodemographics, system-level disparities, and clinical risk, and apply the g-formula to compare alternative intervention allocation strategies.</p>
+<p>Subsequently, we implement a representation for simultaneous policy rules, contrasting intervention assignment based on clinical risk with assignment based on sociodemographic proxies for system-level disparities. We introduce a policy-weighting parameter that governs resource allocation; the risk difference is employed as the objective function for quantifying outcome disparities across demographic strata. Finally, through Monte Carlo simulation, we illustrate how variable allocation rules induce heterogeneity in marginal effects and observed disparities. Our case study exemplifies the utility of SWIG-based simulation frameworks for guiding the design of equity-oriented intervention strategies in health policy.</p>
+<p>Coauthors: Tibor Schuster</p>
+</section>
+<section id="michael-wallace-department-of-statistics-and-actuarial-science-university-of-waterloo-canada" class="level4">
+<h4 class="anchored" data-anchor-id="michael-wallace-department-of-statistics-and-actuarial-science-university-of-waterloo-canada">Michael Wallace, Department of Statistics and Actuarial Science, University of Waterloo, Canada</h4>
+<p><strong>Title:</strong> Right Treatment, Right Patient, Right Time, Wrong Data? Measurement Error and Dynamic Treatment Regimes</p>
+<p><strong>Abstract:</strong> Precision medicine describes the tailoring of treatment decisions to individual-level characteristics. Dynamic treatment regimes (DTRs) operationalize precision medicine through sequences of decision rules which take patient-level data as input and output treatment recommendations. A common assumption within this framework (as well as in the broader causal inference literature) is that data are measured without error, which in reality is seldom the case. This can severely undermine the estimation of treatment rules to optimize health outcomes. Moreover, measurement error poses unique challenges within the context of precision medicine, such as when there is nonadherence to personalized treatment regimes, when treatment decisions are made using error-prone variates, and when the size and structure of the measurement error itself may depend on the variates we wish to use to inform our decisions.</p>
+<p>In this talk we will present an overview of measurement error within the DTR space, highlighting important challenges, methodological solutions, and implications for future study design and analysis. In addition to theoretical results, illustrative examples will be demonstrated via simulation, and an interactive R Shiny app.</p>
+</section>
+</section>
+<section id="graphical" class="level3">
+<h3 class="anchored" data-anchor-id="graphical">Graphical</h3>
+<section id="rohit-bhattacharya-computer-science-williams-college-usa" class="level4">
+<h4 class="anchored" data-anchor-id="rohit-bhattacharya-computer-science-williams-college-usa">Rohit Bhattacharya, Computer Science, Williams College, USA</h4>
+<p><strong>Title:</strong> When the Causal Graph is Unknown, Embrace Model Pluralism</p>
+<p><strong>Abstract:</strong> Prior work on semiparametric theory in causal inference has focused on deriving estimators that exhibit statistical robustness under a single pre-specified causal model that permits identification of the target parameter. The primary drawback of this single model paradigm is that correct specification of a causal model can be extremely difficult, as it often involves making untestable assumptions. That is, analysts are often faced with significant uncertainty, and may wish to consider multiple candidate models for a single dataset. Here, we develop causal null hypothesis tests and estimation methods that combine evidence across multiple candidate causal models to achieve what we call causal robustness: the tests/estimates remain valid provided at least one candidate model is correct. For each model, we construct a semiparametric, asymptotically linear estimator of its identifying functional and leverage the resulting joint asymptotic normality. We show that this framework provides both statistical and causal robustness in the sense that downstream inference remains valid if at least one of the K proposed causal models is correct, while also allowing for slower than parametric rates of convergence in estimating nuisance functions.</p>
+<p>Coauthors: Junhui Yang, Ted Westling, He Bai, Ina Ocelli</p>
+</section>
+<section id="tess-baker-department-of-mathematics-and-statistics-mcgill-university-canada" class="level4">
+<h4 class="anchored" data-anchor-id="tess-baker-department-of-mathematics-and-statistics-mcgill-university-canada">Tess Baker, Department of Mathematics and Statistics, McGill University, Canada</h4>
+<p><strong>Title:</strong> Causal Invariance and Time Reparameterizations in Block-Structured Dynamical Systems</p>
+<p><strong>Abstract:</strong> Causal questions are often framed in terms of how interventions alter relationships between variables, implicitly focusing on changes to underlying mechanisms. However, the objects of interest are often evolving states governed by dynamical systems with feedback and memory. Interventions may alter the timing of state evolution without modifying system mechanisms, or induce genuine dynamical change through geometric or structural modifications of the governing dynamics. Distinguishing between these possibilities is essential, yet often left implicit.We propose to distinguish timing interventions from genuine dynamical changes using a block-based representation of continuous-time dynamical systems. We formalize causal structure through a partial ordering of state evolution. Variables are grouped into interacting subsystems (blocks) where feedback is permitted, while causal influence is defined between blocks. We introduce the notion of blockwise orbital equivalence, characterizing when two systems differ only by block-specific time reparameterizations, thereby preserving causal order. We illustrate the approach using a freedive training and injury model exhibiting accumulation, feedback, and multi-scale temporal structure.</p>
+<p>Coauthors: Russell Steele (McGill University), Ian Shrier (McGill University), Naftali Weinberger (Munich Center for Mathematical Philosophy, LMU Munich)</p>
+</section>
+<section id="catharina-stoltenberg-department-of-biostatistics-university-of-oslo-norway" class="level4">
+<h4 class="anchored" data-anchor-id="catharina-stoltenberg-department-of-biostatistics-university-of-oslo-norway">Catharina Stoltenberg, Department of Biostatistics, University of Oslo, Norway</h4>
+<p><strong>Title:</strong> Single-world exchangeability conditions for a large class of regimes</p>
+<p><strong>Abstract:</strong> Richardson and Robins (2013) introduced a sufficient exchangeability condition for identifying causal effects under a broad class of treatment regimes, including regimes that depend on natural treatment values (NTVs). This condition can be verified via d-separation in single-world intervention graphs (SWIGs). In practice, however, verification can be cumbersome and may fail in settings where identification is possible. Motivated by this, we introduce two new sufficient exchangeability conditions. The first involves a smaller set of variables and is strictly weaker. Still, when all relevant graphs are constructed without accounting for regime-specific structures, verification via d-separation is equivalent. The second has the desirable feature of involving only variables indexed by the (static or dynamic) regime of interest. Thus, this condition can be verified via d-separation in a single, regime-specific SWIG and can, in the presence of regime specific independencies, hold while the others fail. Finally, we give sufficient conditions under which verification via d-separation is equivalent for all the conditions presented.</p>
+<p>Coauthors: Mats Julius Stensrud, Institute of Mathematics, Ecole Polytechnique Federale de Lausanne (EPFL), Switzerland</p>
+</section>
+</section>
+</section>
+<section id="parallel-sessions-1350-1510" class="level2">
+<h2 class="anchored" data-anchor-id="parallel-sessions-1350-1510">Parallel Sessions 13:50-15:10</h2>
+<section id="instrumental-variables" class="level3">
+<h3 class="anchored" data-anchor-id="instrumental-variables">Instrumental Variables</h3>
+<section id="mei-dong-division-of-biostatistics-dalla-lana-school-of-public-health-university-of-toronto" class="level4">
+<h4 class="anchored" data-anchor-id="mei-dong-division-of-biostatistics-dalla-lana-school-of-public-health-university-of-toronto">Mei Dong, Division of Biostatistics, Dalla Lana School of Public Health, University of Toronto</h4>
+<p><strong>Title:</strong> Marginal Causal Effect Estimation with Continuous Instrumental Variables</p>
+<p><strong>Abstract:</strong> Instrumental variables (IVs) are often continuous, arising in diverse fields such as economics, epidemiology, and social sciences. Existing approaches typically impose strong parametric models or assume homogeneous treatment effects, while fully nonparametric methods may perform poorly in moderate- to high-dimensional covariate settings. We propose a framework for identifying the average treatment effect (ATE) with continuous IVs via conditional weighted average derivative effects. In this framework, the ATE is typically overidentified, leading to a semiparametric observed-data model with a nontrivial tangent space. Characterizing this tangent space involves a delicate construction of a second-order parametric submodel, which has not been standard practice in this literature. For estimation, building on an influence function in the semiparametric model that is also locally efficient within a submodel, we develop a locally efficient, triply robust, bounded, and easy-to-implement estimator. We apply our methods to a study from the Princess Margaret Cancer Centre to examine the so-called obesity paradox in oncology, assessing the causal effect of excess body weight on two-year mortality among patients with non-small cell lung cancer.</p>
+<p>Coauthors: Mei Dong, Division of Biostatistics, Dalla Lana School of Public Health, University of Toronto; Lin Liu, Institute of Natural Sciences, MOE–LSC; School of Mathematical Sciences, CMA–Shanghai; SJTU–Yale Joint Center for Biostatistics and Data Science, Shanghai Jiao Tong University; Dingke Tang, Department of Mathematics and Statistics, University of Ottawa; Geoffrey Liu, Princess Margaret Cancer Centre, University Health Network; Wei Xu, Division of Biostatistics, Dalla Lana School of Public Health, University of Toronto; Linbo Wang, Department of Statistical Sciences, University of Toronto</p>
+</section>
+<section id="jin-hong-du-department-of-statisctis-and-actuarial-science-the-university-of-hong-kong-hong-kong" class="level4">
+<h4 class="anchored" data-anchor-id="jin-hong-du-department-of-statisctis-and-actuarial-science-the-university-of-hong-kong-hong-kong">Jin-Hong Du, Department of Statisctis and Actuarial Science, The University of Hong Kong, Hong Kong</h4>
+<p><strong>Title:</strong> Assumption-Lean Post-Integrated Inference with Surrogate Control Outcomes</p>
+<p><strong>Abstract:</strong> Data integration methods aim to extract low-dimensional embeddings from high-dimensional outcomes to remove unwanted variations across heterogeneous datasets. However, multiple hypothesis testing after integration can be biased due to data-dependent processes. We introduce a robust post-integrated inference method that accounts for latent heterogeneity by utilizing control outcomes. Leveraging causal interpretations, we derive nonparametric identifiability of the direct effects using negative control outcomes. By utilizing surrogate control outcomes as an extension of negative control outcomes, we develop semiparametric inference on projected direct effect estimands, accounting for hidden mediators, confounders, and moderators. These estimands remain statistically meaningful under model misspecifications and with error-prone embeddings. The proposed doubly robust estimators are consistent and efficient under minimal assumptions and potential misspecification, facilitating data-adaptive estimation with machine learning algorithms. Our proposal is evaluated using random forests through simulations and analysis of single-cell CRISPR perturbed datasets, which may contain potential unmeasured confounders.</p>
+</section>
+<section id="anastasiia-holovchak-eth-zurich-seminar-for-statistics-switzerland" class="level4">
+<h4 class="anchored" data-anchor-id="anastasiia-holovchak-eth-zurich-seminar-for-statistics-switzerland">Anastasiia Holovchak, ETH Zurich, Seminar for Statistics, Switzerland</h4>
+<p><strong>Title:</strong> Distributional Instrumental Variable Method</p>
+<p><strong>Abstract:</strong> The instrumental variable (IV) approach is commonly used to infer causal effects in the presence of unmeasured confounding. Existing methods typically aim to estimate the mean causal effects, whereas a few other methods focus on quantile treatment effects. The aim of this work is to estimate the entire interventional distribution. We propose a method called Distributional Instrumental Variable (DIV), which uses generative modelling in a nonlinear IV setting. We establish identifiability of the interventional distribution under general assumptions. Our empirical results show that the DIV method performs well for a broad range of real-world and simulated data, exhibiting advantages over existing IV approaches in terms of the identifiability and estimation error of the mean or quantile treatment effects.</p>
+<p>Coauthors: Sorawit Saengkyongam, Nicolai Meinshausen, Xinwei Shen, ETH Zurich, Seminar for Statistics, Switzerland</p>
+</section>
+<section id="luke-keele-university-of-pennsylvania-usa" class="level4">
+<h4 class="anchored" data-anchor-id="luke-keele-university-of-pennsylvania-usa">Luke Keele, University of Pennsylvania, USA</h4>
+<p><strong>Title:</strong> Nonparametric Estimation of Local Treatment Effects with Continuous Instruments</p>
+<p><strong>Abstract:</strong> Instrumental variable methods are widely used to address unmeasured confounding, yet much of the existing literature has focused on the binary instrument setting. Extensions to continuous instruments often impose strong parametric assumptions for identification and estimation. In this work, we develop theory and methods for nonparametric estimation of treatment effects with a continuous instrumental variable. We introduce an estimand that, under a monotonicity assumption, quantifies the treatment effect among the maximal complier class, generalizing the local average treatment effect framework to continuous instruments. We draw connections to the dose-response function and its derivative, and propose doubly robust estimation methods. We establish convergence rates and conditions for asymptotic normality, providing valuable insights into the role of nuisance function estimation when the instrument is continuous. Through extensive simulations, we demonstrate the advantages of the proposed nonparametric estimators. Finally, we apply our methods to estimate the effect of delivering at low-quality neonatal intensive care units on infant mortality.</p>
+<p>Coauthors: Zhenghao Zeng, JungHo Lee, Alex Levis, and Edward Kennedy</p>
+</section>
+</section>
+<section id="complex-outcomes-and-estimands" class="level3">
+<h3 class="anchored" data-anchor-id="complex-outcomes-and-estimands">Complex Outcomes and Estimands</h3>
+<section id="ruixuan-zhao-department-of-computer-and-mathematical-sciences-university-of-toronto-canada" class="level4">
+<h4 class="anchored" data-anchor-id="ruixuan-zhao-department-of-computer-and-mathematical-sciences-university-of-toronto-canada">Ruixuan Zhao, Department of Computer and Mathematical Sciences, University of Toronto, Canada</h4>
+<p><strong>Title:</strong> Causal inference for all: Marginal causal effects for outcomes truncated by death</p>
+<p><strong>Abstract:</strong> In longitudinal studies, outcomes of interest are often truncated by death, meaning they are only observed or well-defined conditional on intermediate outcomes such as survival. Standard causal estimands, such as the survivor average causal effect, focus on a non-identifiable subgroup and therefore can be difficult to interpret and justify for practical use. We address these challenges by introducing a new set of estimands that (i) concern the entire population and (ii) summarize potential outcomes over distinct survival periods. These estimands cover a range of clinically relevant summaries, such as cumulative or last observed outcomes, and can be tailored using weighting schemes to align with different decision-making goals. Furthermore, we extend these results to construct a new class of single-world estimands, generalizing existing results on separable effects. We illustrate the approach through a reanalysis of a prostate cancer trial, highlighting how different estimands can yield different treatment conclusions.</p>
+<p>Coauthors: Linbo Wang, University of Toronto; Mats Stensrud, EPFL</p>
+</section>
+<section id="mats-julius-stensrud-institute-of-mathematics-epfl-switzerland" class="level4">
+<h4 class="anchored" data-anchor-id="mats-julius-stensrud-institute-of-mathematics-epfl-switzerland">Mats Julius Stensrud, Institute of Mathematics, EPFL, Switzerland</h4>
+<p><strong>Title:</strong> A Study Design for Detecting Causal Effects on Rare Outcomes</p>
+<p><strong>Abstract:</strong> Questions about detecting causal effects on rare events are of practical interest. Consider, for example, side effects such as death after surgery or myocarditis after COVID-19 vaccination. In these settings, knowing whether an effect exists has important consequences, but estimating effect sizes is difficult. Randomized trials are rarely powered for rare outcomes. Large observational studies may help, but are often too small once we adjust for confounding and missing data.</p>
+<p>This motivates case-only analyses, such as the self-controlled case series design, that use longitudinal information collected on individuals who experienced the outcome. These designs have become popular, but lack a formal causal justification. We describe which causal quantities are identifiable from longitudinal case-only data, under what conditions, and how such analyses should be interpreted. We further derive a sharp null test and an estimator for effect size, with explicit consistency guarantees. Finally, we describe how our work differs from crossover trials, N-of-1 trials, and before-after methods such as difference-in-differences. Together, the results give a principled, design-based method to detect and estimate causal effects for rare outcomes.</p>
+<p>Coauthors: Gellert Perenyi, Marco Piccininni</p>
+</section>
+<section id="salvador-balkus-department-of-biostatistics-harvard-t.h.-chan-school-of-public-health-u.s.a." class="level4">
+<h4 class="anchored" data-anchor-id="salvador-balkus-department-of-biostatistics-harvard-t.h.-chan-school-of-public-health-u.s.a.">Salvador Balkus, Department of Biostatistics, Harvard T.H. Chan School of Public Health, U.S.A.</h4>
+<p><strong>Title:</strong> A Riesz Representer Perspective on Targeted Learning</p>
+<p><strong>Abstract:</strong> As research in causal inference has sought to address more complex scientific questions, the number of specialized estimands in the field has proliferated. Recognizing many of these estimands to share a common linear form, researchers have become interested in simplifying their estimation using mathematical objects called Riesz representers. In this work, we construct a targeted minimum loss-based estimation (TMLE) procedure for nested linear functionals, one that leverages Riesz representers of a general recursive form. This method unifies efficient, doubly-robust estimation for a variety of causal quantities—including complex estimands such as mediational and longitudinal treatment effects—under one simple algorithm. We demonstrate how this work eliminates the need for laborious mathematical derivations when constructing new causal estimators. In addition, we show how it enables software to answer a broad number of causal inquiries using minimal code.</p>
+<p>Coauthors: Christian Testa, Department of Biostatistics, Harvard T.H. Chan School of Public Health, U.S.A. Nima Hejazi, Department of Biostatistics, Harvard T.H. Chan School of Public Health, U.S.A.</p>
+</section>
+<section id="laura-fuentes-vicente-inria-montpellier-france" class="level4">
+<h4 class="anchored" data-anchor-id="laura-fuentes-vicente-inria-montpellier-france">Laura Fuentes-Vicente, Inria Montpellier, France</h4>
+<p><strong>Title:</strong> Policy learning under constraint: Maximizing a primary outcome while controlling an adverse event</p>
+<p><strong>Abstract:</strong> A medical policy aims to support decision-making by mapping patient characteristics to individualized treatment recommendations. Standard approaches optimize a single outcome criterion. For example, recommending treatment based on the sign of the CATE maximizes the policy “value” by exploiting treatment effect heterogeneity. This shifts policy learning towards the challenge of learning a reliable CATE estimator. However, in multi-outcome settings, such strategies ignore the risk of adverse events, despite their relevance. PLUC (Policy Learning Under Constraints) addresses this challenge by learning an estimator of the CATE that yields smoothed policies controlling the probability of an adverse event. Inspired by insights from EP-learning, PLUC involves the optimization of strongly convex Lagrangian criteria over a convex hull of functions. Its alternating procedure iteratively applies the Frank-Wolfe algorithm to minimize the current criterion, then performs a targeting step that updates the criterion so that its evaluations at previously visited landmarks become targeted estimators of the corresponding theoretical quantities. We illustrate PLUC’s performance through numerical experiments and an in-vitro fertilization case study.</p>
+<p>Coauthors: Mathieu Even, Julie Josse, Antoine Chambaz, (Inria Montpellier, MAP5 CNRS University of Paris Cité)</p>
+</section>
+</section>
+</section>
+<section id="tandem-session-1530-1700" class="level2">
+<h2 class="anchored" data-anchor-id="tandem-session-1530-1700">Tandem Session 15:30-17:00</h2>
+<section id="pål-ryalen" class="level3">
+<h3 class="anchored" data-anchor-id="pål-ryalen">Pål Ryalen</h3>
+<p><strong>Title:</strong> Interventions, Potential Outcomes, and Identification of Causal Effects in Marked Point Processes</p>
+<p><strong>Abstract:</strong> We define dynamic treatment regimes and associated potential outcomes for data described by marked point processes (MPPs). These definitions motivate MPP analogues of the commonly used consistency, exchangeability, and positivity conditions that prove sufficient for identifying effects in MPP data structures. The conditions are formulated based on martingale theory, which allows us to derive explicit identifying assumptions for data described by stochastic processes. The definitions and conditions align with well-established discrete-time conditions in the special cases where they are expected to be similar. Thus, this work bridges the vast literatures on survival (event history) analysis with counting processes in continuous time and causal inference with variables in discrete-time. After formulating a set of identification conditions, we derive and characterize marginal g-formulas. The g-formulas we derive are generally different from those studied in related works. We relate our findings to previous work on causal inference with (counting) processes, the classical survival literature, and the discrete-time causal inference literature.</p>
+</section>
+<section id="helene-rytgaard" class="level3">
+<h3 class="anchored" data-anchor-id="helene-rytgaard">Helene Rytgaard</h3>
+<p><strong>Title:</strong> Calibrated stochastic intensity-scaling interventions</p>
+<p><strong>Abstract:</strong> In continuous-time event-history settings, interventions can be formalized by modifying the intensities that govern treatment or intermediate processes. In this talk, we propose a flexible inferential framework for defining and estimating realistic intensity-modifying changes to event-generating mechanisms, based on a family of stochastic interventions that multiplicatively scale the intensity of the intermediate process. We introduce calibrated interventions, where the scaling parameter is chosen to achieve a pre-specified goal, give examples of such goals, and define corresponding interpretable composite parameters that capture downstream effects on the outcome process. We present results for nonparametric inference for intervention-specific, calibrated, and composite parameters, discuss double robustness properties, and sketch a targeted maximum likelihood estimation (TMLE) procedure that accommodates machine learning based nuisance estimators. Simulations reflecting clinical examples illustrate the methods and demonstrate finite-sample inferential properties.</p>
+</section>
+</section>
+</section>
+<section id="thursday-april-16th" class="level1">
+<h1>Thursday April 16th</h1>
+<section id="keynote-900-1000-1" class="level2">
+<h2 class="anchored" data-anchor-id="keynote-900-1000-1">Keynote 9:00-10:00</h2>
+<section id="negar-kiyavash" class="level3">
+<h3 class="anchored" data-anchor-id="negar-kiyavash">Negar Kiyavash</h3>
+<p><strong>Title:</strong> The Causal Compass: Navigating Exploration in Bandits and RL</p>
+<p><strong>Abstract:</strong> We examine the cost-benefit tradeoffs of integrating causal structural information into sequential decision-making, specifically within Multi-Armed Bandits (MAB) and Reinforcement Learning (RL). Our analysis reveals a stark contrast: while causal discovery can be counterproductive in the MAB setting, it significantly enhances performance in Hierarchical Reinforcement Learning (HRL). Specifically, we challenge the “common wisdom” in bandit literature, which suggests that identifying a reward’s direct causal parents necessarily improves exploration. We provide a formal proof that regret minimization and parent identification are fundamentally conflicting objectives; in certain instances, the pursuit of one inherently undermines the other. Conversely, we demonstrate that in Hierarchical RL with sparse rewards, the opposite holds true. Discovering and harnessing the causal graph governing subgoal structures allows for a more targeted exploration, resulting in a significantly more efficient policy and reduced training costs.</p>
+</section>
+</section>
+<section id="parallel-sessions-1000-1100" class="level2">
+<h2 class="anchored" data-anchor-id="parallel-sessions-1000-1100">Parallel Sessions 10:00-11:00</h2>
+<section id="mediation" class="level3">
+<h3 class="anchored" data-anchor-id="mediation">Mediation</h3>
+<section id="marie-félicia-beclin-faculty-of-medicine-university-paris-est-créteil-research-group-epiderme-94000-créteil-france" class="level4">
+<h4 class="anchored" data-anchor-id="marie-félicia-beclin-faculty-of-medicine-university-paris-est-créteil-research-group-epiderme-94000-créteil-france">Marie-Félicia Beclin, Faculty of Medicine, University Paris-Est Créteil, Research Group EPIDERME, 94000, Créteil, France</h4>
+<p><strong>Title:</strong> Causally interpretable meta-analysis of mediation analysis with survival endpoints</p>
+<p><strong>Abstract:</strong> Meta-analyzing natural indirect effect estimates from multiple studies is increasingly used to synthesize evidence on causal pathways of interest. However, standard mediation meta-analysis (MMA) approaches are typically based on structural equation modeling, which fails to account for mediator-outcome confounding, is often unclear about the target population to which the summary indirect effect pertains, and cannot be readily extended to complex settings such as time-to-event outcomes. In this work, we propose a novel MMA framework that addresses these limitations. Our approach transports study-specific natural indirect effect estimates to a well-defined target population prior to evidence synthesis. Using semiparametric theory, we construct flexible, data-adaptive estimators for the target parameter. Novel random-effects MMA models are also developed to decompose between-study heterogeneity into distinct sources that may affect the causal interpretability of the obtained findings. Finally, studies that do not explicitly investigate mediation but collect data on the mediator can be incorporated to improve efficiency. Finite-sample performance of the proposed methods is evaluated through simulated and real-world data.</p>
+<p>Coauthors: Tat Thang Vo, Faculty of Medicine, University Paris-Est Créteil, Research Group EPIDERME, 94000,Créteil, France</p>
+</section>
+<section id="lukas-laffers-department-of-mathematics-matej-bel-university-slovakia" class="level4">
+<h4 class="anchored" data-anchor-id="lukas-laffers-department-of-mathematics-matej-bel-university-slovakia">Lukas Laffers, Department of Mathematics, Matej Bel University, Slovakia</h4>
+<p><strong>Title:</strong> Testing Full Mediation of Treatment Effects and the Identifiability of Causal Mechanisms</p>
+<p><strong>Abstract:</strong> In causal analysis, understanding the causal mechanisms through which an intervention or treatment affects an outcome is often of central interest. We propose a test to evaluate (i) whether the causal effect of a treatment that is randomly assigned conditional on covariates is fully mediated by, or operates exclusively through, observed intermediate outcomes (referred to as mediators), and (ii) whether the various causal mechanisms operating through different mediators are identifiable conditional on covariates. We demonstrate that if both full mediation and identification of causal mechanisms hold, then the conditionally random treatment is conditionally independent of the outcome given the mediators and covariates. We extend our framework to settings with non-randomly assigned treatments. In this case, full mediation remains testable, while identification of causal mechanisms is no longer guaranteed. We propose a double machine learning framework for implementing the test that can incorporate high-dimensional covariates and is root-n consistent and asymptotically normal under specific regularity conditions. We also provide a simulation study, and an empirical application.</p>
+<p>Coauthors: Martin Huber - Department of Economics, University of Fribourg, Kevin Kloiber - Department of Economics, University of Munich</p>
+</section>
+<section id="felix-elwert-department-of-sociology-department-of-biostatistics-and-medical-informatics-university-of-wisconsin-madison-usa" class="level4">
+<h4 class="anchored" data-anchor-id="felix-elwert-department-of-sociology-department-of-biostatistics-and-medical-informatics-university-of-wisconsin-madison-usa">Felix Elwert, Department of Sociology, Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, USA</h4>
+<p><strong>Title:</strong> Detecting and Understanding the Difference between Natural Causal Mediation Estimands and Their Randomized Interventional Analogues: Test and Theory</p>
+<p><strong>Abstract:</strong> Statisticians have developed a wealth of causal mediation estimands, which differ in substance and identification requirements. The canonical natural-effects (NEs) decomposition partitions the total causal effect into a natural direct effect (NDE) and natural indirect effects (NIEs). Since NEs require very strong identification assumptions, social and medical researchers often estimate their randomized interventional analogues (RIAs) instead, which are identified under much weaker assumptions. The differences between NEs and their RIAs, however, remain poorly understood outside of special cases. Currently, analysts lack (i) theoretical guidance for understanding when and by how much their RIAs will differ from the desired NEs, and (ii) practical tools to detect whether they differ. We make two contributions. First, we derive a complete and assumption-free non-parametric characterization of the differences between NEs and their RIAs. These differences equal two intuitive covariance terms that capture shared effect modification. Second, we introduce the first empirical test to detect differences between NEs and their RIAs. Remarkably, this test is valid even when the NEs are not themselves identified.</p>
+<p>Coauthors: Ang Yu (Hong Kong University of Science and Technology); Li Ge (Pfitzer)</p>
+</section>
+</section>
+<section id="sensitivity-and-bounds" class="level3">
+<h3 class="anchored" data-anchor-id="sensitivity-and-bounds">Sensitivity and Bounds</h3>
+<section id="martina-scauda-statistical-laboratory-university-of-cambridge" class="level4">
+<h4 class="anchored" data-anchor-id="martina-scauda-statistical-laboratory-university-of-cambridge">Martina Scauda, Statistical Laboratory, University of Cambridge</h4>
+<p><strong>Title:</strong> Counterfactual Optimization and Evaluation of Policy Interventions</p>
+<p><strong>Abstract:</strong> Most data-driven methods for policy learning focus on maximising average outcomes, despite the potential to harm a substantial fraction of individuals. Motivated by the principle of “first do no harm,” this work studies how to design policy changes that improve overall welfare while keeping the probability of individual harm below a specified limit. Since this probability is counterfactual and depends on the joint distribution of potential outcomes under different interventions, it cannot be point identified even in randomised trials. We derive analytical bounds for this probability using the observable marginal distributions of potential outcomes, allowing for counterfactual evaluation of policy changes. Within this framework, we obtain an explicit solution for the optimal policy change under a harm constraint. The resulting rule switches individuals, ranked by a harm-sensitive score, to their optimal treatment until the pre-specified harm limit is reached. We compare this approach with standard optimal policy learning under budget constraints in simulations and a real randomised experiment about algorithmic recommendations in pretrial release decisions, highlighting how our approach can promote fairness in policy learning.</p>
+<p>Coauthors: Tobias Freidling (Institute of Mathematics, Ecole polytechnique federale de Lausanne) and Qingyuan Zhao (Statistical Laboratory, University of Cambridge)</p>
+</section>
+<section id="sina-akbari-statistical-laboratory-university-of-cambridge-uk" class="level4">
+<h4 class="anchored" data-anchor-id="sina-akbari-statistical-laboratory-university-of-cambridge-uk">Sina Akbari, Statistical Laboratory, University of Cambridge, UK</h4>
+<p><strong>Title:</strong> Fundamental Limits and Optimal Algorithms for Sharp Analytical Causal Bounds in Instrumental Variable Models</p>
+<p><strong>Abstract:</strong> Analytical, rather than numerical, bounds for causal effects are appealing for their interpretability. Existing sharp methods rely on optimization-based approaches such as the Balke–Pearl framework, whose computational complexity grows rapidly. An alternative is to derive bounds directly from probability laws, and some recent papers in this line have claimed or conjectured that this approach can yield sharp bounds with significantly lower complexity. We first show that this perceived advantage is illusory. In particular, in a discrete instrumental variable setting, we prove that any sharp analytical bound for the average treatment effect can be expressed as a maximum or minimum over a collection of terms whose cardinality grows exponentially in the number of values the outcome can take. In parallel, we show that the number of instrumental variable inequalities also grows exponentially. We disprove several recent conjectures by showing that bounds and inequalities involving only polynomially many terms cannot be sharp. Finally, we introduce an algorithm accompanied by a software package that derives sharp analytical bounds and inequalities with optimal computational complexity, i.e., linear in the number of bounds or inequalities.</p>
+<p>Coauthors: Negar Kiyavash, EPFL, Switzerland, Arefe Boushehrian, EPFL, Switzerland, Mohammad Reza Badri, EPFL, Switzerland</p>
+</section>
+<section id="gellért-perényi-institute-of-mathematics-epfl-switzerland" class="level4">
+<h4 class="anchored" data-anchor-id="gellért-perényi-institute-of-mathematics-epfl-switzerland">Gellért Perényi, Institute of Mathematics, EPFL, Switzerland</h4>
+<p><strong>Title:</strong> A Simple and Powerful Test of Waning</p>
+<p><strong>Abstract:</strong> Determining whether treatment effects wane is crucial for individual and public decision-making. The canonical example is waning vaccine effects, but there are concerns about waning treatment effects in many settings. Yet, quantifying waning is a subtle task. The classical approaches cannot be interpreted as measures of declining efficacy unless we impose unreasonable assumptions. Recently, formal causal estimands have been proposed to quantify waning and applied in the context of vaccine effects. These estimands can be bounded under weak assumptions, but the bounds are often too wide to make claims about waning. We propose a formal test to determine whether a treatment effect is constant over time. This test provides substantial power gains over existing approaches and is also valid under plausible assumptions that are expected to hold in vaccine trials. We illustrate the increase in power using three different approaches to compute the test statistics, two based on summary data, accessible from existing clinical trials. We use our methods to reanalyze data from a randomized controlled trial of the BNT162b2 COVID-19 vaccine. While prior analysis did not establish waning, our test rejects the null hypothesis of no waning.</p>
+<p>Coauthors: Mats Stensrud, Institute of Mathematics, EPFL, Switzerland; Matias Janvin, Department of Biostatistics, University of Oslo, Norway</p>
+</section>
+</section>
+</section>
+<section id="parallel-sessions-1120-1240" class="level2">
+<h2 class="anchored" data-anchor-id="parallel-sessions-1120-1240">Parallel Sessions 11:20-12:40</h2>
+<section id="practical-data-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="practical-data-challenges">Practical Data Challenges</h3>
+<section id="theresa-m.-a.-schmitz-chair-of-statistics-and-econometrics-heinrich-heine-university-dusseldorf-universitatsstr.-1-40225-dusseldorf-germany" class="level4">
+<h4 class="anchored" data-anchor-id="theresa-m.-a.-schmitz-chair-of-statistics-and-econometrics-heinrich-heine-university-dusseldorf-universitatsstr.-1-40225-dusseldorf-germany">Theresa M. A. Schmitz, Chair of Statistics and Econometrics, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225 Dusseldorf, Germany</h4>
+<p><strong>Title:</strong> Automatic debiased machine learning and sensitivity analysis for sample selection models</p>
+<p><strong>Abstract:</strong> This paper extends the Riesz representation framework to causal inference under sample selection, where treatment assignment and outcome observability are non-random. Formulating the problem in terms of a Riesz representer enables stable estimation and a transparent decomposition of omitted variable bias into a data-identified scale factor, outcome confounding strength, and selection confounding strength. We propose a ForestRiesz estimator that accounts for selective outcome observability while avoiding the instability of direct propensity score inversion. Our simulation study shows that conventional double machine learning can be highly sensitive to tuning parameters due to inverse probability weighting, whereas our ForestRiesz estimator is more stable by leveraging automatic debiased machine learning. Applying our estimator to the U.S. gender wage gap yields larger treatment effect estimates than standard double machine learning, indicating that ignoring sample selection understates the gap. Sensitivity analysis suggests that only implausibly strong unobserved confounding could overturn results. Overall, our approach provides a unified, robust, and computationally attractive framework for causal inference under sample selection.</p>
+<p>Coauthors: Jakob Bjelac, Faculty of Business Administration and Economics, Heinrich Heine University Dusseldorf, Victor Chernozhukov, Department of Economics, Massachusetts Institute of Technology, Phil-Adrian Klotz, Dusseldorf Institute for Competition Economics, Heinrich Heine University Dusseldorf, Jannis Kueck, Dusseldorf Institute for Competition Economics, Heinrich Heine University Dusseldorf</p>
+</section>
+<section id="leah-pirondini-department-of-medical-statistics-london-school-of-hygiene-and-tropical-medicine-uk" class="level4">
+<h4 class="anchored" data-anchor-id="leah-pirondini-department-of-medical-statistics-london-school-of-hygiene-and-tropical-medicine-uk">Leah Pirondini, Department of Medical Statistics, London School of Hygiene and Tropical Medicine, UK</h4>
+<p><strong>Title:</strong> Impact of discretisation of EHR data for longitudinal causal inference methods in the presence of informative monitoring of time-varying confounders</p>
+<p><strong>Abstract:</strong> Electronic health records (EHR) data provide opportunities to study effects of longitudinal treatment strategies in real-world clinical settings. A challenge presented by EHR data is that frequency of covariate monitoring differs by patient and covariate type, and monitoring may be informative about patients’ health status. Many causal inference methods assume measurements of covariates are observed at a common set of discrete time-points, with changes in treatment status also falling on this grid. Therefore practical implementation of such methods requires coarsening EHR data onto a discrete time grid. Previous studies proposed methods to deal with informative monitoring, as well as exploring the practical impact of data coarsening, however, these have not been considered together. Using simulations, we evaluate bias due to data coarsening in a setting where covariates are monitored informatively, focusing on a dynamic treatment strategy and time-to-event outcome. We propose a version of TMLE that allows for informative monitoring by incorporating a time-varying confounder representing monitoring frequency, demonstrating reduced bias. We apply methods to investigate timing of initiation of mechanical ventilation in ICU patients.</p>
+<p>Coauthors: Karla Diaz-Ordaz, Department of Statistical Science, University College London, UK, Ruth Keogh, Department of Medical Statistics, London School of Hygiene and Tropical Medicine, UK</p>
+</section>
+<section id="silvan-vollmer-department-of-mathematical-sciences-university-of-copenhagen-denmark" class="level4">
+<h4 class="anchored" data-anchor-id="silvan-vollmer-department-of-mathematical-sciences-university-of-copenhagen-denmark">Silvan Vollmer, Department of Mathematical Sciences, University of Copenhagen, Denmark</h4>
+<p><strong>Title:</strong> Single Proxy Identifiability of Causal Effects</p>
+<p><strong>Abstract:</strong> We prove identifiability of causal effects under unobserved confounding. We consider causal effects of a treatment on an outcome and rather than observing the confounder directly, we observe a single, potentially high-dimensional proxy variable of the confounder. Further, we assume that the mechanism generating the proxy is known. Under assumptions on this mechanism, we prove that causal effects can be recovered. Our results extend current research to higher dimensions, more flexible functional relationships, and a broader class of distributions. We term our setting Single Proxy Identifiability of Causal Effects, or simply SPICE. In this setting, we develop a neural network-based method to estimate causal effects. It can be applied, for example, in oncology, where a patient’s overall fitness acts as an unobserved confounder, influencing both the choice of treatment aimed at curing cancer and patient survival.</p>
+<p>Coauthors: Niklas Pfister (Lakera AI, Switzerland) and Sebastian Weichwald (University of Copenhagen)</p>
+</section>
+<section id="ruth-keogh-medical-statistics-department-london-school-of-hygiene-tropical-medicine-uk" class="level4">
+<h4 class="anchored" data-anchor-id="ruth-keogh-medical-statistics-department-london-school-of-hygiene-tropical-medicine-uk">Ruth Keogh, Medical Statistics Department, London School of Hygiene &amp; Tropical Medicine, UK</h4>
+<p><strong>Title:</strong> Case-cohort designs for causal inference using large scale observational data</p>
+<p><strong>Abstract:</strong> Use of causal inference methods in large scale observational data lags behind methodological development. One reason is that causal inference analysis often involves steps that can be computationally intensive, either individually or in combination, presenting challenges for data with very large sample sizes. Case-cohort studies, which use all cases plus a random sample of the cohort, provide an efficient way of sampling from a cohort. However, these designs have been little used in causal investigations. This work shows how case-cohort designs can be used in causal inference to estimate and contrast marginal risks under point treatments. Various weighting schemes have been described for the analysis of case-cohort studies. We discuss suitable weighting schemes and estimation using g-formula, inverse probability of treatment weighting, and doubly robust methods. We consider both random and stratified random sampling of the subcohort. The methods performance will be shown using simulations. We will illustrate the methods in a study of the effect of in utero exposure to syphilis on seizures and epilepsy in childhood, using administrative linked data on over 7 million people from Brazil, in which both exposure and outcome are rare.</p>
+<p>Coauthors: Orlagh Carroll, Department of Infectious Disease Epidemiology and International Health, London School of Hygiene &amp; Tropical Medicine, UK; Enny Paixão, Department of Infectious Disease Epidemiology and International Health, London School of Hygiene &amp; Tropical Medicine, UK; Elizabeth Williamson, Medical Statistics Department, London School of Hygiene &amp; Tropical Medicine, UK.</p>
+</section>
+</section>
+<section id="heterogenous-effects" class="level3">
+<h3 class="anchored" data-anchor-id="heterogenous-effects">Heterogenous Effects</h3>
+<section id="anders-munch-section-of-biostatistics-department-of-public-health-university-of-copenhangen-denmark" class="level4">
+<h4 class="anchored" data-anchor-id="anders-munch-section-of-biostatistics-department-of-public-health-university-of-copenhangen-denmark">Anders Munch, Section of Biostatistics, Department of Public Health, University of Copenhangen, Denmark</h4>
+<p><strong>Title:</strong> Estimating the proportion of the population with treatment effects above a given threshold</p>
+<p><strong>Abstract:</strong> The average treatment effect can obscure important heterogeneity when individuals respond differently to a treatment. While the conditional average treatment effect (CATE) captures such heterogeneity, it is difficult to communicate when it depends on many covariates. We observe that the CATE for a random individual is a univariate random variable, and we propose to summarize treatment-effect heterogeneity via its cumulative distribution function. This provides an interpretable, population-level characterization of heterogeneity and naturally addresses clinically relevant questions, such as the proportion of individuals whose treatment effect exceeds a prespecified threshold. We formalize this curve as a target parameter and show that it is not pathwise differentiable under a nonparametric model. To address this nonstandard estimation problem, we leverage recent advances in monotone function estimation and develop a Grenander-type estimator that incorporates machine learning. We also show that the best piecewise linear approximation to the curve of interest is a pathwise differentiable parameter and we develop a debiased machine learning estimator of this approximation. We illustrate the methods in a study on diabetes medication.</p>
+<p>Coauthors: Thomas Alexander Gerds, Section of Biostatistics, University of Copenhangen</p>
+</section>
+<section id="michael-cork-biostatistics-harvard-university-usa" class="level4">
+<h4 class="anchored" data-anchor-id="michael-cork-biostatistics-harvard-university-usa">Michael Cork, Biostatistics, Harvard University, USA</h4>
+<p><strong>Title:</strong> REBEL: Overcoming Local Confounding in Causal Inference for Continuous Treatments</p>
+<p><strong>Abstract:</strong> Estimating exposure-response functions (ERFs) from observational data commonly assumes that confounding is constant across the exposure range. In many settings, however, the relationship between covariates and exposure varies across the exposure range (local confounding), leading to biased ERF estimates. We introduce REBEL (Rolling Entropy Balancing for Exposure-Response Functions under Local Confounding), a causal inference framework for continuous exposures that relaxes this assumption by allowing confounding to vary locally. REBEL estimates population-level ERFs by balancing covariates within overlapping exposure windows, calibrating local estimates to the target population, and aggregating them using an overlap-aware meta-estimator. We also propose diagnostics for detecting local confounding and a counterfactual cross-validation approach for tuning. In simulations, REBEL outperformed existing ERF estimators when confounding varied across the exposure range. Applied to 68.5 million U.S. Medicare beneficiaries, REBEL identified a steep, supralinear increase in all-cause mortality at low exposures to coal-derived PM2.5 that was obscured by global models, highlighting the policy relevance of addressing locally varying confounding.</p>
+<p>Coauthors: Francesca Dominici, Biostatistics, Harvard University, Daniel Mork, Biostatistics</p>
+</section>
+<section id="simon-christoffer-ziersen-department-of-biostatistics-institute-of-basic-medical-sciences-university-of-oslo-norway" class="level4">
+<h4 class="anchored" data-anchor-id="simon-christoffer-ziersen-department-of-biostatistics-institute-of-basic-medical-sciences-university-of-oslo-norway">Simon Christoffer Ziersen, Department of Biostatistics, Institute of Basic Medical Sciences, University of Oslo, Norway</h4>
+<p><strong>Title:</strong> Causal effect on the number of life years lost due to a specific event: Average treatment effect and variable importance</p>
+<p><strong>Abstract:</strong> Competing risk is a common phenomenon when dealing with time-to-event outcomes in biostatistical applications. An attractive estimand in this setting is the “number of life-years lost due to a specific cause of death”. It provides a direct interpretation on the time-scale on which the data is observed. We introduce the causal effect on the number of life years lost due to a specific event and give assumptions under which the average treatment effect (ATE) and the conditional average treatment effect (CATE) are identified from the observed data. Semiparametric estimators for the ATE and a best partially linear projection of the CATE, serving as a variable importance measure, are proposed. These estimators leverage machine learning for nuisance parameters and are model-agnostic, asymptotically normal, and efficient. We give conditions under which the estimators are asymptotically normal, and their performance is investigated in a simulation study. Lastly, the methods are implemented in a study concerning the response to different antidepressants using data from the Danish national registers.</p>
+<p>Coauthors: Torben Martinussen, Section of Biostatistics, University of Copenhagen</p>
+</section>
+<section id="johanna-kutz-university-of-st.-gallen" class="level4">
+<h4 class="anchored" data-anchor-id="johanna-kutz-university-of-st.-gallen">Johanna Kutz, University of St.&nbsp;Gallen</h4>
+<p><strong>Title:</strong> Quantile Individualized Average Treatment Effect</p>
+<p><strong>Abstract:</strong> This paper introduces the Quantile Individualized Average Treatment Effect (QIATE), a new parameter describing fine-grained causal heterogeneity. The QIATE provides a structured way to summarize the full distribution of treatment effects through its quantiles. It focuses on the ‘actionable’ part of the causal heterogeneity, which depends on observable characteristics of individual units only. We propose two estimators: a first-stage agnostic estimator, which can be applied with any causal machine learning method, and one specifically tailored to the Modified Causal Forest. A simulation analysis indicates that both estimators are consistent and informative about treatment effect heterogeneity. We illustrate their value in an empirical analysis of heterogeneity in the effect of smoking during pregnancy on birth weight.</p>
+<p>Coauthors: Michael Lechner, University of St.&nbsp;Gallen</p>
+</section>
+</section>
+</section>
+<section id="parallel-sessions-1410-1510" class="level2">
+<h2 class="anchored" data-anchor-id="parallel-sessions-1410-1510">Parallel Sessions 14:10-15:10</h2>
+<section id="complex-treatmentexposures" class="level3">
+<h3 class="anchored" data-anchor-id="complex-treatmentexposures">Complex Treatment/Exposures</h3>
+<section id="nicholas-williams-department-of-epidemiology-columbia-university-usa" class="level4">
+<h4 class="anchored" data-anchor-id="nicholas-williams-department-of-epidemiology-columbia-university-usa">Nicholas Williams, Department of Epidemiology, Columbia University, USA</h4>
+<p><strong>Title:</strong> Modified treatment policies that depend on the natural history of exposure</p>
+<p><strong>Abstract:</strong> Longitudinal modified treatment policies (LMTP) are a generalization of dynamic interventions that allow regimes to depend on the so-called “natural value of the exposure”. In the longitudinal setting, the natural value of the exposure is the value the exposure would have taken had the intervention been implemented from baseline but stopped just prior to the current time. Here, we further generalize the LMTP methodology to allow dependence of the intervention on the history of the natural value of exposure, as opposed to only the current natural value of exposure. An important application of such interventions is to evaluate the effect of a delay in the start of an exposure, intervention, or policy. In vaccine studies, for example, one may be interested in assessing the effect of a delay in receiving a vaccine booster. We demonstrate why the existing LMTP framework is incompatible with delay interventions, we propose a new identification result for delay interventions, and we propose two non-parametric and doubly-robust estimators. We apply both the estimators to the estimation of the effect of delaying invasive mechanical ventilation on acute kidney injury among patients hospitalized with COVID-19.</p>
+<p>Coauthors: Kara Rudolph, Department of Epidemiology, Columbia University, USA; Iván Díaz, Department of Population Health, NYU Grossman School of Medicine, USA</p>
+</section>
+<section id="laura-forastiere-biostatistics-yale-university-usa" class="level4">
+<h4 class="anchored" data-anchor-id="laura-forastiere-biostatistics-yale-university-usa">Laura Forastiere, Biostatistics, Yale University, USA</h4>
+<p><strong>Title:</strong> Design-based weighted regression estimators for average and conditional spillover effects</p>
+<p><strong>Abstract:</strong> In interference settings, where a unit’s outcome may depend on the treatments received by others, we provide a unified framework characterizing a broad class of spillover estimands as weighted averages of unit-to-unit spillover effects, with estimand-specific weights. We then develop design-based weighted least squares (WLS) estimators for both average and conditional spillover effects. We introduce three nonparametric estimators under the dyadic, sender, and receiver perspectives, which distribute the estimand weights differently across the outcome vector, design matrix, and weight matrix. For the average-type estimands, we show that all three estimators are equivalent to the Hajek estimator. For conditional spillover effects, we establish conditions under which the estimands are consistent. We further derive concentration inequalities, a central limit theorem, and conservative variance estimators in an asymptotic regime where both the number of clusters and cluster sizes grow. Simulation studies assess the performance of our estimators. The utility of our methods is illustrated through the analysis of spillover effects of a randomized information session on the uptake of a weather insurance among rice farmers in China.</p>
+<p>Coauthors: Fei Fang, Yale University</p>
+</section>
+<section id="federico-bertoia-department-of-mathematics-computer-science-and-statistics-ghent-university-belgium" class="level4">
+<h4 class="anchored" data-anchor-id="federico-bertoia-department-of-mathematics-computer-science-and-statistics-ghent-university-belgium">Federico Bertoia, Department of Mathematics Computer Science and Statistics, Ghent University, Belgium</h4>
+<p><strong>Title:</strong> Debiased Machine Learning for Generalized Partially Linear Models</p>
+<p><strong>Abstract:</strong> Continuous exposures pose major challenges for causal inference. Parametric methods can be biased under misspecification, while nonparametric approaches often suffer from instability due to their reliance on inverse exposure density weighting. We propose an intermediate approach that targets the conditional average effect of shifting the exposure away from its observed value, evaluated over a realistic range of shift magnitudes.Our method is built on a semiparametric model that parameterizes these shift effects as a function of the shift size and estimates the model parameters by minimizing a debiased, influence-function-based estimator of a risk that quantifies misspecification bias, weighted by the plausibility of the shifted exposure. This yields asymptotically efficient estimators with valid inference even under model misspecification.We identify a practically optimal risk that emphasizes relevant bias while achieving favorable efficiency. Although motivated by continuous exposures, the framework naturally includes binary treatments as a special case. Simulation studies demonstrate that our approach is robust and performs favorably relative to parametric generalized linear models and existing model-free alternatives</p>
+<p>Coauthors: Achille Demares (Ghent University), Georgi Baklicharov (Ghent University), Stijn Vansteelandt (Ghent University)</p>
+</section>
+</section>
+<section id="emulated-trials" class="level3">
+<h3 class="anchored" data-anchor-id="emulated-trials">Emulated Trials</h3>
+<section id="emily-wu-department-of-biostatistics-and-bioinformatics-emory-university-usa" class="level4">
+<h4 class="anchored" data-anchor-id="emily-wu-department-of-biostatistics-and-bioinformatics-emory-university-usa">Emily Wu, Department of Biostatistics and Bioinformatics, Emory University, USA</h4>
+<p><strong>Title:</strong> Target trial emulation without matching: a more efficient approach for evaluating treatment effects using observational data</p>
+<p><strong>Abstract:</strong> Defining a start of follow-up for untreated individuals is often challenging in target trial emulations that compare treatment to no treatment. A common solution is matching treated and untreated individuals, but this approach can implicitly alter the target population and reduce statistical efficiency. We propose a causal estimand for treatment effects based on cumulative incidences that marginalize over treatment initiation time and baseline covariates. We develop a simple g-computation estimator using Cox models, along with a one-step estimator that accommodates flexible machine learning models for nuisance estimation. We apply our proposed estimators in simulations and in a study to assess the effectiveness of the Pfizer-BioNTech COVID-19 vaccine to prevent SARS-CoV-2 infections in children 5-11 years old. In both settings, we find that our proposed estimators yield similar scientific inferences while providing significant efficiency gains over commonly used matching estimators. These results suggest that our framework may provide a practical and more efficient alternative to matching for target trial emulation studies.</p>
+<p>Coauthors: Elizabeth Rogawski McQuade (Department of Epidemiology, Emory University, USA), Mats Stensrud (Department of Mathematics, Ecole Polytechnique Federale de Lausanne, Switzerland), Razieh Nabi (Department of Biostatistics and Bioinformatics, Emory University, USA), David Benkeser (Department of Biostatistics and Bioinformatics, Emory University, USA)</p>
+</section>
+<section id="shunzhuang-huang-booth-school-of-business-university-of-chicago-usa" class="level4">
+<h4 class="anchored" data-anchor-id="shunzhuang-huang-booth-school-of-business-university-of-chicago-usa">Shunzhuang Huang, Booth School of Business, University of Chicago, USA</h4>
+<p><strong>Title:</strong> Design-based Inference with the Estimated Propensity Score</p>
+<p><strong>Abstract:</strong> In this paper, we study the properties of design-based (or randomization) inference for treatment effects when analyzing observational data under ignorability. In such settings, we interpret the common ignorability assumption as defining an artificial randomized experiment and study approximate randomization tests that use the estimated propensity score as a foundation for design-based inference. Under the sharp null hypothesis of no treatment effect in distribution, we derive non-asymptotic bounds on the size distortion of such tests that depend only on the error in estimating the propensity score. Under the weak null hypothesis of no average treatment effect, we show that the proposed tests are asymptotically valid for common estimators, including inverse-propensity-weighted and doubly-robust estimators. We further compare our tests with the usual asymptotic-normality-based tests for the weak null hypothesis and, since these tests are shown to be first-order equivalent, develop higher-order comparisons using novel Edgeworth expansions. Our analysis reveals that, from this perspective, neither approach uniformly dominates the other. However, the randomization test achieves higher-order accuracy when the sharp null “nearly holds”.</p>
+<p>Coauthors: Jiangchuan Du, Panos Toulis, Azeem Shaikh. All from University of Chicago, USA.</p>
+</section>
+<section id="edoardo-efrem-gervasoni-department-of-applied-mathematics-computer-science-and-statistics-ghent-university-ghent-belgium" class="level4">
+<h4 class="anchored" data-anchor-id="edoardo-efrem-gervasoni-department-of-applied-mathematics-computer-science-and-statistics-ghent-university-ghent-belgium">Edoardo Efrem Gervasoni, Department of Applied Mathematics, Computer Science and Statistics, Ghent University, Ghent, Belgium</h4>
+<p><strong>Title:</strong> On estimands in target trial emulation</p>
+<p><strong>Abstract:</strong> The target trial framework enables causal inference from longitudinal observational data by emulating randomized trials initiated at multiple time points. Precision is often improved by pooling information across trials, with standard models typically assuming - among other things - a time-constant treatment effect. However, this obscures interpretation when the true treatment effect varies, which we argue to be likely as a result of relying on noncollapsible estimands. To address these challenges, this paper introduces a model-free strategy for target trial analysis, centered around the choice of the estimand, rather than model specification. This ensures that treatment effects remain clearly interpretable for well-defined populations even under model misspecification. We propose estimands suitable for different study designs, and develop accompanying G-computation and inverse probability weighted estimators. Applications on simulations and real data on antimicrobial de-escalation in an intensive care unit setting demonstrate the greater clarity and reliability of the proposed methodology over traditional techniques.</p>
+<p>Coauthors: Liesbet De Bus, Stijn Vansteelandt, Oliver Dukes</p>
+</section>
+</section>
+</section>
+<section id="tandem-session-1530-1700-1" class="level2">
+<h2 class="anchored" data-anchor-id="tandem-session-1530-1700-1">Tandem Session 15:30-17:00</h2>
+<section id="elizabeth-williamson" class="level3">
+<h3 class="anchored" data-anchor-id="elizabeth-williamson">Elizabeth Williamson</h3>
+</section>
+<section id="johan-manuel-de-aguas-pérez" class="level3">
+<h3 class="anchored" data-anchor-id="johan-manuel-de-aguas-pérez">Johan Manuel de Aguas Pérez</h3>
+</section>
+</section>
+</section>
+<section id="friday-april-17th" class="level1">
+<h1>Friday April 17th</h1>
+<section id="tandem-session-900-1030" class="level2">
+<h2 class="anchored" data-anchor-id="tandem-session-900-1030">Tandem Session 9:00-10:30</h2>
+<section id="fredrik-sävje" class="level3">
+<h3 class="anchored" data-anchor-id="fredrik-sävje">Fredrik Sävje</h3>
+</section>
+<section id="corwin-m-zigler" class="level3">
+<h3 class="anchored" data-anchor-id="corwin-m-zigler">Corwin M Zigler</h3>
+</section>
+</section>
+<section id="parallel-sessions-1050-1150" class="level2">
+<h2 class="anchored" data-anchor-id="parallel-sessions-1050-1150">Parallel Sessions 10:50-11:50</h2>
+<section id="heterogenous-effects-extensions" class="level3">
+<h3 class="anchored" data-anchor-id="heterogenous-effects-extensions">Heterogenous Effects Extensions</h3>
+<section id="paweł-morzywołek-university-of-copenhagen-section-of-biostatistics-denmark" class="level4">
+<h4 class="anchored" data-anchor-id="paweł-morzywołek-university-of-copenhagen-section-of-biostatistics-denmark">Paweł Morzywołek, University of Copenhagen (Section of Biostatistics, Denmark)</h4>
+<p><strong>Title:</strong> Inference on Local Variable Importance Measures for Heterogeneous Treatment Effects</p>
+<p><strong>Abstract:</strong> We provide an inferential framework to assess variable importance for heterogeneous treatment effects. This assessment is especially useful in high-risk domains such as medicine, where decision makers hesitate to rely on black-box treatment recommendation algorithms. The variable importance measures we consider are local in that they may differ across individuals, while the inference is global in that it tests whether a given variable is important for any individual. Our approach builds on recent developments in semiparametric theory for function-valued parameters, and is valid even when statistical machine learning algorithms are employed to quantify treatment effect heterogeneity. We demonstrate the applicability of our method to infectious disease prevention strategies.</p>
+<p>Coauthors: Peter Gilbert (Fred Hutchinson Cancer Center), Alex Luedtke (Harvard University)</p>
+</section>
+<section id="philipp-bach-freie-universitat-berlin" class="level4">
+<h4 class="anchored" data-anchor-id="philipp-bach-freie-universitat-berlin">Philipp Bach, Freie Universitat Berlin</h4>
+<p><strong>Title:</strong> Calibration Strategies for Robust Causal Estimation: Theoretical and Empirical Insights on Propensity Score-Based Estimators</p>
+<p><strong>Abstract:</strong> The partitioning of data for estimation and calibration critically impacts the performance of propensity score based estimators like inverse probability weighting (IPW) and double/debiased machine learning (DML) frameworks. We extend recent advances in calibration techniques for propensity score estimation, improving the robustness of propensity scores in challenging settings such as limited overlap, small sample sizes, or unbalanced data. Our contributions are twofold: First, we provide a theoretical analysis of the properties of calibrated estimators in the context of DML. To this end, we refine existing calibration frameworks for propensity score models, with a particular emphasis on the role of sample-splitting schemes in ensuring valid causal inference. Second, through extensive simulations, we show that calibration reduces variance of inverse-based propensity score estimators while also mitigating bias in IPW, even in small-sample regimes. Notably, calibration improves stability for flexible learners (e.g., gradient boosting) while preserving the doubly robust properties of DML.</p>
+<p>Coauthors: Sven Klaassen, University of Hamburg; Jan Rabenseifner, University of Hamburg; Jannis Kueck, University Dusseldorf</p>
+</section>
+<section id="angelos-alexopoulos-department-of-economics-athens-university-of-economics-and-business-greece" class="level4">
+<h4 class="anchored" data-anchor-id="angelos-alexopoulos-department-of-economics-athens-university-of-economics-and-business-greece">Angelos Alexopoulos, Department of Economics, Athens University of Economics and Business, Greece</h4>
+<p><strong>Title:</strong> On robust Bayesian causal inference</p>
+<p><strong>Abstract:</strong> This paper develops a Bayesian framework for robust causal inference from longitudinal observational data. Many contemporary methods rely on structural assumptions, such as factor models, to adjust for unobserved confounding, but they can lead to biased causal estimands when mis-specified. We focus on directly estimating time–unit–specific causal effects and use generalised Bayesian inference to quantify model mis-specification and adjust for it, while retaining interpretable posterior inference. We select the learning rate parameter based on a proper scoring rule that jointly evaluates point and interval accuracy of the causal estimand, thus providing a coherent, decision-theoretic foundation for tuning the learning rate parameter. Simulation studies and applications to real data demonstrate improved calibration, sharpness, and robustness in estimating causal effects.</p>
+<p>Coauthors: Nikolaos Demiris, Department of Statistics, Athens University of Economics and Business, Greece</p>
+</section>
+</section>
+<section id="transportability" class="level3">
+<h3 class="anchored" data-anchor-id="transportability">Transportability</h3>
+<section id="veronica-ballerini-department-of-biostatistics-nsaph-group-harvard-t.-h.-chan-school-of-public-health-united-states" class="level4">
+<h4 class="anchored" data-anchor-id="veronica-ballerini-department-of-biostatistics-nsaph-group-harvard-t.-h.-chan-school-of-public-health-united-states">Veronica Ballerini, Department of Biostatistics &amp; NSAPH group, Harvard T. H. Chan School of Public Health, United States</h4>
+<p><strong>Title:</strong> Transporting Principal Causal Effects Across Strata: A Bayesian Causal Inference Approach</p>
+<p><strong>Abstract:</strong> In mediation analysis, decomposing treatment effects into natural direct and indirect effects relies on cross-world independence assumptions involving a priori counterfactuals. Principal stratification instead defines causal effects within principal strata (PS) of joint potential mediator values, avoiding such assumptions, but how to decompose effects within PS into direct and mediated components remains unclear. Direct effects are identifiable only in PS where, by definition, there is no mediated effect, and no general framework exists for separating the two components elsewhere without strong assumptions. Building on recent works on transportability, we introduce a formal approach for transporting direct principal effects across PS. We give identifying assumptions enabling full or partial transportability and tests for mediated effects. The peculiarity with respect to the literature on transportability is that PS are “latent;” the effects are only weakly identifiable. We address this with a Bayesian approach that does not require full identification and propagates the PS membership uncertainty. We illustrate our method using Medicare data on over 30 million beneficiaries, integrating claims and high-resolution PM2.5 exposure.</p>
+<p>Coauthors: Francesca Dominici (Department of Biostatistics, Harvard University), Falco J. Bargagli-Stoffi (Department of Biostatistics, UCLA)</p>
+</section>
+<section id="tat-thang-vo-institut-mondor-of-biomedical-research-inserm-u990-university-paris-est-créteil" class="level4">
+<h4 class="anchored" data-anchor-id="tat-thang-vo-institut-mondor-of-biomedical-research-inserm-u990-university-paris-est-créteil">Tat-Thang Vo, Institut Mondor of Biomedical Research, INSERM U990, University Paris Est Créteil</h4>
+<p><strong>Title:</strong> Causal optimal transport of treatment effects to a target population with limited individual-level data</p>
+<p><strong>Abstract:</strong> A key practical challenge in applying methods for transportability is their reliance on full access to individual-level data on outcome, treatments, and case-mix characteristics from the source study, as well as individual-level case-mix data from a representative sample of the target population. In practice, data sharing is often hindered by administrative barriers and privacy concerns. When only summary statistics are available in the target population, standard methods typically rely on parametric G-computation or inverse weighting to adjust for case-mix differences between populations. In this work, we develop novel non-parametric methods for transportability that avoid strong parametric assumptions in settings with limited access to individual-level data. Our approach leverages computational optimal transport to construct flexible, data-driven estimators of the target population effect. These methods allow for the use of modern machine learning techniques to estimate nuisance functions, and are grounded in semi-parametric theory to ensure valid asymptotic inference. We evaluate the finite-sample performance of our proposed methods through extensive simulations and applications to real-world clinical data.</p>
+<p>Coauthors: Antoine Chambaz, University Paris Cité</p>
+</section>
+<section id="rhian-daniel-division-of-population-medicine-cardiff-university" class="level4">
+<h4 class="anchored" data-anchor-id="rhian-daniel-division-of-population-medicine-cardiff-university">Rhian Daniel, Division of Population Medicine, Cardiff University</h4>
+<p><strong>Title:</strong> How a causal odds ratio emerges from a recurring illness-death model</p>
+<p><strong>Abstract:</strong> Using Rothman’s sufficient-component-cause framework, authors have proposed conditions under which particular effect measures are transportable. This literature has led to scepticism over the transportability of the odds ratio, which arises only under “Goldilocks” associations between sufficient causes.</p>
+<p>We propose instead a class of causal models that avoids assuming the existence of joint counterfactuals, but otherwise yields equivalent conditions for the transportability of risk and survival ratios. We then show that a simple extension of these models - a recurring illness-death model - gives rise to a transportable conditional odds ratio.</p>
+<p>This multistate model offers a novel and intuitive explanation of non-collapsibility without needing Jensen’s inequality. Although the model justifying the odds ratio will often be implausible in realistic settings, we explore relaxations of it, e.g.&nbsp;including a direct transition from health to death, that lead to new binary regression models. We conclude by outlining how Regression by Composition can be extended, using hyperflows, to express and fit these models, and illustrate the approach using data from an RCT comparing antiretroviral therapies for HIV positive patients.</p>
+<p>Coauthors: Daniel Farewell; Division of Population Medicine, Cardiff University</p>
+</section>
+</section>
+</section>
+<section id="keynote-1230-1330" class="level2">
+<h2 class="anchored" data-anchor-id="keynote-1230-1330">Keynote 12:30-13:30</h2>
+<section id="philip-dawid" class="level3">
+<h3 class="anchored" data-anchor-id="philip-dawid">Philip Dawid</h3>
+<p><strong>Title:</strong> Conditional Independence and Causal Inference</p>
+<p><strong>Abstract:</strong> Conditional independence is a purely probabilistic property. Nevertheless, it is common to endow it with causal meaning. In particular, when a conditional independence structure is represented by a directed graph, it is very tempting to interpret the arrows in the graph as representing causal influence–the sin of “reification”.</p>
+<p>There is, however, a theory of “extended conditional independence” that does naturally encode causal properties (understood as the effects of interventions). I will show how this formalism supplies a rigorous calculus for statistical causal reasoning, more straightforward than traditional frameworks based on potential outcomes or structural causal models.</p>
+</section>
+</section>
+<section id="panel-discussion-1330-1430" class="level2">
+<h2 class="anchored" data-anchor-id="panel-discussion-1330-1430">Panel Discussion 13:30-14:30</h2>
+<p><strong>Panel:</strong> Philosophical Perspectives on Causal Inference, and How to Translate Those into Practice</p>
+<p><strong>Panelists:</strong> Nancy Cartwright, Philip Dawid, Sander Beckers</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:european.cim@gmail.com">
+<p>Contact webmaster</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://eurocim.org/">
+<p>EuroCIM Home</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ Photo (header): Oxford University
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

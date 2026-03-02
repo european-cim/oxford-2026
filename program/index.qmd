@@ -13,6 +13,9 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 
 # Time schedule
 
+Click on speaker/session titles to view abstracts, or [view the full list of abstracts](talk-abstracts.qmd).
+
+
 ::: {.panel-tabset}
 
 ## Wednesday (15th April)
@@ -34,8 +37,8 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__Difference in Differences__ <br/> Yuhang Zhang<br/> Juejue Wang<br/> Michel Haddad</td>
-<td>__Causal Discovery__<br/> Enrico Roma<br/> Alex Markham<br/> Christine Bang</td>
+<td>[__Difference in Differences__](talk-abstracts.html#difference-in-differences) <br/> Yuhang Zhang<br/> Juejue Wang<br/> Michel Haddad</td>
+<td>[__Causal Discovery__](talk-abstracts.html#causal-discovery)<br/> Enrico Roma<br/> Alex Markham<br/> Christine Bang</td>
 </tr>
 <tr>
 <td>11:20-12:20</td>
@@ -43,8 +46,8 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__Complex Applications__<br/> Suehyun Kim <br/> Nia Kang<br/>  Michael Wallace</td>
-<td>__Graphical__<br/> Rohit Bhattacharya<br/> Tess Baker<br/> Catharina Stoltenberg</td>
+<td>[__Complex Applications__](talk-abstracts.html#complex-applications)<br/> Suehyun Kim <br/> Nia Kang<br/>  Michael Wallace</td>
+<td>[__Graphical__](talk-abstracts.html#graphical)<br/> Rohit Bhattacharya<br/> Tess Baker<br/> Catharina Stoltenberg</td>
 </tr>
 <tr>
 <td>12:20-13:50</td>
@@ -56,8 +59,8 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__Instrumental Variables__<br/> Mei Dong<br/> Jin Hong Du <br/> Anastasiia Holovchak <br/> Luke Keele</td>
-<td>__Complex Outcomes and Estimands__<br/> Ruixuan Zhao<br/> Mats Julius Stensrud  <br/> Salvador Balkus <br/> Laura Fuentes-Vicente </td>
+<td>[__Instrumental Variables__](talk-abstracts.html#instrumental-variables)<br/> Mei Dong<br/> Jin Hong Du <br/> Anastasiia Holovchak <br/> Luke Keele</td>
+<td>[__Complex Outcomes and Estimands__](talk-abstracts.html#complex-outcomes-and-estimands)<br/> Ruixuan Zhao<br/> Mats Julius Stensrud  <br/> Salvador Balkus <br/> Laura Fuentes-Vicente </td>
 </tr>
 <tr>
 <td>15:10-15:30</td>
@@ -65,7 +68,7 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td>15:30-17:00</td>
-<td colspan="2">__Tandem Session:__<br/> Helene Rytgaard &amp; Pål Ryalen</td>
+<td colspan="2">__Tandem Session:__<br/> [Pål Ryalen](talk-abstracts.html#pal-ryalen) &amp; [Helene Rytgaard](talk-abstracts.html#helene-rytgaard)</td>
 </tr>
 <tr>
 <td>17:00</td>
@@ -82,7 +85,7 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 <tbody>
 <tr>
 <td>09:00-10:00</td>
-<td colspan="2">__Keynote:__ Negar Kiyavash</td>
+<td colspan="2">__Keynote:__ [Negar Kiyavash](talk-abstracts.html#negar-kiyavash)</td>
 </tr>
 <tr>
 <td>10:00-11:00</td>
@@ -90,8 +93,8 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__Mediation__ <br/> Marie-Felicia Beclin <br/> Lukas Laffers<br/>Felix Elwert</td>
-<td>__Sensitivity and Bounds__<br/>Martina Scauda<br/>Sina Akbari<br/>Gellért Perényi</td>
+<td>[__Mediation__](talk-abstracts.html#mediation) <br/> Marie-Felicia Beclin <br/> Lukas Laffers<br/>Felix Elwert</td>
+<td>[__Sensitivity and Bounds__](talk-abstracts.html#sensitivity-and-bounds)<br/>Martina Scauda<br/>Sina Akbari<br/>Gellért Perényi</td>
 </tr>
 <tr>
 <td>11:00-11:20</td>
@@ -103,9 +106,9 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__Practical Data Challenges__<br/>Theresa M. A. Schmitz<br/>Leah Pirondini<br/>Silvan Vollmer<br/>Ruth Keogh
+<td>[__Practical Data Challenges__](talk-abstracts.html#practical-data-challenges)<br/>Theresa M. A. Schmitz<br/>Leah Pirondini<br/>Silvan Vollmer<br/>Ruth Keogh
  </td>
-<td>__Heterogenous Effects__<br/>Anders Munch<br/>Michael Cork<br/>Simon Christoffer Ziersen<br/>Johanna Kutz</td>
+<td>[__Heterogenous Effects__](talk-abstracts.html#heterogenous-effects)<br/>Anders Munch<br/>Michael Cork<br/>Simon Christoffer Ziersen<br/>Johanna Kutz</td>
 </tr>
 <tr>
 <td>12:40-14:10</td>
@@ -117,8 +120,8 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__Complex Treatment/Exposures__<br/>Nicholas Williams<br/>Laura Forastiere<br/>Federico Bertoia</td>
-<td>__Emulated Trials__<br/>Emily Wu<br/>Shunzhuang Huang<br/>Edoardo Efrem Gervasoni</td>
+<td>[__Complex Treatment/Exposures__](talk-abstracts.html#complex-treatmentexposures)<br/>Nicholas Williams<br/>Laura Forastiere<br/>Federico Bertoia</td>
+<td>[__Emulated Trials__](talk-abstracts.html#emulated-trials)<br/>Emily Wu<br/>Shunzhuang Huang<br/>Edoardo Efrem Gervasoni</td>
 </tr>
 <tr>
 <td>15:10-15:30</td>
@@ -156,8 +159,8 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td></td>
-<td>__Heterogenous Effects Extensions__<br/>Paweł Morzywołek<br/>Philipp Bach<br/>Angelos Alexopoulos </td>
-<td>__Transportability__<br/>Veronica Ballerini<br/>Tat-Thang Vo<br/>Rhian Daniel</td>
+<td>[__Heterogenous Effects Extensions__](talk-abstracts.html#heterogenous-effects-extensions)<br/>Paweł Morzywołek<br/>Philipp Bach<br/>Angelos Alexopoulos </td>
+<td>[__Transportability__](talk-abstracts.html#transportability)<br/>Veronica Ballerini<br/>Tat-Thang Vo<br/>Rhian Daniel</td>
 </tr>
 <tr>
 <td>11:50-12:30</td>
@@ -165,7 +168,7 @@ All decisions have now been sent out to those who contributed abstracts. If you 
 </tr>
 <tr>
 <td>12:30-13:30</td>
-<td colspan="2">__Keynote:__ Philip Dawid</td>
+<td colspan="2">__Keynote:__ [Philip Dawid](talk-abstracts.html#philip-dawid)</td>
 </tr>
 <tr>
 <td>13:30-14:30</td>

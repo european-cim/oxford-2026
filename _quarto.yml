@@ -20,7 +20,7 @@ website:
         text: Home
       - href: registration.qmd
         text: Registration
-      - href: program.qmd
+      - href: program/index.qmd
         text: Program
       - href: courses.qmd
         text: Courses
