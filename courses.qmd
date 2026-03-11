@@ -2,6 +2,8 @@
 subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Pre-conference Courses"
 toc: true
 toc-depth: 2
+editor_options: 
+  chunk_output_type: console
 ---
 
 Courses will be on April 14th. 
@@ -87,4 +89,26 @@ This is a continuation of the Introduction course, where we will dive deeper int
 - mediation analysis
 
 
+# Information 
+
+Some of the courses will be in the University of Oxford Department of Statistics, 24-29 St Giles', Oxford OX1 3LB. Lunch for all course attendees will be in the Andrew Wiles Building, Woodstock Rd, Oxford OX2 6GG. See the map below for a walking route between the buildings. 
+
+```{r}
+#| include: false
+
+library(leaflet)
+library(htmltools)
+library(fontawesome)
+
+topoData <- readLines("images/route.geojson") %>% paste(collapse = "\n") 
+
+leaflet()  |> 
+  addTiles() |> 
+  setView(lat = 51.75909315018185, lng = -1.26043728690375, zoom = 17) |> 
+  addGeoJSON(topoData, fill = FALSE, color = "red")
+
+```
+
+
+![](images/osm2.png)
 
