@@ -223,8 +223,8 @@ We will have two talks of equal length, with time for questions after each talk.
 ::: {#modal-3-content}
 We will have two talks of equal length, with time for questions at the end.
 
-- Fredrik will start the session by speaking about: "Coupling Designs for Randomized Experiments with Complex Treatments".
-- Cory will follow and speak about: "Complex Treatments in Environmental Science: Interference and Spatial Confounding".
+- Cory will start the session and speak about: "Complex Treatments in Environmental Science: Interference and Spatial Confounding".
+- Fredrik will follow and speak about: "Coupling Designs for Randomized Experiments with Complex Treatments".
 
 :::
 

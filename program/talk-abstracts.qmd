@@ -386,14 +386,6 @@ Coauthors: Liesbet De Bus, Stijn Vansteelandt, Oliver Dukes
 
 ## Tandem Session 9:00-10:30
 
-### Fredrik Sävje 
-
-**Title:** Coupling Designs for Randomized Experiments with Complex Treatments
-
-**Abstract:**
-Stratified randomization is a widely used method that improves estimation efficiency by balancing covariates between different treatment groups. This works well in experiments with a few discrete treatments, but rapidly becomes infeasible for larger, more complex treatment spaces. For example, if a researcher is interested in estimating the dose-response to a continuous treatment, stratified randomization is infeasible since there are infinitely many treatment levels. In this paper, we introduce a new family of coupling designs that extends the basic principle of stratified randomization to experiments with complex treatments, enabling efficient randomization in general experimental settings. We propose to match units into homogeneous groups, then use coupling techniques from the Monte Carlo literature to generate within-group treatments that are highly dispersed over the treatment space. We show how ensuring similar units receive dissimilar treatments generically improves estimation efficiency. The gain is proportional to dispersion times match quality, where dispersion measures how spread out the samples are under a given coupling. We develop a novel spectral analysis to compare different choices of couplings including Latin hypercube, permuted displacement, and the Gaussian coupling. We apply these methods to provide new, efficient randomization schemes for applications in development economics and advertising experiments in two-sided marketplaces.
-
-Coauthors: Max Cytrynbaum, Yale
 
 ### Corwin M Zigler
 
@@ -415,6 +407,16 @@ interference phenomenon is a physical process, highlighting distinctions with th
 framing around social network structures. We outline a Bayesian causal inference procedure to model causal
 effects with spatial physical-process interference, where the interference process itself is unknown and must be
 estimated.
+
+
+### Fredrik Sävje 
+
+**Title:** Coupling Designs for Randomized Experiments with Complex Treatments
+
+**Abstract:**
+Stratified randomization is a widely used method that improves estimation efficiency by balancing covariates between different treatment groups. This works well in experiments with a few discrete treatments, but rapidly becomes infeasible for larger, more complex treatment spaces. For example, if a researcher is interested in estimating the dose-response to a continuous treatment, stratified randomization is infeasible since there are infinitely many treatment levels. In this paper, we introduce a new family of coupling designs that extends the basic principle of stratified randomization to experiments with complex treatments, enabling efficient randomization in general experimental settings. We propose to match units into homogeneous groups, then use coupling techniques from the Monte Carlo literature to generate within-group treatments that are highly dispersed over the treatment space. We show how ensuring similar units receive dissimilar treatments generically improves estimation efficiency. The gain is proportional to dispersion times match quality, where dispersion measures how spread out the samples are under a given coupling. We develop a novel spectral analysis to compare different choices of couplings including Latin hypercube, permuted displacement, and the Gaussian coupling. We apply these methods to provide new, efficient randomization schemes for applications in development economics and advertising experiments in two-sided marketplaces.
+
+Coauthors: Max Cytrynbaum, Yale
 
 ## Parallel Sessions 10:50-11:50
 

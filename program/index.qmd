@@ -147,7 +147,7 @@ Click on speaker/session titles to view abstracts, or [view the full list of abs
 <tbody>
 <tr>
 <td>09:00-10:30</td>
-<td colspan="2">__Tandem Session:__<br/>[Fredrik Sävje](talk-abstracts.html#fredrik-sävje) &amp; [Corwin M Zigler](talk-abstracts.html#corwin-m-zigler)</td>
+<td colspan="2">__Tandem Session:__<br/>[Corwin M Zigler](talk-abstracts.html#corwin-m-zigler)  &amp; [Fredrik Sävje](talk-abstracts.html#fredrik-sävje) </td>
 </tr>
 <tr>
 <td>10:30-10:50</td>
