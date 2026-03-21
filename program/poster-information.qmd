@@ -1,0 +1,21 @@
+---
+subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Poster Information"
+toc: true
+toc-depth: 2
+---
+
+
+#  Information about poster size
+ 
+Posters will need to be printed in A0 portrait size so as to fit in the frame and on the boards. We recommend that they are printed on paper rather than fabric, as these tend to slump in the frames. For the free-standing poster boards we will provide pins on each board.
+
+
+# Information about location
+
+Poster numbers start with a letter indicating the day followed by a number indicating the location. 
+
+Please check your poster number and refer to the map below for the location where it should be posted. Please hang your poster no later than 11am on the morning of your day, and remove your poster no later than 5pm. 
+
+
+
+![Floorplan](../images/floorplan.png)

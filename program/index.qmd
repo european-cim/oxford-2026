@@ -7,13 +7,14 @@ toc-depth: 2
 ::: {.callout-tip}
 ## Important information
 
-All decisions have now been sent out to those who contributed abstracts. If you contributed an abstract, but have not seen your decision, please check your spam folder. 
+If you are presenting a poster, please review the information [at this link](poster-information.qmd).
+
 :::
 
 
 # Time schedule
 
-Click on speaker/session titles to view abstracts, or [view the full list of abstracts](talk-abstracts.qmd).
+Click on speaker/session titles to view abstracts, [view the list of talk abstracts](talk-abstracts.qmd), or [view the list of poster abstracts](poster-abstracts.qmd).
 
 
 ::: {.panel-tabset}
@@ -51,7 +52,7 @@ Click on speaker/session titles to view abstracts, or [view the full list of abs
 </tr>
 <tr>
 <td>12:20-13:50</td>
-<td colspan="2">Lunch and Poster Session</td>
+<td colspan="2">Lunch and [Poster Session](poster-abstracts.html#wednesday-april-15)</td>
 </tr>
 <tr>
 <td>13:50-15:10</td>
@@ -112,7 +113,7 @@ Click on speaker/session titles to view abstracts, or [view the full list of abs
 </tr>
 <tr>
 <td>12:40-14:10</td>
-<td colspan="2">Lunch and Poster Session</td>
+<td colspan="2">Lunch and [Poster Session](poster-abstracts.html#thursday-april-16)</td>
 </tr>
 <tr>
 <td>14:10-15:10</td>
@@ -185,7 +186,3 @@ Click on speaker/session titles to view abstracts, or [view the full list of abs
 :::
 
 
-
-#  Information about posters
- 
-Posters will need to be printed in A0 portrait size so as to fit in the frame and on the boards. We recommend that they are printed on paper rather than fabric, as these tend to slump in the frames. For the free-standing poster boards we will provide pins on each board.
