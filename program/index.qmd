@@ -52,7 +52,7 @@ Click on speaker/session titles to view abstracts, [view the list of talk abstra
 </tr>
 <tr>
 <td>12:20-13:50</td>
-<td colspan="2">Lunch and [Poster Session](poster-abstracts.html#wednesday-april-15)</td>
+<td colspan="2">Lunch and [Poster Session](poster-abstracts.html)</td>
 </tr>
 <tr>
 <td>13:50-15:10</td>
@@ -113,7 +113,7 @@ Click on speaker/session titles to view abstracts, [view the list of talk abstra
 </tr>
 <tr>
 <td>12:40-14:10</td>
-<td colspan="2">Lunch and [Poster Session](poster-abstracts.html#thursday-april-16)</td>
+<td colspan="2">Lunch and [Poster Session](poster-abstracts.html)</td>
 </tr>
 <tr>
 <td>14:10-15:10</td>

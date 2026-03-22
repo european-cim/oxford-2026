@@ -1,6 +1,6 @@
 ---
 subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Poster Abstracts"
-toc: true
+toc: false
 toc-depth: 2
 toc-location: body
 editor_options: 
@@ -38,6 +38,7 @@ thu <- thu[order(thu$digit),]
 ```
 
 
+::: {.panel-tabset}
 
 # Wednesday, April 15
 
@@ -48,13 +49,14 @@ thu <- thu[order(thu$digit),]
 for(i in 1:nrow(wed)) {
   
   cat(sprintf("## %s: %s", wed$poster.number[i], wed$Title.of.submission..max.250.characters..y[i]), "\n\n")
-  cat(sprintf("__Author__: %s, %s \n\n\n__Abstract__: %s \n\n\n", wed$authfullname[i], wed$Presenting.author.s.affiliation..Department.group..institute..country..y[i], wed$Abstract..max.1250.characters..y[i]))
+  cat(sprintf("__Author__: %s, %s \n\n\n<details><summary>__Abstract__</summary> %s \n\n\n", wed$authfullname[i], wed$Presenting.author.s.affiliation..Department.group..institute..country..y[i], wed$Abstract..max.1250.characters..y[i]))
   
   if(!is.na(wed$Full.names.and.affiliations.of.coauthors.y[i]) & 
      !(wed$Full.names.and.affiliations.of.coauthors.y[i] == "")){
     cat(sprintf("\n\n Coauthors: %s", wed$Full.names.and.affiliations.of.coauthors.y[i]), "\n\n")
   }
   
+  cat("</details>\n\n\n")
 }
 ```
 
@@ -68,12 +70,13 @@ for(i in 1:nrow(wed)) {
 for(i in 1:nrow(thu)) {
   
   cat(sprintf("## %s: %s", thu$poster.number[i], thu$Title.of.submission..max.250.characters..y[i]), "\n\n")
-  cat(sprintf("__Author__: %s, %s \n\n\n__Abstract__: %s \n\n\n", thu$authfullname[i], thu$Presenting.author.s.affiliation..Department.group..institute..country..y[i], thu$Abstract..max.1250.characters..y[i]))
+  cat(sprintf("__Author__: %s, %s \n\n\n <details><summary>__Abstract__</summary> %s \n\n\n", thu$authfullname[i], thu$Presenting.author.s.affiliation..Department.group..institute..country..y[i], thu$Abstract..max.1250.characters..y[i]))
   
   if(!is.na(thu$Full.names.and.affiliations.of.coauthors.y[i])& 
      !(thu$Full.names.and.affiliations.of.coauthors.y[i] == "")){
     cat(sprintf("\n\n Coauthors: %s", thu$Full.names.and.affiliations.of.coauthors.y[i]), "\n\n")
   }
-  
+  cat("</details>\n\n\n")
 }
 ```
+:::
