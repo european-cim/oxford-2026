@@ -15,13 +15,20 @@ You can sign up for one or two half-day courses.
 
 
 
-## An Introduction to Single-World Intervention Graphs with Applications to Identification and Mediation, by Professor Thomas Richardson
+## An Introduction to Single-World Intervention Graphs with Applications to Identification and Mediation, by Professor Thomas Richardson and Mats J. Stensrud
 
 __Location:__ TBD</br>
 __Start time:__ 9:00 with a coffee break</br>
 __End time:__ 12:00</br>
 
+
+::: {layout-ncol=3}
+
 ![Thomas Richardson](images/richardson.jpeg)
+
+![Mats J Stensrud](images/mats.jpg)
+
+:::
 
 Causal models based on potential outcomes, also known as counterfactuals, were introduced by Neyman (1923) and extended to observational settings by Rubin (1974). Causal Directed Acyclic Graphs (DAGs) are another framework, originally introduced by Wright (1921), but subsequently significantly generalized and extended by Spirtes et al. (1993), Pearl (1995), and Dawid (2002), among others.
 
