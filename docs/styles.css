@@ -29,6 +29,10 @@
   text-align: center;
 }
 
+.battle-teaser > h2 {
+  border: none;
+}
+
 
 figcaption {
   text-align: center;
