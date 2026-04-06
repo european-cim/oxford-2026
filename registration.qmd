@@ -58,7 +58,7 @@ If you have registered and not received a confirmation email, the next step is t
 ::: {.callout-important}
 ## Cancellation policy
 
-If you have registered, but are not able to attend, one week's notice is necessary for refund, i.e., notify the organizers at <eurocim.conf@gmail.com> by April 6th, DST.
+If you have registered, but are not able to attend, one week's notice is necessary for refund of the registration only, i.e., notify the organizers at <eurocim.conf@gmail.com> by April 6th, DST.
 
 :::
 
