@@ -8,16 +8,15 @@ editor_options:
 
 Courses will be on April 14th. 
 
-You can sign up for one or two half-day courses. 
-
+Please note the locations and refer to the map at the bottom of this page. 
 
 # Invited courses
 
 
 
-## An Introduction to Single-World Intervention Graphs with Applications to Identification and Mediation, by Professor Thomas Richardson and Mats J. Stensrud
+## An Introduction to Single-World Intervention Graphs with Applications to Identification and Mediation, by Professor Thomas Richardson, Mats J. Stensrud, and James M. Robins
 
-__Location:__ TBD</br>
+__Location:__ Department of Statistics, 24–29 St Giles, OX1 3LB</br>
 __Start time:__ 9:00 with a coffee break</br>
 __End time:__ 12:00</br>
 
@@ -27,6 +26,8 @@ __End time:__ 12:00</br>
 ![Thomas Richardson](images/richardson.jpeg)
 
 ![Mats J Stensrud](images/mats.jpg)
+
+![James M Robins](images/jamie.jpg)
 
 :::
 
@@ -43,7 +44,7 @@ This is joint work with James M. Robins (Harvard) and Ilya Shpitser (Johns Hopki
 
 ## A Modicum of Proximal Causal Learning, by Professor Eric Tchetgen Tchetgen
 
-__Location:__ TBD</br>
+__Location:__ Department of Statistics, 24–29 St Giles, OX1 3LB</br>
 __Start time:__ 13:00 with a coffee break</br>
 __End time:__ 16:00</br>
 
@@ -66,7 +67,7 @@ Learning about causal effects from observational data often relies on strong ass
 
 ## Introduction to Causal Inference, by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)
 
-__Location:__ TBD</br>
+__Location:__ Mathematical Institute, Andrew Wiles Building, Woodstock Road, OX2 6GG </br>
 __Start time:__ 9:00 with a coffee break</br>
 __End time:__ 12:00</br>
 
@@ -84,7 +85,7 @@ The fact that the list above is far too long for a half-day course gives an impr
 
 ## Special Topics in Causal Inference, organized by Rhian Daniel (Cardiff University) and Erin Gabriel (University of Copenhagen)
 
-__Location:__ TBD</br>
+__Location:__ Mathematical Institute, Andrew Wiles Building, Woodstock Road, OX2 6GG </br>
 __Start time:__ 13:00 with a coffee break</br>
 __End time:__ 16:00</br>
 

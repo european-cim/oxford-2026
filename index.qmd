@@ -5,9 +5,8 @@ subtitle: "EUROPEAN CAUSAL INFERENCE MEETING</br> Causal inference in health, ec
 # EuroCIM 2026 Oxford, United Kingdom 
 
 ::: {.callout-tip}
-## Registration is now open!
+## Registration is now closed. See you in Oxford!
 
-[Click here to register](https://web.cvent.com/event/5b6a0389-33e1-48a4-a0a6-a311fb8d8bc1/regProcessStep1){.btn .btn-outline-primary .btn role="button"} 
 :::
 
 

@@ -11,6 +11,13 @@ toc-depth: 2
 
 ### Thomas Richardson
 
+**Title:** The Categorical Instrumental Variable Model: Characterization, Partial Identification, and Statistical Inference
+
+**Abstract:** In this talk we analyze the categorical instrumental variable (IV) models with instrument, treatment, and outcome taking finitely many values. We derive a simple closed-form characterization of the set of joint distributions of potential outcomes that are compatible with a given observed data distribution in terms of a set of inequalities. These inequalities unify several different IV models defined by versions of the independence and exclusion restriction assumptions, They are also shown to be non-redundant. Finally, given a set of linear functionals of the joint counterfactual distribution, such as pairwise average treatment effects, we construct confidence intervals with simultaneous finite-sample coverage, using a tail bound on the Kullback--Leibler divergence. We illustrate our method using data from the Minneapolis Domestic Violence Experiment.
+
+This is joint work with Richard F. Guo (Michigan) and Yilin Song (Columbia).
+
+
 ## Parallel Session 10:20-11:20
 
 ### Difference in Differences

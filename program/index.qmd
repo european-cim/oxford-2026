@@ -26,7 +26,7 @@ Click on speaker/session titles to view abstracts, [view the list of talk abstra
 <tbody>
 <tr>
 <td>09:00-10:00</td>
-<td colspan="2">__Keynote:__ Thomas Richardson</td>
+<td colspan="2">__Keynote:__ [__Thomas Richardson__](talk-abstracts.html#thomas-richardson)</td>
 </tr>
 <tr>
 <td>10:00-10.20</td>
