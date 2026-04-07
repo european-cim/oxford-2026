@@ -130,7 +130,7 @@ Click on speaker/session titles to view abstracts, [view the list of talk abstra
 </tr>
 <tr>
 <td>15:30-17:00</td>
-<td colspan="2">__Tandem Session:__<br/>Elizabeth Williamson &amp; Johan Manuel de Aguas Pérez</td>
+<td colspan="2">__Tandem Session:__<br/>[__Elizabeth Williamson &amp; Johan Manuel de Aguas Pérez__](talk-abstracts.html#fizzjohan)</td>
 </tr>
 <tr>
 <td>17:00</td>

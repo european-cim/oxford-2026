@@ -385,9 +385,18 @@ Coauthors: Liesbet De Bus, Stijn Vansteelandt, Oliver Dukes
 
 ## Tandem Session 15:30-17:00
 
-### Elizabeth Williamson
+### Elizabeth Williamson and Johan Manuel de Aguas Pérez {#fizzjohan}
 
-### Johan Manuel de Aguas Pérez
+**Title:** Methodological challenges in using electronic health record data to estimate conditional average treatment effects
+
+**Abstract:**
+
+Electronic health record (EHR) data offer major opportunities for estimating conditional average treatment effects (CATE) and supporting precision medicine, but they also pose distinct methodological challenges. This session brings together three perspectives on those challenges. We begin with an overview of practical issues in estimating CATE from coded EHR data, including feature extraction from codelists, and high-dimensional proxies; plausible missing data mechanisms; unmeasured confounding; and the persistent difficulty of validating heterogeneous treatment effect estimates when the true data-generating process is unknown. We also discuss the limits of current evaluation strategies, including plasmode simulations, for establishing that one method is genuinely better than another.
+
+We focus on a causal view of EHR data as arising from a care process rather than passive observation. In this setting, measurement reflects clinical encounters, ordering practices, billing, and return to care, so that “missing” often means not ordered, not recorded, not billed, or no subsequent contact with the health system. These same clinically realistic features, such as measurement presence, visit intensity, and code appearance, are often precisely the variables that threaten recoverability and transportability. Using graphical methods, we study when a CATE query is recoverable from observed data in the presence of missingness, and when it can be transported across settings that differ in guidelines, coding practices, staffing, and EHR workflows.
+
+The session concludes with an applied case study estimating the comparative effectiveness of SGLT2 inhibitors versus DPP4 inhibitors among patients with diabetes in the Clinical Practice Research Datalink.
+
 
 # Friday April 17th
 
