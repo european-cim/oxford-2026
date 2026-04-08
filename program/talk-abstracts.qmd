@@ -163,12 +163,12 @@ Coauthors: Zhenghao Zeng, JungHo Lee, Alex Levis, and Edward Kennedy
 ### Complex Outcomes and Estimands
 
 
-#### Ruixuan Zhao, Department of Computer and Mathematical Sciences, University of Toronto, Canada 
+#### Linbo Wang, University of Toronto, Canada 
 **Title:** Causal inference for all: Marginal causal effects for outcomes truncated by death 
 
  **Abstract:** In longitudinal studies, outcomes of interest are often truncated by death, meaning they are only observed or well-defined conditional on intermediate outcomes such as survival. Standard causal estimands, such as the survivor average causal effect, focus on a non-identifiable subgroup and therefore can be difficult to interpret and justify for practical use. We address these challenges by introducing a new set of estimands that (i) concern the entire population and (ii) summarize potential outcomes over distinct survival periods. These estimands cover a range of clinically relevant summaries, such as cumulative or last observed outcomes, and can be tailored using weighting schemes to align with different decision-making goals. Furthermore, we extend these results to construct a new class of single-world estimands, generalizing existing results on separable effects. We illustrate the approach through a reanalysis of a prostate cancer trial, highlighting how different estimands can yield different treatment conclusions. 
 
-Coauthors: Linbo Wang, University of Toronto; Mats Stensrud, EPFL 
+Coauthors: Ruixuan Zhao, University of Toronto; Mats Stensrud, EPFL 
 
 #### Mats Julius Stensrud, Institute of Mathematics, EPFL, Switzerland 
 **Title:** A Study Design for Detecting Causal Effects on Rare Outcomes 
