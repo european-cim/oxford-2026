@@ -57,7 +57,14 @@ leaflet()  |>
 
 # Conference Dinner
 
-The Conference dinner will be catered for by Lamb Catering at the Museum of Natural History. More information coming soon. 
+The Conference dinner will be on Wednesday, April 15th, at the Museum of Natural History. Please arrive by 18:30 and dinner will start promptly at 19:00. The address is: 
+
+Oxford University Museum of Natural History, </br>
+Parks Road, </br>
+Oxford, OX1 3PW </br>
+
+[Access information from the museum's website](https://www.oumnh.ox.ac.uk/visit-us#collapse3613206).
+
 
 ![](images/museum.jpg)
 

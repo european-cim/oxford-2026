@@ -35,6 +35,12 @@ wed<- subset(post, day == "W")
 wed <- wed[order(wed$digit),]
 thu <- subset(post, day == "T")
 thu <- thu[order(thu$digit),]
+
+## poster competition
+
+pcomp <- subset(post, student.poster.competition == 1)
+write.csv(pcomp[, c("authfullname", "Email.Address", "Title.of.submission..max.250.characters..y", "poster.number")], 
+          "../data/poster-competition-entries.csv", row.names = FALSE)
 ```
 
 
