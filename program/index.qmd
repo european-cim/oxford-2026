@@ -16,6 +16,11 @@ If you are presenting a poster, please review the information [at this link](pos
 
 Click on speaker/session titles to view abstracts, [view the list of talk abstracts](talk-abstracts.qmd), or [view the list of poster abstracts](poster-abstracts.qmd).
 
+## Locations
+
+Keynotes and tandem sessions will be in **Room L1**. 
+
+The parallel sessions in the right column will be in **Room L2**.
 
 ::: {.panel-tabset}
 
@@ -38,12 +43,22 @@ Click on speaker/session titles to view abstracts, [view the list of talk abstra
 </tr>
 <tr>
 <td></td>
+<td> Room L1</td>
+<td> Room L2</td>
+</tr>
+<tr>
+<td></td>
 <td>[__Difference in Differences__](talk-abstracts.html#difference-in-differences) <br/> Yuhang Zhang<br/> Juejue Wang<br/> Michel Haddad</td>
 <td>[__Causal Discovery__](talk-abstracts.html#causal-discovery)<br/> Enrico Roma<br/> Alex Markham<br/> Christine Bang</td>
 </tr>
 <tr>
 <td>11:20-12:20</td>
 <td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td> Room L1</td>
+<td> Room L2</td>
 </tr>
 <tr>
 <td></td>
@@ -57,6 +72,11 @@ Click on speaker/session titles to view abstracts, [view the list of talk abstra
 <tr>
 <td>13:50-15:10</td>
 <td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td> Room L1</td>
+<td> Room L2</td>
 </tr>
 <tr>
 <td></td>
@@ -94,6 +114,11 @@ Click on speaker/session titles to view abstracts, [view the list of talk abstra
 </tr>
 <tr>
 <td></td>
+<td> Room L1</td>
+<td> Room L2</td>
+</tr>
+<tr>
+<td></td>
 <td>[__Mediation__](talk-abstracts.html#mediation) <br/> Marie-Felicia Beclin <br/> Lukas Laffers<br/>Felix Elwert</td>
 <td>[__Sensitivity and Bounds__](talk-abstracts.html#sensitivity-and-bounds)<br/>Martina Scauda<br/>Sina Akbari<br/>Gellért Perényi</td>
 </tr>
@@ -104,6 +129,11 @@ Click on speaker/session titles to view abstracts, [view the list of talk abstra
 <tr>
 <td>11:20-12:40</td>
 <td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td> Room L1</td>
+<td> Room L2</td>
 </tr>
 <tr>
 <td></td>
@@ -118,6 +148,11 @@ Click on speaker/session titles to view abstracts, [view the list of talk abstra
 <tr>
 <td>14:10-15:10</td>
 <td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td> Room L1</td>
+<td> Room L2</td>
 </tr>
 <tr>
 <td></td>
@@ -157,6 +192,11 @@ Click on speaker/session titles to view abstracts, [view the list of talk abstra
 <tr>
 <td>10:50-11:50</td>
 <td colspan="2"> __Parallel Sessions__</td>
+</tr>
+<tr>
+<td></td>
+<td> Room L1</td>
+<td> Room L2</td>
 </tr>
 <tr>
 <td></td>
