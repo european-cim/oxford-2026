@@ -99,7 +99,7 @@ The parallel sessions in the right column will be in **Room L2**.
 </table>
 </div>
 
-## Thursday (16th April)
+## Thursday (16th April) {.active}
 
 <div class="table-card">
 <table class="dataframe eurocim-table">
@@ -222,12 +222,5 @@ The parallel sessions in the right column will be in **Room L2**.
 </tbody>
 </table>
 </div>
-
-:::
-
-::: {.callout-important}
-## Cancellation policy
-
-If you have registered, but are not able to attend, one week's notice is necessary for refund of the registration only, i.e., notify the organizers at <eurocim.conf@gmail.com> by April 6th, DST.
 
 :::
