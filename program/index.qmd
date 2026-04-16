@@ -139,7 +139,7 @@ The parallel sessions in the right column will be in **Room L2**.
 <td></td>
 <td>[__Practical Data Challenges__](talk-abstracts.html#practical-data-challenges)<br/>Theresa M. A. Schmitz<br/>Leah Pirondini<br/>Silvan Vollmer<br/>Ruth Keogh
  </td>
-<td>[__Heterogenous Effects__](talk-abstracts.html#heterogenous-effects)<br/>Anders Munch<br/>Michael Cork<br/>Simon Christoffer Ziersen<br/>Johanna Kutz</td>
+<td>[__Heterogeneous Effects__](talk-abstracts.html#heterogeneous-effects)<br/>Anders Munch<br/>Michael Cork<br/>Simon Christoffer Ziersen<br/>Johanna Kutz</td>
 </tr>
 <tr>
 <td>12:40-14:10</td>

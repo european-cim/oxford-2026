@@ -304,7 +304,7 @@ Coauthors: Niklas Pfister (Lakera AI, Switzerland) and Sebastian Weichwald (Univ
 
 Coauthors: Orlagh Carroll, Department of Infectious Disease Epidemiology and International Health, London School of Hygiene & Tropical Medicine, UK; Enny Paixão, Department of Infectious Disease Epidemiology and International Health, London School of Hygiene & Tropical Medicine, UK; Elizabeth Williamson, Medical Statistics Department, London School of Hygiene & Tropical Medicine, UK. 
 
-### Heterogenous Effects
+### Heterogeneous Effects
 
 #### Anders Munch, Section of Biostatistics, Department of Public Health, University of Copenhangen, Denmark 
 **Title:** Estimating the proportion of the population with treatment effects above a given threshold 
