@@ -48,4 +48,4 @@ figcaption {
     table.eurocim-table tbody tr:hover td { background:#fbfbfb; }
 
     /* Small screens */
-    @media (max-width:700px) { .wrap { padding:14px; margin:20px; } table.eurocim-table thead { display:none; } table.eurocim-table tbody td { display:block; width:100%; box-sizing:border-box; } table.eurocim-table tbody td:before { content: attr(data-colname) ': '; font-weight:600; display:inline-block; width:40%; } }
+  /*  @media (max-width:700px) { .wrap { padding:14px; margin:20px; } table.eurocim-table thead { display:none; } table.eurocim-table tbody td { display:block; width:100%; box-sizing:border-box; } table.eurocim-table tbody td:before { content: attr(data-colname) ': '; font-weight:600; display:inline-block; width:40%; } }*/
