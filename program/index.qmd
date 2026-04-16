@@ -99,7 +99,7 @@ The parallel sessions in the right column will be in **Room L2**.
 </table>
 </div>
 
-## Thursday (16th April) {.active}
+## Thursday (16th April) 
 
 <div class="table-card">
 <table class="dataframe eurocim-table">
@@ -175,7 +175,7 @@ The parallel sessions in the right column will be in **Room L2**.
 </table>
 </div>
 
-## Friday (17th April)
+## Friday (17th April) {.active}
 
 
 <div class="table-card">
