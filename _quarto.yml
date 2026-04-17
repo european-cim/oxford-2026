@@ -34,7 +34,7 @@ website:
     background: "#07342a"
     left: 
       - text: "Contact webmaster"
-        href: "mailto:european.cim@gmail.com"
+        href: "mailto:michael.sachs@sund.ku.dk?subject=[EuroCIM website]"
       - text: "EuroCIM Home"
         href: "https://eurocim.org/"
     right: 
