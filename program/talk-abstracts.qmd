@@ -436,7 +436,7 @@ Coauthors: Max Cytrynbaum, Yale
 
 ## Parallel Sessions 10:50-11:50
 
-### Heterogenous Effects Extensions
+### Heterogeneous Effects Extensions
 
 #### Paweł Morzywołek, University of Copenhagen (Section of Biostatistics, Denmark) 
 **Title:** Inference on Local Variable Importance Measures for Heterogeneous Treatment Effects 

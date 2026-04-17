@@ -200,7 +200,7 @@ The parallel sessions in the right column will be in **Room L2**.
 </tr>
 <tr>
 <td></td>
-<td>[__Heterogenous Effects Extensions__](talk-abstracts.html#heterogenous-effects-extensions)<br/>Paweł Morzywołek<br/>Philipp Bach<br/>Angelos Alexopoulos </td>
+<td>[__Heterogeneous Effects Extensions__](talk-abstracts.html#heterogeneous-effects-extensions)<br/>Paweł Morzywołek<br/>Philipp Bach<br/>Angelos Alexopoulos </td>
 <td>[__Transportability__](talk-abstracts.html#transportability)<br/>Veronica Ballerini<br/>Tat-Thang Vo<br/>Rhian Daniel</td>
 </tr>
 <tr>
