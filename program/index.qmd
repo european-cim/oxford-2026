@@ -175,7 +175,7 @@ The parallel sessions in the right column will be in **Room L2**.
 </table>
 </div>
 
-## Friday (17th April) {.active}
+## Friday (17th April) 
 
 
 <div class="table-card">

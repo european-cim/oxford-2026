@@ -71,6 +71,8 @@ Coauthors: Rossella Miglio, Department of Statistical Science "Paolo Fortunati",
 
 Coauthors: Francisco Madaleno (Department of Technology, Management and Economics, Danish Technical University) and Pratik Misra (Department of Mathematics and Statistics, Binghamton University, State University of New York) 
 
+[Slides](../data/slides/Markham.pdf)
+
 #### Christine Bang, Department of Mathematical Sciences, University of Copenhagen, Denmark 
 **Title:** Marginalising graphs after causal discovery 
 
@@ -90,6 +92,8 @@ Alex Markham (Department of Mathematical Sciences, University of Copenhagen, Den
 
 Coauthors: Dahai Jung, Department of Statistics, Sungkyunkwan University, South Korea; Kwonsang Lee Department of Statistics, Seoul National University, South Korea 
 
+[Slides](../data/slides/SuehyunKim.pdf)
+
 #### Nia Kang, Department of Family Medicine, McGill University, Canada 
 **Title:** A Single World Intervention Simulation approach for informing equitable health policy 
 
@@ -106,6 +110,8 @@ Coauthors: Tibor Schuster
 
 In this talk we will present an overview of measurement error within the DTR space, highlighting important challenges, methodological solutions, and implications for future study design and analysis. In addition to theoretical results, illustrative examples will be demonstrated via simulation, and an interactive R Shiny app. 
 
+[Slides](../data/slides/Wallace.pdf)
+
 ### Graphical
 
 #### Rohit Bhattacharya, Computer Science, Williams College, USA 
@@ -114,6 +120,10 @@ In this talk we will present an overview of measurement error within the DTR spa
  **Abstract:** Prior work on semiparametric theory in causal inference has focused on deriving estimators that exhibit statistical robustness under a single pre-specified causal model that permits identification of the target parameter. The primary drawback of this single model paradigm is that correct specification of a causal model can be extremely difficult, as it often involves making untestable assumptions. That is, analysts are often faced with significant uncertainty, and may wish to consider multiple candidate models for a single dataset. Here, we develop causal null hypothesis tests and estimation methods that combine evidence across multiple candidate causal models to achieve what we call causal robustness: the tests/estimates remain valid provided at least one candidate model is correct. For each model, we construct a semiparametric, asymptotically linear estimator of its identifying functional and leverage the resulting joint asymptotic normality. We show that this framework provides both statistical and causal robustness in the sense that downstream inference remains valid if at least one of the K proposed causal models is correct, while also allowing for slower than parametric rates of convergence in estimating nuisance functions. 
 
 Coauthors: Junhui Yang, Ted Westling, He Bai, Ina Ocelli 
+
+
+[Slides](../data/slides/bhattacharya.pdf)
+
 
 #### Tess Baker, Department of Mathematics and Statistics, McGill University, Canada 
 **Title:** Causal Invariance and Time Reparameterizations in Block-Structured Dynamical Systems 
@@ -128,6 +138,8 @@ Coauthors: Russell Steele (McGill University), Ian Shrier (McGill University), N
  **Abstract:** Richardson and Robins (2013) introduced a sufficient exchangeability condition for identifying causal effects under a broad class of treatment regimes, including regimes that depend on natural treatment values (NTVs). This condition can be verified via d-separation in single-world intervention graphs (SWIGs). In practice, however, verification can be cumbersome and may fail in settings where identification is possible. Motivated by this, we introduce two new sufficient exchangeability conditions. The first involves a smaller set of variables and is strictly weaker. Still, when all relevant graphs are constructed without accounting for regime-specific structures, verification via d-separation is equivalent. The second has the desirable feature of involving only variables indexed by the (static or dynamic) regime of interest. Thus, this condition can be verified via d-separation in a single, regime-specific SWIG and can, in the presence of regime specific independencies, hold while the others fail. Finally, we give sufficient conditions under which verification via d-separation is equivalent for all the conditions presented. 
 
 Coauthors: Mats Julius Stensrud, Institute of Mathematics, Ecole Polytechnique Federale de Lausanne (EPFL), Switzerland 
+
+[Slides](../data/slides/Stoltenberg.pdf)
 
 ## Parallel Sessions 13:50-15:10
 
@@ -152,6 +164,8 @@ Coauthors: Mei Dong, Division of Biostatistics, Dalla Lana School of Public Heal
  **Abstract:** The instrumental variable (IV) approach is commonly used to infer causal effects in the presence of unmeasured confounding. Existing methods typically aim to estimate the mean causal effects, whereas a few other methods focus on quantile treatment effects. The aim of this work is to estimate the entire interventional distribution. We propose a method called Distributional Instrumental Variable (DIV), which uses generative modelling in a nonlinear IV setting. We establish identifiability of the interventional distribution under general assumptions. Our empirical results show that the DIV method performs well for a broad range of real-world and simulated data, exhibiting advantages over existing IV approaches in terms of the identifiability and estimation error of the mean or quantile treatment effects. 
 
 Coauthors: Sorawit Saengkyongam, Nicolai Meinshausen, Xinwei Shen, ETH Zurich, Seminar for Statistics, Switzerland 
+
+[Slides](../data/slides/Holovchak.pdf)
 
 #### Luke Keele, University of Pennsylvania, USA 
 **Title:** Nonparametric Estimation of Local Treatment Effects with Continuous Instruments 
@@ -193,7 +207,7 @@ Coauthors: Christian Testa, Department of Biostatistics, Harvard T.H. Chan Schoo
 
 Coauthors: Mathieu Even, Julie Josse, Antoine Chambaz, (Inria Montpellier, MAP5 CNRS University of Paris Cité) 
 
-
+[Slides](../data/slides/Fuentes.pdf)
 
 ## Tandem Session 15:30-17:00
 
@@ -241,6 +255,8 @@ Coauthors: Tat Thang Vo, Faculty of Medicine, University Paris-Est Créteil, Res
 
 Coauthors: Martin Huber - Department of Economics, University of Fribourg, Kevin Kloiber - Department of Economics, University of Munich 
 
+[Slides](../data/slides/Laffers.pdf)
+
 #### Felix Elwert, Department of Sociology, Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, USA 
 **Title:** Detecting and Understanding the Difference between Natural Causal Mediation Estimands and Their Randomized Interventional Analogues: Test and Theory 
 
@@ -264,6 +280,9 @@ Coauthors: Tobias Freidling (Institute of Mathematics, Ecole polytechnique feder
 
 Coauthors: Negar Kiyavash, EPFL, Switzerland, Arefe Boushehrian, EPFL, Switzerland, Mohammad Reza Badri, EPFL, Switzerland 
 
+[Slides](../data/slides/Akbari.pdf)
+
+
 #### Gellért Perényi, Institute of Mathematics, EPFL, Switzerland 
 **Title:** A Simple and Powerful Test of Waning 
 
@@ -283,6 +302,8 @@ Coauthors: Mats Stensrud, Institute of Mathematics, EPFL, Switzerland; Matias Ja
 
 Coauthors: Jakob Bjelac, Faculty of Business Administration and Economics, Heinrich Heine University Dusseldorf, Victor Chernozhukov, Department of Economics, Massachusetts Institute of Technology, Phil-Adrian Klotz, Dusseldorf Institute for Competition Economics, Heinrich Heine University Dusseldorf, Jannis Kueck, Dusseldorf Institute for Competition Economics, Heinrich Heine University Dusseldorf 
 
+[Slides](../data/slides/Schmitz.pdf)
+
 #### Leah Pirondini, Department of Medical Statistics, London School of Hygiene and Tropical Medicine, UK 
 **Title:** Impact of discretisation of EHR data for longitudinal causal inference methods in the presence of informative monitoring of time-varying confounders 
 
@@ -297,6 +318,8 @@ Coauthors: Karla Diaz-Ordaz, Department of Statistical Science, University Colle
 
 Coauthors: Niklas Pfister (Lakera AI, Switzerland) and Sebastian Weichwald (University of Copenhagen) 
 
+[Slides](../data/slides/Vollmer.pdf)
+
 #### Ruth Keogh, Medical Statistics Department, London School of Hygiene & Tropical Medicine, UK 
 **Title:** Case-cohort designs for causal inference using large scale observational data 
 
@@ -306,12 +329,14 @@ Coauthors: Orlagh Carroll, Department of Infectious Disease Epidemiology and Int
 
 ### Heterogeneous Effects
 
-#### Anders Munch, Section of Biostatistics, Department of Public Health, University of Copenhangen, Denmark 
+#### Anders Munch, Section of Biostatistics, Department of Public Health, University of Copenhagen, Denmark 
 **Title:** Estimating the proportion of the population with treatment effects above a given threshold 
 
  **Abstract:** The average treatment effect can obscure important heterogeneity when individuals respond differently to a treatment. While the conditional average treatment effect (CATE) captures such heterogeneity, it is difficult to communicate when it depends on many covariates. We observe that the CATE for a random individual is a univariate random variable, and we propose to summarize treatment-effect heterogeneity via its cumulative distribution function. This provides an interpretable, population-level characterization of heterogeneity and naturally addresses clinically relevant questions, such as the proportion of individuals whose treatment effect exceeds a prespecified threshold. We formalize this curve as a target parameter and show that it is not pathwise differentiable under a nonparametric model. To address this nonstandard estimation problem, we leverage recent advances in monotone function estimation and develop a Grenander-type estimator that incorporates machine learning. We also show that the best piecewise linear approximation to the curve of interest is a pathwise differentiable parameter and we develop a debiased machine learning estimator of this approximation. We illustrate the methods in a study on diabetes medication. 
 
-Coauthors: Thomas Alexander Gerds, Section of Biostatistics, University of Copenhangen 
+Coauthors: Thomas Alexander Gerds, Section of Biostatistics, University of Copenhagen 
+
+[Slides](../data/slides/Munch.pdf)
 
 #### Michael Cork, Biostatistics, Harvard University, USA 
 **Title:** REBEL: Overcoming Local Confounding in Causal Inference for Continuous Treatments 
@@ -358,6 +383,10 @@ Coauthors: Fei Fang, Yale University
  **Abstract:** Continuous exposures pose major challenges for causal inference. Parametric methods can be biased under misspecification, while nonparametric approaches often suffer from instability due to their reliance on inverse exposure density weighting. We propose an intermediate approach that targets the conditional average effect of shifting the exposure away from its observed value, evaluated over a realistic range of shift magnitudes.Our method is built on a semiparametric model that parameterizes these shift effects as a function of the shift size and estimates the model parameters by minimizing a debiased, influence-function-based estimator of a risk that quantifies misspecification bias, weighted by the plausibility of the shifted exposure. This yields asymptotically efficient estimators with valid inference even under model misspecification.We identify a practically optimal risk that emphasizes relevant bias while achieving favorable efficiency. Although motivated by continuous exposures, the framework naturally includes binary treatments as a special case. Simulation studies demonstrate that our approach is robust and performs favorably relative to parametric generalized linear models and existing model-free alternatives 
 
 Coauthors: Achille Demares (Ghent University), Georgi Baklicharov (Ghent University), Stijn Vansteelandt (Ghent University) 
+
+
+[Slides](../data/slides/Bertoia.pdf)
+
 
 ### Emulated Trials
 
